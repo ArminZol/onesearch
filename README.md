@@ -107,7 +107,7 @@ By creating the previous json files so that they can be ingested by Django, we t
 This data was ingested using
 ```shell
 python manage.py migrate
-python manage.py loaddata preprocessed.json
-python manage.py loaddata dictionary.json
-python manage.py loaddata word_relationship.json
+python manage.py loaddata process/preprocessed.json
+python manage.py loaddata process/dictionary.json
+python manage.py loaddata process/word_relationship.json
 ```
