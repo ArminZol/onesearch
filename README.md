@@ -25,12 +25,89 @@ python manage.py runserver
 ```
 
 # Pre-Processing (Module 2)
-Currently, this project uses an independant python script `preprocess.py` in the root directory to filter core data from the uOttawa Courses page (UofO_courses.html in root directory) and store the cleaned version in preprocessed.json in a json format. This requires for the html file to be present in the root directory, and will not run if the generated preprocessed.json file is already made.
+This project uses an independant python script `preprocess.py` in the **process directory** to filter the uOttawa Courses page (UofO_courses.html) and store it in `preprocessed.json`. This requires for the html file to be present, and will not run if the generated preprocessed.json file is already made.
 
-This does this using BeautifulSoup to parse through the html code, find each individual course in a div tag with class "courseblock", then grabs the title from class "courseblocktitle", and description from "courseblockdesc".
+This does this using BeautifulSoup to parse through the html code, splits individual course by identifying div tags with class "courseblock", then grabs the title from class "courseblocktitle", and description from "courseblockdesc".
 
-This script can be run by activating the virtual environment with all the dependencies install and running `python preprocess.py`
+```html
+<div class="courseblock">
+	<p class="courseblocktitle noindent"><strong>PSY 7190 Seminars in Psychology II (3 units)</strong></p>
+	<p class="courseblockdesc noindent">Selected topics on contemporary psychology presented and discussed as graduate seminars.</p>
+	<p class="courseblockextra noindent"><strong>Course Component: </strong>Lecture</p>
+</div>
+```
 
-The JSON file created is formatted so that Django can ingest the data directly into its db with `python manage.py loaddata preprocessed.json`
+It will then store its title, description, and autogenerate a document id based on the order it is found in.
 
-# Building the Dictionary (Module 3)
+This automatically filters french courses by ignoring any classes where the second digit of the course number is greater than or equal to 5 (e.g. ADM 2703 is a french course as indicated by the 7)
+> There are a few courses that are bilingual and therefore still included in the preprocessed data (e.g. PSY 5023, PSY 6002 etc.)
+
+This script can be run by activating the virtual environment with all the dependencies installed and running `python preprocess.py`
+
+The JSON file created is formatted so that Django can ingest the data directly into its db.
+
+```json
+{
+	"model": "engine.document",
+	"fields": {
+		"doc_id": 347,
+		"title": "PSY 7190 Seminars in Psychology II (3 units)",
+		"description": "Selected topics on contemporary psychology presented and discussed as graduate seminars."
+	}
+}
+```
+> engine.document simply indicates that it will inserted into the database as a document
+
+# Building the Dictionary and Index (Module 3 and 4)
+These modules were joined into one script `process/build_dict.py` as both the dictionary and index already required going through `preprocessed.json`
+
+The script takes arguments for not using stemming, normalization and stopword removal, but these are all on by default. Similarly this can be run using the same manner by activating the virtual environment and running `python build_dict.py`.
+
+It will output 3 different files:
+
+First is the dictionary file, which stores all the words in a json format that is easily ingestable by Django.
+```json
+{
+	"model": "engine.word",
+	"fields": {
+		"word": "adm"
+	}
+}
+```
+
+Next is `index.json` which is a simple human-readable json file with the inverted index. It stores which documents each word is located as well as its frequency (the amount of times occured in the document)
+```json
+"adm": {
+	"0": {
+		"frequency": 1
+	},
+	"1": {
+		"frequency": 1
+	}
+}
+```
+
+Finally there is a document called `word_relationship.json` which is the same as `index.json` but formatted so Django can ingest it and build its Foreign Key relationships between the Document and Word.
+```json
+{
+	"model": "engine.documentword",
+	"fields": {
+		"document": 0,
+		"word": "adm",
+		"frequency": 1
+	}
+}
+```
+
+# Corpus Access (Module 5)
+By creating the previous json files so that they can be ingested by Django, we then simply ingest it into Django's MySQL database for simple native access.
+
+> Note: The database has already been created and saved so there is no need from this. A visual representation of the data available in the DB is available at `localhost:8000/admin` which login *admin* and password *admin*. If this is going to be done again `db.sqlite3` must be deleted first.
+
+This data was ingested using
+```shell
+python manage.py migrate
+python manage.py loaddata preprocessed.json
+python manage.py loaddata dictionary.json
+python manage.py loaddata word_relationship.json
+```

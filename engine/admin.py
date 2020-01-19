@@ -11,7 +11,7 @@ class DocumentAdmin(admin.ModelAdmin):
 @admin.register(DocumentWord)
 class DocumentWordAdmin(admin.ModelAdmin):
 	list_display = ('document', 'word', 'frequency')
-	search_fields = ('document', 'word')
+	search_fields = ('document__title', 'word__word')
 
 @admin.register(Word)
 class WordAdmin(admin.ModelAdmin):

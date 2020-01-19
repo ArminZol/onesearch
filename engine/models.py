@@ -6,8 +6,15 @@ class Document(models.Model):
 	title = models.TextField('Title')
 	description = models.TextField('Description', blank=True, null=True)
 
+	def __str__(self):
+		return self.title
+
+
 class Word(models.Model):
 	word = models.CharField('Word', primary_key=True, max_length=50)
+
+	def __str__(self):
+		return self.word
 
 class DocumentWord(models.Model):
 	document = models.ForeignKey('Document', null=False, on_delete=models.CASCADE)
