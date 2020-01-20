@@ -60,24 +60,7 @@ with open('preprocessed.json') as file:
 				index[tmp] = {
 					doc_id: { 'frequency': 1 }
 				}
-				dictionary.append({
-					'model': 'engine.word',
-					'fields': {
-						'word': tmp
-					}
-				})
-
-word_rel = []
-for word in index:
-	for document in index[word]:
-		word_rel.append({
-			'model': 'engine.documentword',
-			'fields': {
-				'document': document,
-				'word': word,
-				'frequency': index[word][document]['frequency']
-			}
-		})
+				dictionary.append(tmp)
 
 
 with open('dictionary.json', 'w') as outfile:
@@ -85,9 +68,6 @@ with open('dictionary.json', 'w') as outfile:
 
 with open('index.json', 'w') as outfile:
 	json.dump(index, outfile, indent = 4, ensure_ascii = False)
-
-with open('word_relationship.json', 'w') as outfile:
-	json.dump(word_rel, outfile, indent = 4, ensure_ascii = False)
 
 # dictionary = set()
 # with open('preprocessed.json') as file:
