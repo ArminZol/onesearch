@@ -19,13 +19,12 @@ env\Scripts\activate
 # Install dependencies
 pip install -r requirements.txt
 
-# Setup and run project - should be available at localhost:8000
-python manage.py migrate
+# Run project - should be available at localhost:8000
 python manage.py runserver
 ```
 
 # Pre-Processing (Module 2)
-This project uses an independant python script `preprocess.py` in the **process directory** to filter the uOttawa Courses page (UofO_courses.html) and store it in `preprocessed.json`. This requires for the html file to be present, and will not run if the generated preprocessed.json file is already made.
+This project uses an independant python script `preprocess.py` in the **scripts directory** to filter the uOttawa Courses page (UofO_courses.html) and store it in `preprocessed.json`. This requires for the html file to be present, and will not run if the generated preprocessed.json file is already made.
 
 This does this using BeautifulSoup to parse through the html code, splits individual course by identifying div tags with class "courseblock", then grabs the title from class "courseblocktitle", and description from "courseblockdesc".
 
@@ -42,7 +41,8 @@ It will then store its title, description, and autogenerate a document id based 
 This automatically filters french courses by ignoring any classes where the second digit of the course number is greater than or equal to 5 (e.g. ADM 2703 is a french course as indicated by the 7)
 > There are a few courses that are bilingual and therefore still included in the preprocessed data (e.g. PSY 5023, PSY 6002 etc.)
 
-This script can be run by activating the virtual environment with all the dependencies installed and running `python preprocess.py`
+This script can be run by activating the virtual environment with all the dependencies installed and running `python scripts/preprocess.py`
+> This will output to current terminal direcotry, so to have it save in the main directory like it is currently setup, ensure that command is written from the root directry (e.g. `python scripts/preprocess.py` not `cd scripts; python preprocess.py`)
 
 The JSON file created is formatted so that Django can ingest the data directly into its db.
 
@@ -61,53 +61,37 @@ The JSON file created is formatted so that Django can ingest the data directly i
 # Building the Dictionary and Index (Module 3 and 4)
 These modules were joined into one script `process/build_dict.py` as both the dictionary and index already required going through `preprocessed.json`
 
-The script takes arguments for not using stemming, normalization and stopword removal, but these are all on by default. Similarly this can be run using the same manner by activating the virtual environment and running `python build_dict.py`.
+The script takes arguments for not using stemming, normalization and stopword removal (`python process/build_dict.py --help` to see the arguments) but these are all enabled by default as required. Similarly this can be run using the same manner by activating the virtual environment and running `python process/build_dict.py`, and again will generate the file in whatever directory the terminal is in (i.e. again run from root directory).
 
-It will output 3 different files:
+It will output 2 different files:
 
-First is the dictionary file, which stores all the words in a json format that is easily ingestable by Django.
+First is the dictionary file `dictionary.json`, which stores all the words in a list within json that is easily readable by python.
 ```json
-{
-	"model": "engine.word",
-	"fields": {
-		"word": "adm"
-	}
-}
+[
+	"adm"
+    
+]
 ```
 
-Next is `index.json` which is a simple human-readable json file with the inverted index. It stores which documents each word is located as well as its frequency (the amount of times occured in the document)
+Next is `index.json` which is a simple json file with the inverted index. It stores which documents each word is located as well as its frequency (the amount of times occured in the document)
 ```json
-"adm": {
-	"0": {
-		"frequency": 1
-	},
-	"1": {
+"adm": [
+	{
+		"doc_id": 0,
 		"frequency": 1
 	}
-}
-```
-
-Finally there is a document called `word_relationship.json` which is the same as `index.json` but formatted so Django can ingest it and build its Foreign Key relationships between the Document and Word.
-```json
-{
-	"model": "engine.documentword",
-	"fields": {
-		"document": 0,
-		"word": "adm",
-		"frequency": 1
-	}
-}
+]
 ```
 
 # Corpus Access (Module 5)
-By creating the previous json files so that they can be ingested by Django, we then simply ingest it into Django's MySQL database for simple native access.
+By creating the `preprocessed.json` file in that format, it can be ingested by Django, and will then have native access Django's MySQL database for simple native access.
 
-> Note: The database has already been created and saved so there is no need from this. A visual representation of the data available in the DB is available at `localhost:8000/admin` which login *admin* and password *admin*. If this is going to be done again `db.sqlite3` must be deleted first.
+> Note: The database has already been created and saved so there is no need from this (`db.sqlite3`). A visual representation of the data available in the DB is available at `localhost:8000/admin` which login *admin* and password *admin*. If this is going to be done again `db.sqlite3` must be deleted first.
 
 This data was ingested using
 ```shell
 python manage.py migrate
-python manage.py loaddata process/preprocessed.json
-python manage.py loaddata process/dictionary.json
-python manage.py loaddata process/word_relationship.json
+python manage.py loaddata preprocessed.json
 ```
+
+An example of the retrival would then be `Document.objects.filter(doc_id__in=list_of_ids)` which will return all the Documents from the list in a dictionary style format called a QuerySet.

@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block form %}
+	<div class="row">
+		<div class="col s12">
+			{% for document in results %}
+				<div class="section">
+					<h5>{{document.title}}</h5>
+					<p>{{document.description}}</p>
+				</div>
+				<div class="divider"></div>
+			{% endfor %}
+		</div>
+	</div>
+{% endblock %}

@@ -26,10 +26,13 @@ parser.add_argument('-ws', '--without-stemming', action='store_true', help='Use 
 parser.add_argument('-wsr', '--without-stopword-removal', action='store_true', help='Use this flag to keep stopwords in dictionary')
 args = parser.parse_args()
 
-# dictionary = {
-# 	'word': {
-# 		0: { 'occurances': 1 }
-# 	}
+# index = {
+# 	'word': [
+# 		{
+#			'doc_id': 0,
+#			'frequency': 1 
+#		}
+# 	]
 # }
 index = {}
 dictionary = []
@@ -39,29 +42,30 @@ with open('preprocessed.json') as file:
 	for item in data:
 		doc_id = item['fields']['doc_id']
 		words = word_tokenize(item['fields']['title'])
+		frequency = {}
 		if 'description' in item['fields']:
 			words += word_tokenize(item['fields']['description'])
 		for word in words:
-			tmp = word
 			if not args.without_stemming:
-				tmp = stemmer(tmp)
+				word = stemmer(word)
 			if not args.without_normalization:
-				tmp = normalization(tmp)
-			if not args.without_stopword_removal and is_stopword(tmp):
+				word = normalization(word)
+			if not args.without_stopword_removal and is_stopword(word):
 				continue
-			if tmp == '':
+			if word == '':
 				continue
-			if tmp in index:
-				if doc_id in index[tmp]:
-					index[tmp][doc_id]['frequency'] += 1
-				else:
-					index[tmp][doc_id] = { 'frequency': 1 }
+			if word in frequency:
+				frequency[word] += 1
 			else:
-				index[tmp] = {
-					doc_id: { 'frequency': 1 }
-				}
-				dictionary.append(tmp)
-
+				frequency[word] = 1
+		for word in frequency:
+			if word not in index:
+				index[word] = []
+				dictionary.append(word)
+			index[word].append({
+				'doc_id': doc_id,
+				'frequency': frequency[word]
+			})
 
 with open('dictionary.json', 'w') as outfile:
 	json.dump(dictionary, outfile, indent = 4, ensure_ascii = False)
