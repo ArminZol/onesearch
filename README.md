@@ -24,7 +24,7 @@ python manage.py runserver
 ```
 
 # Pre-Processing (Module 2)
-This project uses an independant python script `preprocess.py` in the **scripts directory** to filter the uOttawa Courses page (UofO_courses.html) and store it in `preprocessed.json`. This requires for the html file to be present, and will not run if the generated preprocessed.json file is already made.
+This project uses an independant python script `preprocess.py` in the **scripts directory** to filter the uOttawa Courses page (UofO_courses.html) and store it in `preprocessed.json` in the root directory. This requires for the html file to be present, and will not run if the generated preprocessed.json file is already made.
 
 This does this using BeautifulSoup to parse through the html code, splits individual course by identifying div tags with class "courseblock", then grabs the title from class "courseblocktitle", and description from "courseblockdesc".
 
@@ -42,7 +42,6 @@ This automatically filters french courses by ignoring any classes where the seco
 > There are a few courses that are bilingual and therefore still included in the preprocessed data (e.g. PSY 5023, PSY 6002 etc.)
 
 This script can be run by activating the virtual environment with all the dependencies installed and running `python scripts/preprocess.py`
-> This will output to current terminal direcotry, so to have it save in the main directory like it is currently setup, ensure that command is written from the root directry (e.g. `python scripts/preprocess.py` not `cd scripts; python preprocess.py`)
 
 The JSON file created is formatted so that Django can ingest the data directly into its db.
 
@@ -61,9 +60,11 @@ The JSON file created is formatted so that Django can ingest the data directly i
 # Building the Dictionary and Index (Module 3 and 4)
 These modules were joined into one script `process/build_dict.py` as both the dictionary and index already required going through `preprocessed.json`
 
-The script takes arguments for not using stemming, normalization and stopword removal (`python process/build_dict.py --help` to see the arguments) but these are all enabled by default as required. Similarly this can be run using the same manner by activating the virtual environment and running `python process/build_dict.py`, and again will generate the file in whatever directory the terminal is in (i.e. again run from root directory).
+The script takes arguments for not using stemming, normalization and stopword removal (`python process/build_dict.py --help` to see the arguments) but these are all enabled by default as required. Similarly this can be run using the same manner by activating the virtual environment and running `python process/build_dict.py`, and again will generate the files in the root directory.
+> Case folding is already done by default with the NLTK stemming module
+> One interesting observation is that the NLTK tokenization stores commas as an individual word
 
-It will output 2 different files:
+It will output 3 different files:
 
 First is the dictionary file `dictionary.json`, which stores all the words in a list within json that is easily readable by python.
 ```json
@@ -82,6 +83,8 @@ Next is `index.json` which is a simple json file with the inverted index. It sto
 	}
 ]
 ```
+
+It will also store `settings.json` which stores the settings used to create the Dictionary so the engine can clean the query in the same way
 
 # Corpus Access (Module 5)
 By creating the `preprocessed.json` file in that format, it can be ingested by Django, and will then have native access Django's MySQL database for simple native access.

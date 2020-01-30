@@ -23,6 +23,12 @@ def search_results(request):
 		# for item in request.GET['query']:
 		results = boolean_search(request.GET['query'])
 		tmp = Document.objects.filter(doc_id__in=results)
-		context = { 'results':  tmp}
+		context = { 'results':  tmp }
 		return render(request, 'results.html', context)
-	raise Http404("Poll does not exist") 
+	raise Http404("Poll does not exist")
+
+def document(request, id):
+	tmp = Document.objects.get(doc_id=id)
+	print(tmp)
+	context = { 'document':  tmp }
+	return render(request, 'document.html', context)

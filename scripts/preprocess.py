@@ -2,6 +2,7 @@
 
 from bs4 import BeautifulSoup
 from bs4.element import Tag
+from utilities import BASE_DIR
 import json
 import os.path
 
@@ -10,7 +11,7 @@ import os.path
 
 def parse_courses():
 	parsed = []
-	with open('UofO_Courses.html') as file:
+	with open(BASE_DIR + '/UofO_Courses.html') as file:
 		soup = BeautifulSoup(file, features='html.parser')
 		courses = soup.find_all('div', 'courseblock')
 		for course in courses:
@@ -41,11 +42,11 @@ def parse_courses():
 				})
 
 	# JSON write from https://stackoverflow.com/questions/12309269/how-do-i-write-json-data-to-a-file/20776329#20776329
-	with open('preprocessed.json', 'w') as outfile:
+	with open(BASE_DIR + '/preprocessed.json', 'w') as outfile:
 		json.dump(parsed, outfile, indent = 4, ensure_ascii = False)
 
 # Throw error if file already generated
-if not os.path.isfile('preprocessed.json'):
+if not os.path.isfile(BASE_DIR + '/preprocessed.json'):
 	parse_courses()
 else:
 	print('FILE ALREADY GENERATED')

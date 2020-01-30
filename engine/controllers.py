@@ -1,6 +1,6 @@
 import re
 import json
-
+from scripts.utilities import clean
 from django.http import UnreadablePostError
 from onesearch.settings import BASE_DIR
 
@@ -14,16 +14,12 @@ def peek(stack):
 # http://www.martinbroadhurst.com/shunting-yard-algorithm-in-python.html
 def postfix_to_infix(query):
 	# Regex to split tokens by brackets and spaces (annoying regex that still requires strip each regex)
-	tokens = re.findall("[()]|\S+[^()]", query)
+	tokens = re.findall("[()]|\S+[^()\s]", query)
 	operatorStack = []
 	outputQueue = []
 
 	for token in tokens:
-		token = token.strip()
-		# In case there are additional spaces in the query
-		if token == '':
-			continue
-		elif token == '(':
+		if token == '(':
 			operatorStack.append('(')
 		elif token == ')':
 			top = peek(operatorStack)
@@ -63,17 +59,41 @@ def boolean_calculate(ids1, ids2, operator):
 			else:
 				p2 += 1
 	elif operator == 'OR':
-		tmp = set()
-		for i in ids1:
-			tmp.add(i)
-		for i in ids2:
-			tmp.add(i)
-		return list(tmp)
+		p1 = 0
+		p2 = 0
+		while p1 < len(ids1) and p2 < len(ids2):
+			if ids1[p1] == ids2[p2]:
+				answer.append(ids1[p1])
+				p1 += 1
+				p2 += 1
+			elif ids1[p1] < ids2[p2]:
+				answer.append(ids1[p1])
+				p1 += 1
+			else:
+				answer.append(ids2[p2])
+				p2 += 1
+
+		while p1 < len(ids1):
+			answer.append(ids1[p1])
+			p1 += 1
+		while p2 < len(ids2):
+			answer.append(ids2[p2])
+			p2 += 1
 	else: # AND_NOT
-		# flips in infix
-		for i in ids2:
-			if i not in ids1:
-				answer.append(i)
+		p1 = 0
+		p2 = 0
+		while p1 < len(ids1) and p2 < len(ids2):
+			if ids1[p1] == ids2[p2]:
+				p1 += 1
+				p2 += 1
+			elif ids1[p1] < ids2[p2]:
+				p1 += 1
+			else:
+				answer.append(ids2[p2])
+				p2 += 1
+		while p2 < len(ids2):
+			answer.append(ids2[p2])
+			p2 += 1
 	return answer
 
 def word_to_ids(word_list):
@@ -84,17 +104,20 @@ def word_to_ids(word_list):
 
 def boolean_search(query):
 	infix = postfix_to_infix(query)
-	with open(BASE_DIR + '/index.json') as file:
-		index = json.load(file)
-		stack = []
-		for item in infix:
-			if is_operator(item):
-				ids1 = stack.pop()
-				ids2 = stack.pop()
-				stack.append(boolean_calculate(ids1, ids2, item))
-			else:
-				ids = []
-				if item in index:
-					ids = word_to_ids(index[item])
-				stack.append(ids)
-		return stack.pop()
+	with open(BASE_DIR + '/index.json') as indexFile:
+		with open(BASE_DIR + '/settings.json') as settingsFile:
+			index = json.load(indexFile)
+			settings = json.load(settingsFile)
+			stack = []
+			for item in infix:
+				if is_operator(item):
+					ids1 = stack.pop()
+					ids2 = stack.pop()
+					stack.append(boolean_calculate(ids1, ids2, item))
+				else:
+					ids = []
+					cleaned = clean(item, settings)
+					if cleaned and cleaned in index:
+						ids = word_to_ids(index[cleaned])
+					stack.append(ids)
+			return stack.pop()

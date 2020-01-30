@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block form %}
+	<div class="row">
+		<div class="col s12">
+			<div class="section">
+				<h5>DOC#{{document.doc_id}}</h5>
+				<h5>{{document.title}}</h5>
+				<p>{{document.description}}</p>
+			</div>
+		</div>
+	</div>
+{% endblock %}
