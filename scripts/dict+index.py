@@ -5,6 +5,7 @@ from utilities import BASE_DIR, clean
 import argparse
 import json
 import os
+import math
 
 if os.path.isfile(BASE_DIR + '/dictionary.json') or os.path.isfile(BASE_DIR + '/index.json') or os.path.isfile(BASE_DIR + '/settings.json'):
 	raise Exception("dictionary/index/settings already exists")
@@ -33,24 +34,28 @@ else:
 	settings['stopword_removal'] = True
 
 # index = {
-# 	'word': [
-# 		{
-#			'doc_id': 0,
-#			'frequency': 1 
-#		}
-# 	]
+# 	'word': {
+#		'idf': 0
+#		'documents': [
+# 			{
+#				'doc_id': 0,
+#				'frequency': 1 
+#				'tf-idf': 1
+#			}
+# 		]
+#	}
 # }
 index = {}
 dictionary = []
 
 with open(BASE_DIR + '/preprocessed.json') as file:
 	data = json.load(file)
-	for item in data:
-		doc_id = item['fields']['doc_id']
-		words = word_tokenize(item['fields']['title'])
+	for doc_id in data:
+		doc = data[doc_id]
+		words = word_tokenize(doc['title'])
 		frequency = {}
-		if 'description' in item['fields']:
-			words += word_tokenize(item['fields']['description'])
+		if 'description' in doc:
+			words += word_tokenize(doc['description'])
 		for word in words:
 			word = clean(word, settings)
 			if word == None:
@@ -61,12 +66,19 @@ with open(BASE_DIR + '/preprocessed.json') as file:
 				frequency[word] = 1
 		for word in frequency:
 			if word not in index:
-				index[word] = []
+				index[word] = {}
+				index[word]['documents'] = []
 				dictionary.append(word)
-			index[word].append({
+			index[word]['documents'].append({
 				'doc_id': doc_id,
 				'frequency': frequency[word]
 			})
+	# Add VSM calculations to index
+	num_docs = len(data)
+	for word in index:
+		index[word]['idf'] = math.log(num_docs / (len(index[word]['documents'])),10)
+		for word_doc in index[word]['documents']:
+			word_doc['tf-idf'] = word_doc['frequency'] * index[word]['idf']
 
 with open(BASE_DIR + '/settings.json', 'w') as outfile:
 	json.dump(settings, outfile, indent = 4, ensure_ascii = False)

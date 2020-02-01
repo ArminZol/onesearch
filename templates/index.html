@@ -1,18 +1,45 @@
 {% extends "base.html" %}
 
 {% block form %}
+	<form action="result" method="GET" class="col s12">
 		<div class="row">
-			<form action="result" method="GET" class="col s12">
-				<div class="row">
-					<div class="input-field col s6">
-						<i class="material-icons prefix">account_circle</i>
-						{{form}}
-					</div>
-					<button class="btn waves-effect waves-light" type="submit" name="action" style="margin: 1rem 0">Submit
-						<i class="material-icons right">send</i>
-					</button>
-				</div>
-			</form>
+			<div class="input-field col s9">
+				<i class="material-icons prefix">account_circle</i>
+				{{form.query}}
+				{{form.query.label_tag}}
+			</div>
+			<button class="btn waves-effect waves-light" type="submit" name="action" style="margin: 1rem 0">Submit
+				<i class="material-icons right">send</i>
+			</button>
 		</div>
+		<div class="row">
+			<h5 class="center">Settings</h5>
+			<div class="input-field col s6">
+				<p>Models:</p>
+				{% for model in form.model %}
+					<p>
+						<label>
+							{{model.tag}}
+							<span>{{model.choice_label}}</span>
+						</label>
+					</p>
+				{% endfor %}
+			</div>
+			<div class="input-field col s6">
+				<p>Collections:</p>
+					<p>
+						<label>
+							<input name="collections" type="radio" checked/>
+							<span>uOttawa Courses</span>
+						</label>
+					</p>
+					<p>
+						<label>
+							<input name="collections" type="radio" disabled/>
+							<span>Reuters</span>
+						</label>
+					</p>
+			</div>
+		</div>
+	</form>
 {% endblock %}
-

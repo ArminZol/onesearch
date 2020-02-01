@@ -3,16 +3,16 @@
 {% block form %}
 	<div class="row">
 		<div class="col s12">
-			{% if not results %}
+			{% if not documents.items %}
 				<h5>No results</h5>
 			{% endif %}
-			{% for document in results %}
+			{% for id,doc in documents.items %}
 				<div class="section">
-					<a href="/document/{{document.doc_id}}"><h5>{{document.title}}</h5></a>
-					{% if document.description %}
+					<a href="/document/{{id}}"><h5>{{doc.title}}</h5></a>
+					{% if doc.description %}
 						<p>
-							{{document.description|slice:100}}
-							{% if document.description|length > 100 %}
+							{{doc.description|slice:100}}
+							{% if doc.description|length > 100 %}
 								...
 							{% endif %}
 						</p>
