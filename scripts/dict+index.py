@@ -58,7 +58,7 @@ with open(BASE_DIR + '/preprocessed.json') as file:
 			words += word_tokenize(doc['description'])
 		for word in words:
 			word = clean(word, settings)
-			if word == None:
+			if word == None or word == '':
 				continue
 			if word in frequency:
 				frequency[word] += 1
