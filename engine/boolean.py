@@ -2,6 +2,7 @@ from scripts.utilities import clean
 from nltk.tokenize import word_tokenize 
 from django.http import UnreadablePostError
 from onesearch.settings import BASE_DIR
+from engine.spelling_correction import correction
 import json
 
 def is_operator(token):
@@ -12,7 +13,7 @@ def peek(stack):
 
 # Modified from https://en.wikipedia.org/wiki/Shunting-yard_algorithm
 # http://www.martinbroadhurst.com/shunting-yard-algorithm-in-python.html
-def postfix_to_infix(query):
+def infix_to_postfix(query):
 	tokens = word_tokenize(query)
 	operatorStack = []
 	outputQueue = []
@@ -133,8 +134,9 @@ def handle_wildcard(word, index):
 		return documents
 
 def boolean_search(query, index, settings):
-	infix = postfix_to_infix(query)
+	infix = infix_to_postfix(query)
 	stack = []
+	possible_corrections = {}
 	for item in infix:
 		if is_operator(item):
 			ids1 = stack.pop()
@@ -147,5 +149,10 @@ def boolean_search(query, index, settings):
 				ids = handle_wildcard(cleaned, index)
 			elif cleaned and cleaned in index:
 				ids = word_to_ids(index[cleaned]['documents'])
+			else:
+				tmp_correction = correction(item)
+				if tmp_correction:
+					possible_corrections[item] = correction(item)
+
 			stack.append(ids)
-	return stack.pop()
+	return (stack.pop(), possible_corrections)

@@ -7,7 +7,7 @@ import json
 import os
 import math
 
-if os.path.isfile(BASE_DIR + '/dictionary.json') or os.path.isfile(BASE_DIR + '/index.json') or os.path.isfile(BASE_DIR + '/settings.json'):
+if os.path.isfile(BASE_DIR + '/dictionary.json') or os.path.isfile(BASE_DIR + '/raw_dictionary.json') or os.path.isfile(BASE_DIR + '/index.json') or os.path.isfile(BASE_DIR + '/settings.json'):
 	raise Exception("dictionary/index/settings already exists")
 
 
@@ -47,6 +47,7 @@ else:
 # }
 index = {}
 dictionary = []
+raw_dictionary = {}
 
 with open(BASE_DIR + '/preprocessed.json') as file:
 	data = json.load(file)
@@ -57,6 +58,11 @@ with open(BASE_DIR + '/preprocessed.json') as file:
 		if 'description' in doc:
 			words += word_tokenize(doc['description'])
 		for word in words:
+			if word.lower() in raw_dictionary:
+				raw_dictionary[word.lower()] += 1
+			else:
+				raw_dictionary[word.lower()] = 1
+				
 			word = clean(word, settings)
 			if word == None or word == '':
 				continue
@@ -85,6 +91,9 @@ with open(BASE_DIR + '/settings.json', 'w') as outfile:
 
 with open(BASE_DIR + '/dictionary.json', 'w') as outfile:
 	json.dump(dictionary, outfile, indent = 4, ensure_ascii = False)
+
+with open(BASE_DIR + '/raw_dictionary.json', 'w') as outfile:
+	json.dump(raw_dictionary, outfile, indent = 4, ensure_ascii = False)
 
 with open(BASE_DIR + '/index.json', 'w') as outfile:
 	json.dump(index, outfile, indent = 4, ensure_ascii = False)

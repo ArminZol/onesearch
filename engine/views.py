@@ -15,10 +15,6 @@ class SearchForm(forms.Form):
 
 def index(request):
 	form = SearchForm()
-	# if request.method == 'POST':
-	# 	tmp = SearchForm(request.POST)
-	# 	print(tmp)
-	# 	data = 'TEST'
 	context = { 'form': form }
 	return render(request, 'index.html', context)
 
@@ -28,10 +24,10 @@ def search_results(request):
 		documents = {}
 		with open(BASE_DIR + '/preprocessed.json') as file:
 			corpus = json.load(file)
-			for doc_id in results:
+			for doc_id in results[0]:
 				documents[doc_id] = corpus[doc_id]
 
-		context = { 'documents':  documents }
+		context = { 'documents':  documents, 'corrections': results[1] }
 		return render(request, 'results.html', context)
 	raise Http404("No GET request")
 

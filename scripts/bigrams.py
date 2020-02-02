@@ -7,7 +7,7 @@ with open(BASE_DIR + '/dictionary.json') as file:
 	data = json.load(file)
 	# {
 	#	'$a': [ alternate ]
-	#
+	# }
 	bigrams = {}
 	for word in data:
 		if word == None or word == '':

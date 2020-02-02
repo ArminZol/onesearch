@@ -1,11 +1,26 @@
 {% extends "base.html" %}
+{% load correction_tags %}
 
 {% block form %}
+
+	<script type="text/javascript">
+	</script>
+
 	<div class="row">
 		<div class="col s12">
 			{% if not documents.items %}
 				<h5>No results</h5>
 			{% endif %}
+			{% if corrections %}
+				{% for word,replacements in corrections.items %}
+					<p>You tried: <b>{{ word }}</b>. Did you mean:
+					{% for possibility in replacements %}
+						<a href="?{% word_replace word possibility %}">{{possibility}}</a> 
+					{% endfor %}
+					</p>
+				{% endfor %}
+			{% endif %}
+
 			{% for id,doc in documents.items %}
 				<div class="section">
 					<a href="/document/{{id}}"><h5>{{doc.title}}</h5></a>
