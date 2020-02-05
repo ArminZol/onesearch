@@ -1,6 +1,8 @@
 # OneSearch
 Basic search engine built for CSI4107
 
+It is not required to build this code as it is already running at https://one-search.herokuapp.com
+
 # Setup
 This setup incorporates Django and Virtual Environments to have web access
 
