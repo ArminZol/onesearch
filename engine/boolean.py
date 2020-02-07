@@ -45,8 +45,6 @@ def infix_to_postfix(query):
 
 ## Copy of way it was done in lecture notes
 def boolean_calculate(ids1, ids2, operator):
-	ids1 = sorted(ids1)
-	ids2 = sorted(ids2)
 	answer = []
 	if operator == 'AND':
 		p1 = 0
@@ -107,6 +105,7 @@ def word_to_ids(word_list):
 def handle_wildcard(word, index):
 	split = word.split('*')
 	word_bigram = []
+
 	for part in split:
 		if part != '':
 			# If there exists content before the * then add $
@@ -123,9 +122,9 @@ def handle_wildcard(word, index):
 
 	with open(BASE_DIR + '/bigrams.json') as file:
 		bigrams = json.load(file)
-		words = bigrams[word_bigram[0]]
+		words = sorted(bigrams[word_bigram[0]])
 		for i in range(1, len(word_bigram)):
-			words = boolean_calculate(words, bigrams[word_bigram[i]], 'AND')
+			words = boolean_calculate(words, sorted(bigrams[word_bigram[i]]), 'AND')
 
 		if len(words) == 0:
 			return []
