@@ -7,392 +7,9 @@
         "title": "ADM 1101 Social Context of Business (3 units)",
         "description": "The course situates business within its changing socio-economic, political and technological environments. Managers must learn to both distinguish between and properly utilize the more confrontational world of lobbying, as well as the collaborative governance mechanisms that join private, public and civic organizations. Students will address real-world predicaments of ethical management, corporate social responsibility, and strategic governance that arise within the social context of business."
     },
-    "UO_2": {
-        "title": "ADM 1300 Introduction to Business Management (3 units)",
-        "description": "This course provides the student with the basic knowledge necessary to effectively manage an organization.  The student will learn what constitutes the manager's role and how the managerial functions of planning, organizing, leading, controlling and communication are used to oversee the organization's human, financial, physical, material, and commercial resources.  In particular through the Case Method Approach, students will be introduced to the art of logical problem solving, while addressing such issues as corporate social responsibility and managerial ethics."
-    },
-    "UO_3": {
-        "title": "ADM 1301 Social Context of Business (3 units)",
-        "description": "The course situates business within its changing socio-economic, political and tehnological environments. Managers must learn to both distinguish between and properly utilize the more confrontational world of lobbying, as well as the collaborative governance mechanisms that join private, public and civic organizations. Students will address real-world predicaments of ethical management, corporate social responsibility, and strategic governance that arise within the social context of business."
-    },
-    "UO_4": {
-        "title": "ADM 1340 Financial Accounting (3 units)",
-        "description": "This course introduces students to the financial statements of an organization and the accounting system that produces them. Emphasis is placed on understanding the role the financial statements play in communicating meaningful information about the firm, and how estimates and accounting policy choices affect the numbers in the statements."
-    },
-    "UO_5": {
-        "title": "ADM 1370 Applications of Information Technology for Business (3 units)",
-        "description": "Introduction to information technology tools to support operational, tactical and strategic level processes and decision making in an organization. Business applications and problem solving using spreadsheets, databases and collaborative tools. Introduction to specific IT tools used to support operations and decision making within the various functional areas of an organization, including marketing, sales and customer service, human resources, finance and accounting. Introduction to business intelligence and performance management concepts and tools."
-    },
-    "UO_6": {
-        "title": "ADM 2302 Business Analytics (3 units)",
-        "description": "Introduction to problem solving techniques with the focus on decision making for efficiency, profitability, and sustainability. Tools for structured problem solving applicable in the areas of management, finance, marketing, organizational planning, transportation, operations, and allocation of scarce resources. Emphasis on computer-based modeling approaches to facilitate formulation, resolution, and interpretation of the results."
-    },
-    "UO_7": {
-        "title": "ADM 2303 Statistics for Management (3 units)",
-        "description": "Introduction to the use of statistical methods and tools in business,  Data exploration. Descriptive statistics including graphical representation of data, measure of central tendency and dispersion.  Applications of random variables and their probability distribution in business.  Useful probability distributions in management, including binomial, Poisson, normal, exponential and uniform distributions.  Introduction to statistical process control and quality improvement.  Hands-on experience with Excel and/or Minitab. (The lab is optional.)"
-    },
-    "UO_8": {
-        "title": "ADM 2304 Applications of Statistical Methods in Business (3 units)",
-        "description": "Topics include the estimation (using confidence intervals) and hypothesis testing (including non-parametric methods); correlation and the simple linear regression model (with extensions to multiple regression); and chi-square tests on qualitative data. Emphasis on understanding when and how to use (and not misuse) various methods.  Hands-on experience with statistical software tools. (The lab is optional.)"
-    },
-    "UO_9": {
-        "title": "ADM 2313 The Entrepreneurial Society (3 units)",
-        "description": "The entrepreneurial process and characteristics of the entrepreneur; social entrepreneurship; intrapreneurship; women and minorities in entrepreneurship; entrepreneurial failure; entrepreneurship as an economic development strategy and resulting programs and policies; steps in moving entrepreneurial endeavors forward; introduction to ideation and business planning."
-    },
     "UO_10": {
         "title": "ADM 2320 Marketing (3 units)",
         "description": "Focus on the evolution of the marketing concept, segmentation and positioning, strategic decisions involving product, price, distribution and promotion, important environmental variables affecting marketing decision-making, as well as marketing planning and ethical issues."
-    },
-    "UO_11": {
-        "title": "ADM 2336 Organizational Behaviour (3 units)",
-        "description": "Concepts and approaches for diagnosing and predicting events in organizations. Work motivation, job satisfaction and performance, group dynamics, leadership, decision-making, power, conflict and culture."
-    },
-    "UO_12": {
-        "title": "ADM 2337 Human Resource Management (3 units)",
-        "description": "Policies and practices relating to job analysis, human resource planning, staffing, performance appraisal, training and development, wage and salary administration, and collective bargaining."
-    },
-    "UO_13": {
-        "title": "ADM 2341 Managerial Accounting (3 units)",
-        "description": "This course introduces students to the role of management accounting, as distinct from financial accounting, in the decision-making process. Major topics include: the determination of the costs of products and services, cost behaviour, relevant costs, standard costs, budgeting, responsibility accounting and cost allocation. All topics are approached in a management context in order to give the student an appreciation of the value of the various techniques available for the analysis and solution of problems faced by managers."
-    },
-    "UO_14": {
-        "title": "ADM 2342 Intermediate Accounting I (3 units)"
-    },
-    "UO_15": {
-        "title": "ADM 2350 Financial Management (3 units)",
-        "description": "Financial environment and markets, concepts of valuation, risk and return, cost of capital, capital budgeting under certainty, long-term financing, working capital management, and short-term financing."
-    },
-    "UO_16": {
-        "title": "ADM 2352 Finance Theory (3 units)",
-        "description": "Key theoretical paradigms of modern finance. Arbitrage, expected utility, risk aversion, trade-offs between risk and return, behavioural and the concepts of prospect theory, framing, mental accounting, agency relationships, and information asymmetry."
-    },
-    "UO_17": {
-        "title": "ADM 2372 Management Information Systems (3 units)",
-        "description": "Introduction to management information systems, their underlying infrastructure and technology, and their impacts on organizations and individuals. Applications of information systems at the operational and decision making levels. Electronic business. Ethical and legal issues. Security and quality issues. Advanced topics including knowledge management and business intelligence."
-    },
-    "UO_18": {
-        "title": "ADM 2381 Business Communication Skills (3 units)",
-        "description": "Develop effective written and oral business communication skills.  Emphasis will be on quality in business written communications; strategies for planning and implementing effective communication to different audiences, including oral communication and presentations in front of an audience."
-    },
-    "UO_19": {
-        "title": "ADM 3301 Operations Management (3 units)",
-        "description": "Nature and context of Operations Management for the manufacturing and service sectors.  Operations strategy and competitiveness.  Introduction to supply chain management: supply chain strategy and design, just-in-time systems.  Planning, managing and controlling operations: forecasting, aggregate planning, inventory control, Material Requirements Planning and introduction to Enterprise Requirement Planning.  Introduction to quality management and control."
-    },
-    "UO_20": {
-        "title": "ADM 3302 Supply Chain Management (3 units)",
-        "description": "Study of supply chain management and of its impact on the competitive success and profitability of modern organizations. The integration of information and materials flows across multiple organizations. The roles of business logistics functions, including forecasting and planning, procurement, purchasing, inventory management, warehousing and materials handling, transportation management, and after sales service and customer relationships in the integrated supply chain. Issues of global logistics and reverse logistics."
-    },
-    "UO_21": {
-        "title": "ADM 3305 Business Simulation Analytics (3 units)",
-        "description": "Advanced prescriptive analytics introducing simulation modeling of complex problems that include both deterministic and probabilistic elements. Students will get hands-on experience with simulation and decision modeling and formulation, software and results interpretation skills."
-    },
-    "UO_22": {
-        "title": "ADM 3308 Business Data Mining (3 units)",
-        "description": "Introduction to the data mining process, data mining tasks including classification, clustering and association rules, as well as data mining modeling techniques such as decision trees, neural networks, and regression analysis. Introduction to the management of Big Data and Big Data Analytics. Examples in various managerial applications including Customer Relationship Management, marketing, sales, credit scoring, churn, and survival analysis."
-    },
-    "UO_23": {
-        "title": "ADM 3313 New Venture Creation (3 units)",
-        "description": "Ideation, business modeling and validation; the business planning process, including: market evaluation and the marketing plan, physical, human resources and organizational planning, and the financial plan. Student projects in moving an actual business concept through the process from idea to plan, including: crafting a business idea; building a business model; implementing a validation plan; and, writing a business plan."
-    },
-    "UO_24": {
-        "title": "ADM 3316 Competitive Intelligence (3 units)",
-        "description": "Main elements of competitive intelligence and understanding of fundamental issues.  Concepts of competitive intelligence, market insight, foresight, peripheral vision and analytics will be used to better understand and use relevant commercial information."
-    },
-    "UO_25": {
-        "title": "ADM 3317 The Global Context of Business: Merchants, Traders, Capitalists and Profit Seekers (3 units)",
-        "description": "Examines and evaluates the practices of merchants, traders, entrepreneurs, financiers, marketers and profit seekers of the 15th to the 19th centuries who contributed to the development of global business and trade. Emphasizes the dynamic intertwining of markets and their social, technological, political, economic and cultural context via the analysis and discussion of case studies, readings and other sources."
-    },
-    "UO_26": {
-        "title": "ADM 3318 International Business (3 units)",
-        "description": "Study of the changing international business environment, from a competitive and economic perspective. With a regional and a global approach, trade patterns, the role of international institutions (IMF, WTO, CNUCED, etc.) and trading blocks (EU, NAFTA, APEC, etc.) are analyzed. Questions related to ethics, environmental issues and corporate responsibility are also considered."
-    },
-    "UO_27": {
-        "title": "ADM 3319 Cross-Cultural Management (3 units)",
-        "description": "Diagnostic of intercultural situations in international contexts. Theoretical aspects of various disciplines linked to comparative management.  Concepts of culture, values, behaviour, intercultural communication and their relation to the dynamics of management, organizational structure, human resources, technology transfer, ethics in an intercultural context.  The intercultural team and synergy. Profile of the interculturally effective person.  The feminine entrepreneurship in international management. Monograph on the socio-political situation and the business culture of various countries.  Enterprise and Canadian diversity, Charter of Human Rights and Freedoms, legislation and policies on multiculturalism. Acculturation."
-    },
-    "UO_28": {
-        "title": "ADM 3321 Consumer Behaviour (3 units)",
-        "description": "Synthesis of the behavioural analysis of the consumer (psychology, sociology, social psychology). Recent applications of behavioural theory will be investigated in light of the consumer's behaviour, individually and as mediated by group processes. Behavioural impact of the corporate and marketing strategies on the consumer."
-    },
-    "UO_29": {
-        "title": "ADM 3322 Services Marketing (3 units)",
-        "description": "Concepts and decisions involved with marketing of services.  It concerns specific service industries (i.e. tourism, financial) and firms that primarily sell goods that include services (i.e. computers). Special attention is given to service quality in the profit and non-profit context."
-    },
-    "UO_30": {
-        "title": "ADM 3323 Market Research (3 units)",
-        "description": "Review of exploratory, descriptive, and causal research methods such as interviews and focus groups, surveys, and experiments. Topics include: sample selection, the gathering, analysis and interpretation of market-related data, study of multivariate data analysis techniques, investigation of relevant applied market research topics."
-    },
-    "UO_31": {
-        "title": "ADM 3326 Advertising and Sales Promotion Management (3 units)",
-        "description": "Theory and practice of advertising and sales promotion in the context of the integrated marketing communications field. Focus on the strategy and tactics of creative and media decisions in advertising."
-    },
-    "UO_32": {
-        "title": "ADM 3333 Staffing Organizations (3 units)",
-        "description": "In-depth study of external and internal staffing policies and practices in organizations. HR Forecasting, recruitment, selection, human rights and employment equity issues in staffing, identification and validation of selection criteria and techniques, career and succession planning, destaffing, and the relationship between the staffing process and other organizational processes."
-    },
-    "UO_33": {
-        "title": "ADM 3334 Industrial Relations (3 units)",
-        "description": "Theories of industrial relations, structure and functions of labour organizations, union-management relations, employer-employee relations, legislation and policies regulating industrial relations, negotiation and administration of collective agreements and bargaining outcomes."
-    },
-    "UO_34": {
-        "title": "ADM 3337 Compensation Administration (3 units)",
-        "description": "Economic and non-economic rewards, compensation, performance and satisfaction, job analysis, evaluation and internal comparisons, pay surveys and external comparisons, pay structure, merit pay, incentive pay and benefits, impact of pay equity legislation and collective bargaining on compensation."
-    },
-    "UO_35": {
-        "title": "ADM 3340 Intermediate Accounting II (3 units)"
-    },
-    "UO_36": {
-        "title": "ADM 3345 Taxation I (3 units)",
-        "description": "Provides a general knowledge of the Canadian Federal Income Tax system as it relates to individual taxpayers. The course includes the tax provisions for calculating all sources of taxpayer income to arrive at taxable income and the calculation of income taxes payable by an individual taxpayer."
-    },
-    "UO_37": {
-        "title": "ADM 3346 Cost Accounting (3 units)",
-        "description": "An in-depth study of the principal concepts and techniques of cost analysis and cost management within the organization. The major part of the course concentrates on a mastery of the different cost accumulation systems, such as job order and process costing and cost analysis such as variance analysis. Special attention is given to the implications and integration of the different methods, techniques and studies related to the formal accounting system in the firm."
-    },
-    "UO_38": {
-        "title": "ADM 3349 Auditing Theory (3 units)",
-        "description": "Definition of auditing. Concepts of management assertions, audit objectives, evidence, materiality and risk, internal control, audit planning, and reporting as applied to financial statements. Professional ethics, legal liability, and the responsibilities of auditors to society are also addressed."
-    },
-    "UO_39": {
-        "title": "ADM 3350 Corporate Finance (3 units)",
-        "description": "Credit management, capital budgeting under risk, capital structure, dividend policy, mergers and acquisitions, leasing, introduction to derivates, introduction to corporate risk management."
-    },
-    "UO_40": {
-        "title": "ADM 3351 Fixed Income Investments (3 units)",
-        "description": "Markets for debt instruments, term structure of interest rates, bond valuation, duration analysis, bond portfolio management and immunization, fixed income derivatives."
-    },
-    "UO_41": {
-        "title": "ADM 3352 Portfolio Management (3 units)",
-        "description": "Modern portfolio theory, the capital asset pricing model, the arbitrage pricing theory, portfolio selection, efficient markets, active portfolio management and performance measurement."
-    },
-    "UO_42": {
-        "title": "ADM 3357 Applied Investment Fund Management Module I (3 units)",
-        "description": "Students will oversee a portfolio of Canadian equity securities, with investments made via funds donated to the program. Emphasis is on applied equity valuation and portfolio management. Comprising a two-academic year program, students must complete Module I (3 credits) in Fall of the two year program, attend financial presentations, trip to Toronto, portfolio team meetings and portfolio management activities on an ongoing basis throughout the remainder of the academic year, and end with completion of Module II (3 credits) in Winter of the second year of the program."
-    },
-    "UO_43": {
-        "title": "ADM 3358 Multinational Business Finance (3 units)",
-        "description": "The international financial environment, foreign exchange markets and derivatives, managing transaction and economic exposures, foreign investment and financing decisions, and managing mutinational operations."
-    },
-    "UO_44": {
-        "title": "ADM 3360 Business Law (3 units)",
-        "description": "A foundation course in law that aims to introduce the student to the fundamental concepts of the common law. It comprises a study of the Canadian legal system, principles of statutory interpretation, the role of precedent in judicial decisions, the basic elements of contract law, negligence and product liability, and certain important concepts in property law such as land tenure, mortgages, landlords and tenant and personal property."
-    },
-    "UO_45": {
-        "title": "ADM 3363 Healthcare Informatics for Managers (3 units)",
-        "description": "Assess healthcare analytics from a data perspective, specifically how patient data is acquired, turned into information and translated into knowledge; how healthcare information systems are designed and evaluated; how different systems such as clinical, electronic health records and public health systems function and are integrated; how the benefits and barriers of e-health systems including security, privacy, ethical and legal issues are assessed."
-    },
-    "UO_46": {
-        "title": "ADM 3378 Emerging Topics in Management Information Systems (3 units)",
-        "description": "Emerging topics in the Management of Information Systems including green IT; cloud computing; social media in general and social networks in particular; mobile technologies; sustainability; IT security; auditing and ethics; feasibility assessments. Topics may vary with each offering of the course based on emerging trends in IT and its management."
-    },
-    "UO_47": {
-        "title": "ADM 3379 Systems Analysis, Development, and Performance (3 units)",
-        "description": "Systemic methodology for analyzing business problems or opportunities and the role of technologies in addressing business needs; articulating business requirements for technology solutions; high-level logical system characteristics including business process requirements and data design; formal methodologies for converting business requirements into solution characteristics and technical specifications; business process (re-)design and change management; systems acquisition alternatives and feasibility based on cost/benefit, ethical, cultural and legal considerations."
-    },
-    "UO_48": {
-        "title": "ADM 3396 Seminar in Administration (3 units)",
-        "description": "The seminars will focus on issues in administrative studies. The focus of these seminars should be expected to change from year to year."
-    },
-    "UO_49": {
-        "title": "ADM 4103 Project Management (3 units)"
-    },
-    "UO_50": {
-        "title": "ADM 4307 Business Forecasting Analytics (3 units)",
-        "description": "Advanced predictive analytics methods for business and management; time series analysis, econometric modeling, growth models, substitution and diffusion models, opinion polling, technology forecasting; selection of appropriate prediction techniques, collection and use of data, critical evaluation of results. Overview of advanced quantitative and qualitative techniques and of their context of utilization via presentations, projects and in-class discussions."
-    },
-    "UO_51": {
-        "title": "ADM 4311 Strategic Management (3 units)",
-        "description": "This course integrates knowledge attained from prior courses combined with the latest strategy frameworks and analytical concepts. Students must examine and resolve the complex decisions top managers face in today's globally competitive world. Pedagogically, the course utilizes the case study method, which encourages student centered learning, real business analysis, and group participation. As an introductory course in strategy, the emphasis is placed on the fundamental tools of strategic formulation, competitive and market analysis, developing resource and organizational capabilities, shaping strategic fit, and leading organizational integration, with the aim of improving a firm's long-term performance."
-    },
-    "UO_52": {
-        "title": "ADM 4312 Management in the New Economy (3 units)",
-        "description": "Brief overview of the traditional model for strategy making; new business models and their strategy implications in the new economy, i.e. an economy based on information technology and on companies focused on leveraging the Internet. Modern strategy themes include emergent strategy, system thinking, business webs and disruptive technologies. Practical learning experience as students explore the value propositions of thirty new economy companies."
-    },
-    "UO_53": {
-        "title": "ADM 4315 Strategic Entrepreneurship (3 units)",
-        "description": "Strategic entrepreneurship, encompassing entrepreneurship in existing large and small firms and in not-for-profit organisations. Strategic entrepreneurship emphasises simultaneity in opportunity-seeking behaviours - supported by entrepreneurial leadership and an entrepreneurial culture - and advantage-seeking behaviours - supported by strategic management of resources."
-    },
-    "UO_54": {
-        "title": "ADM 4316 Management of Innovation (3 units)",
-        "description": "The Innovation process, from discovery to diffusion; intellectual property, innovation financing, organization design and strategy for innovation. Successful frameworks, strategies, funding techniques, business models, risks, and barriers for introducing break-through products and services."
-    },
-    "UO_55": {
-        "title": "ADM 4317 Leadership, Strategy and Sustainability (3 units)",
-        "description": "Corporate social responsibility (CSR) and sustainability at multiple levels  self, others, the organization and society. Personal values, ethics, beliefs and attitudes and their relation to CSR and sustainability. Emphasis upon action, with the opportunity for leadership development. Social entrepreneurship, B-Corps, carbon-negative enterprises, regenerative business models, cradle-to-cradle design thinking, the circular economy."
-    },
-    "UO_56": {
-        "title": "ADM 4318 Multinational Business Policy (3 units)",
-        "description": "Stages of multinational organization: exports, foreign direct investment, joint ventures and licensing agreements, mergers and acquisitions.  Managing multinational corporations, regional and global strategies: organization and structures, adjusting to cultural differences and political risk assessment.  Governments and multinational corporations (MNCs) relations: benefits of MNCs for host countries and national investment policies.  Corporate responsibility: ethics, environment and labour standards."
-    },
-    "UO_57": {
-        "title": "ADM 4319 Strategic Management in Developing and Emerging Economies (3 units)",
-        "description": "Strategic management in developing and emerging economies, with an emphasis on the interconnection between business growth and equitable development. Poverty, inequality, technological and institutional gaps remain significant hurdles to competitive performance, economic development and global business integration; the strategies, policies, organizational and institutional changes required to address these challenges are examined. Development issues and approaches are considered from multiple perspectives, particularly those of managers and policymakers."
-    },
-    "UO_58": {
-        "title": "ADM 4322 Marketing Strategy (3 units)",
-        "description": "This capstone course in marketing provides a hands-on experience to students in developing a marketing strategy in a competitive environment.  Students are expected to work in groups on marketing projects sponsored by companies.  This project-oriented course uses case studies and/or marketing simulation, in addition to regular lectures."
-    },
-    "UO_59": {
-        "title": "ADM 4325 Promotional Planning Practicum (3 units)",
-        "description": "A highly applied course with a mix of formal lectures and group research activities, in which students work in groups to address the strategic promotional mandate from a major corporate sponsor. Each group will first develop and implement a primary and/or secondary market research project to gather a portion of the necessary intelligence. Then, using the pooled research reports, each group will develop a detailed strategic promotional plan. At the conclusion of the course, the teams with the three best promotional plans will compete in a public presentation known as the Michel Cloutier Marketing Competition."
-    },
-    "UO_60": {
-        "title": "ADM 4326 Digital Marketing Technologies (3 units)",
-        "description": "The Internet and a wide range of related digital technologies have changed the way businesses design and implement marketing strategies. This course focuses on the strategic and tactical applications of these ever-changing digital marketing technologies on decision-making and strategy formulation in areas such as business intelligence gathering, competitive analysis, customer analysis, customer relationship management, supply chain management, new product development, branding, positioning, promotion, and advertising, services management, and e-commerce. Hands-on experience with selected technologies/tools may be provided."
-    },
-    "UO_61": {
-        "title": "ADM 4328 International Marketing (3 units)",
-        "description": "Strategic approach for international markets. Markets selection and segmentation: formulation of the international marketing mix programs; international marketing strategies for small, medium and multinational firms."
-    },
-    "UO_62": {
-        "title": "ADM 4329 Personal Selling (3 units)",
-        "description": "Personal visits and personal contacts remain the most effective way of building a committed relationship between a buyer and a seller, especially in business markets.  The course will focus on the acquisition of essential selling skills required to meet the challenges facing sales professionals and on the development of expertise to retain customers and expand business opportunities."
-    },
-    "UO_63": {
-        "title": "ADM 4336 Occupational Health and Safety (3 units)",
-        "description": "This course recognizes the leadership role that HR professionals take on the issues of workplace health, safety, and workers compensation. It reviews current legislation, and good management practice re: hazard management, accident investigation, emergency preparedness, managing physical & psychological toxic elements in the workplace, and diversity management (e.g. attending to the health/safety concerns of special-needs populations)."
-    },
-    "UO_64": {
-        "title": "ADM 4337 Managing Change (3 units)",
-        "description": "Strategic management of change in organizations: change agent-client relationships, managing large scale systems change, process consulting skills, intervention techniques and change management, evaluation of change efforts and effectiveness."
-    },
-    "UO_65": {
-        "title": "ADM 4338 International Training and Development for Sustainability (3 units)",
-        "description": "Organizations that wish to be globally competitive need to learn how to innovate sustainably. Both human resource development specialists and global managers need to know how to inculcate the competencies that will enable their employees require to perform their current jobs and maximize their career potential. Students will learn how to connect global sustainability strategies and performance appraisals to training needs; to resolve the staffing/training tradeoff; to diagnose learning styles and design training and career development plans; to deliver professional development programs; and to evaluate the effectiveness of such programs."
-    },
-    "UO_66": {
-        "title": "ADM 4339 Strategic Human Resources Planning (3 units)",
-        "description": "This integrative, capstone course for the HRM option is designed to teach prospective human resource professionals how to plan and make decisions about the allocation and alignment of human resources, within a given organizational strategy. You will acquire technical knowledge related to traditional human resource planning activities, such as forecasting demand and ascertaining supply of human resources, and implementing a succession management program."
-    },
-    "UO_67": {
-        "title": "ADM 4340 Cases Studies in Accounting (3 units)",
-        "description": "The cases studied in this course present an opportunity for students to integrate the knowledge acquired in previous accounting, tax, auditing and finance courses while putting into practice the knowledge acquired in other management courses in the process of making multidisciplinary decisions . Students are also able to improve their ability to address problems in multisubject and comprehensive cases."
-    },
-    "UO_68": {
-        "title": "ADM 4341 Advanced Auditing (3 units)",
-        "description": "This advanced course in auditing examines the role of the auditing profession and audit in society. The general assurance framework and its concepts are addressed. Audit and assurance concepts are applied to a range of specific engagement types. Current issues facing the profession are explored."
-    },
-    "UO_69": {
-        "title": "ADM 4342 Seminar in Accounting Theory (3 units)",
-        "description": "Discussions on the role of accounting in business and in society. Topics include relevant theories for accounting development and standard-setting, professional judgement and other emerging issues within accounting and the accounting profession."
-    },
-    "UO_70": {
-        "title": "ADM 4344 Taxation II (3 units)",
-        "description": "Gives an in-depth knowledge of corporate taxation and of tax planning for the company, its managers and shareholders. The course includes calculation of corporate income tax, tax implications of the distribution of retained earnings, and the tax implications of owner/manager decisions regarding remuneration, incorporation and succession planning."
-    },
-    "UO_71": {
-        "title": "ADM 4345 Management Control Systems (3 units)",
-        "description": "Integrates the various concepts of procedures that make up a managerial planning and control system from an accounting, performance measurement, behavioural, organisational design, and strategy implementation point of view. The course emphasizes modern performance measurement and control techniques in the context of changing competitive environments."
-    },
-    "UO_72": {
-        "title": "ADM 4346 Accounting Information Systems Auditing (3 units)",
-        "description": "Information technology and accounting information systems as they affect the internal and external auditor are introduced. The modifications to traditional compliance and substantive auditing techniques that are necessary to address the automated business world are explored."
-    },
-    "UO_73": {
-        "title": "ADM 4348 Special Topics in Financial Accounting (3 units)",
-        "description": "Covers specialized topics in financial reporting, including accounting for not-for-profit organizations, leases, benefit plans, and corporate income taxes."
-    },
-    "UO_74": {
-        "title": "ADM 4349 Advanced Accounting (3 units)",
-        "description": "Covers advanced topics in financial reporting, including long-term investments, business combinations, consolidations, and foreign currency translation."
-    },
-    "UO_75": {
-        "title": "ADM 4350 Equity Valuation (3 units)",
-        "description": "Securities analysis, financial statement analysis, free cash flow and valuation, relative valuation, and value-enhancing strategies."
-    },
-    "UO_76": {
-        "title": "ADM 4351 Options and Futures (3 units)",
-        "description": "Derivatives markets, risk neutral valuation, option pricing models, option strategies, convertible securities and warrants, forward and futures contracts, index futures, and swaps."
-    },
-    "UO_77": {
-        "title": "ADM 4352 Advanced Corporate Finance (3 units)",
-        "description": "Advanced topics in capital budgeting and strategy, real options, capital structure, dividend policy, agency theory, corporate governance, mergers and acquisitions, and empirical studies of corporate performance."
-    },
-    "UO_78": {
-        "title": "ADM 4354 International Financial Management (3 units)",
-        "description": "Foreign exchange markets, exchange rate determination, international money and capital markets, currency futures, options, and swaps, corporate exposure management, and international investing."
-    },
-    "UO_79": {
-        "title": "ADM 4355 Finance, Ethics and Social Responsibility (3 units)",
-        "description": "Ethical issues specific to the financial sector, ethical decision making, societal impact of finance decisions, impact of responsible investing, and links among corporate governance, reporting practices and socially responsible behavior."
-    },
-    "UO_80": {
-        "title": "ADM 4356 Alternative Investments and Risk Management (3 units)",
-        "description": "Non-traditional alternative investments such as mutual funds, hedge funds, real estate, commodities, and income trusts. Basic concepts of risk management, including risk identification and analysis; likelihood of risks; types of risks affecting property, income, responsibility, and decision-making in risk management."
-    },
-    "UO_81": {
-        "title": "ADM 4357 Applied Investment Fund Management Module II (3 units)",
-        "description": "Students will oversee a portfolio of Canadian equity securities, with investments made via funds donated to the program. Emphasis is on applied equity valuation and portfolio management. Comprising a two-academic year program, students must complete Module I (3 credits) in Fall of the two year program, attend financial presentations, trip to Toronto, portfolio team meetings and portfolio management activities on an ongoing basis throughout the remainder of the academic year, and end with completion of Module II (3 credits) in Winter of the second year of the program."
-    },
-    "UO_82": {
-        "title": "ADM 4363 Business Optimization Analytics (3 units)",
-        "description": "Advanced prescriptive analytics techniques such as optimization and queuing theory in applied settings. Businesses are awash in data but often have little sense as to how that data ought to be used to develop policy. Students will also learn how to use these techniques to help businesses better manage processes in a data-driven fashion, while understanding the limitations of analytical tools."
-    },
-    "UO_83": {
-        "title": "ADM 4377 Digital Enterprise Systems and Strategies (3 units)",
-        "description": "Current trends and case studies in technology enabled business models and strategies; Usability principles for web and mobile environments; Cyber security and risk management; Mobile commerce applications; Business applications and ecosystems for cloud computing and web services; Enterprise applications and best practices for social media; requirements and solutions for web and social analytics."
-    },
-    "UO_84": {
-        "title": "ADM 4378 Business Communications Networks (3 units)",
-        "description": "Networking fundamentals including elements of data communications, Internet and transport protocols. Internet applications. Local and Wide Area Networks. Virtual Private networks. Wireless LAN. Network Security. Network Management. Management of emerging technologies, and current market trends. Topics related to telecom equipment vendors, and service providers, their products and services, and the competitive environment in telecom market."
-    },
-    "UO_85": {
-        "title": "ADM 4379 Management and Implementation of Web Technologies in Organizations (3 units)",
-        "description": "Implementation of Web-based systems as a critical component of organizations.  Web-based technologies as central elements of organizational structures.  Critical analysis of the usage of web technologies in organizations and the integration of web technologies and business needs.  Internet-based computer systems for management and decision-making in organizations, principles of analysis, design and development of web-based systems, practical experience with web development tools and hand coding of web pages and web sites for organizational and management needs."
-    },
-    "UO_86": {
-        "title": "ADM 4396 Seminar in Administration (3 units)",
-        "description": "The seminars will focus on issues in administrative studies. The focus of these seminars should be expected to change from year to year."
-    },
-    "UO_87": {
-        "title": "ADM 5102 Labour Management Relation (3 units)"
-    },
-    "UO_88": {
-        "title": "ADM 5300 Data Analysis (3 units)",
-        "description": "Managerial methods and applications of manual and computer based data collection and presentation techniques. Descriptive statistics, probability concepts, uniform and normal probability distributions, sampling and the central limit theorem, point and interval estimation, large and small sample inferences for means and proportions, type I and type II errors, linear regression."
-    },
-    "UO_89": {
-        "title": "ADM 5310 Public Sector and Business (3 units)",
-        "description": "Working of the private and public sectors in modern societies and of their interrelations. Public decision-making at the federal, provincial and local level; impact of social and economic regulation; choice of governing instruments; government and business perspectives on government-business relations; lobbying and other mechanisms through which business can influence government. Government-business relations in international context."
-    },
-    "UO_90": {
-        "title": "ADM 5320 Marketing (3 units)",
-        "description": "Marketing decision-making for managers. The marketing concept; segmentation; product differentiation; consumer and industrial buyer behaviour; marketing planning; product decisions, pricing decisions; advertising and promotion decisions; selling and distribution decisions; social, legal and ethical issues in marketing."
-    },
-    "UO_91": {
-        "title": "ADM 5330 Organizational Behavior (3 units)",
-        "description": "Theories, methods and applications of behaviour science in organizations. Work motivation, job design, group dynamics, leadership, contingency organization design, organization culture, conflict management and managing organizational change."
-    },
-    "UO_92": {
-        "title": "ADM 5331 Human Resource Management (3 units)",
-        "description": "Human Resource Management models, workforce diversity, human rights and employment equity, human resource strategies and planning, job analysis, recruitment, selection, orientation, training, appraisal, career planning and development, compensation and pay equity, employee and labour relations, occupational health and safety."
-    },
-    "UO_93": {
-        "title": "ADM 5341 Financial Accounting (3 units)",
-        "description": "Conceptual framework of financial reporting, the accounting cycle, financial statements, accounting for assets and liabilities, measurement of income, accounting for partnerships and corporations, accounting for government and non-profit organizations, and analysis and interpretation of financial statements."
-    },
-    "UO_94": {
-        "title": "ADM 5342 Managerial Accounting (3 units)",
-        "description": "Cost analysis and estimation, cost/volume/profit relationships, profit planning, control of operations, motivation and performance measurement, relevant costs and decision-making, and managerial accounting in the new industrial environment."
-    },
-    "UO_95": {
-        "title": "ADM 5350 Principles of Finance (3 units)",
-        "description": "Canadian financial markets, the fiscal environment, present value analysis, risk and asset valuation, capital budgeting under certainty, long-term financing, leverage and the cost of capital, and working capital management."
-    },
-    "UO_96": {
-        "title": "ADM 5351 Managerial Microeconomics (3 units)",
-        "description": "Consumer demand, production, technology and cost functions, pricing and market structure, and economic analysis of Canadian public policy towards business."
-    },
-    "UO_97": {
-        "title": "ADM 5352 Managerial Macroeconomics (3 units)",
-        "description": "National accounting, aggregate economic models, fiscal and monetary policies in an open economy, inflation and unemployment, and economic indicators and forecasting."
-    },
-    "UO_98": {
-        "title": "ADM 5360 Strategic Management and Policy I (3 units)",
-        "description": "The top management function in the organization, framework and methodology of strategic management, strategy formulation based on environmental analysis, organizational resources and competencies, and the values of the decision-makers."
-    },
-    "UO_99": {
-        "title": "ADM 5361 Strategic Management and Policy II (3 units)"
     },
     "UO_100": {
         "title": "ADM 5370 Information Management (3 units)",
@@ -426,6 +43,10 @@
     "UO_109": {
         "title": "ADM 6245 Analysis of International Financial Information (1.5 unit)"
     },
+    "UO_11": {
+        "title": "ADM 2336 Organizational Behaviour (3 units)",
+        "description": "Concepts and approaches for diagnosing and predicting events in organizations. Work motivation, job satisfaction and performance, group dynamics, leadership, decision-making, power, conflict and culture."
+    },
     "UO_110": {
         "title": "ADM 6250 Applied Corporate Finance I (1.5 unit)"
     },
@@ -455,6 +76,10 @@
     },
     "UO_119": {
         "title": "ADM 6259 International Corporate Finance (1.5 unit)"
+    },
+    "UO_12": {
+        "title": "ADM 2337 Human Resource Management (3 units)",
+        "description": "Policies and practices relating to job analysis, human resource planning, staffing, performance appraisal, training and development, wage and salary administration, and collective bargaining."
     },
     "UO_120": {
         "title": "ADM 6260 Project Management I (1.5 unit)",
@@ -488,6 +113,10 @@
     "UO_129": {
         "title": "ADM 6271 Business Telecommunications Systems (1.5 unit)",
         "description": "Concepts of voice, data, image and video communications and their integration into local and long distance networks. Business communication systems examples."
+    },
+    "UO_13": {
+        "title": "ADM 2341 Managerial Accounting (3 units)",
+        "description": "This course introduces students to the role of management accounting, as distinct from financial accounting, in the decision-making process. Major topics include: the determination of the costs of products and services, cost behaviour, relevant costs, standard costs, budgeting, responsibility accounting and cost allocation. All topics are approached in a management context in order to give the student an appreciation of the value of the various techniques available for the analysis and solution of problems faced by managers."
     },
     "UO_130": {
         "title": "ADM 6274 International E-Business Strategies (1.5 unit)",
@@ -524,6 +153,9 @@
     },
     "UO_139": {
         "title": "ADM 6286 International E-Business Strategies for EBT (1.5 unit)"
+    },
+    "UO_14": {
+        "title": "ADM 2342 Intermediate Accounting I (3 units)"
     },
     "UO_140": {
         "title": "ADM 6287 Business Intelligence Technologies and Big Data Analytics for EBT (1.5 unit)"
@@ -562,6 +194,10 @@
     "UO_149": {
         "title": "ADM 6321 Services Marketing (3 units)",
         "description": "Relationship between the marketing actions of a firm and the needs of society. Application of marketing tools to solve problems of profit and non-profit service organizations. Topics include social and ethical responsibilities, promotion and public conscience, tourism, and health services."
+    },
+    "UO_15": {
+        "title": "ADM 2350 Financial Management (3 units)",
+        "description": "Financial environment and markets, concepts of valuation, risk and return, cost of capital, capital budgeting under certainty, long-term financing, working capital management, and short-term financing."
     },
     "UO_150": {
         "title": "ADM 6322 Consumer Behavior (3 units)",
@@ -603,6 +239,10 @@
         "title": "ADM 6336 Employment and Pay Equity (3 units)",
         "description": "Equity and organizational effectiveness, labour force diversity, supply of skilled personnel, human resources information systems and forecasting, human resources development, pay differentials, job evaluation and pay adjustment, Employment Equity and Pay Equity Legislation in Canada."
     },
+    "UO_16": {
+        "title": "ADM 2352 Finance Theory (3 units)",
+        "description": "Key theoretical paradigms of modern finance. Arbitrage, expected utility, risk aversion, trade-offs between risk and return, behavioural and the concepts of prospect theory, framing, mental accounting, agency relationships, and information asymmetry."
+    },
     "UO_160": {
         "title": "ADM 6340 Accounting for Managerial Planning and Control (3 units)",
         "description": "Accounting information and resource allocation, development and implementation of planning and control systems; the environment, the structure, transfer pricing. Planning and control in multinational firms, in not-for-profit organizations and in service organization."
@@ -640,6 +280,10 @@
     "UO_169": {
         "title": "ADM 6354 International Corporate Finance (3 units)",
         "description": "International financial environment, foreign exchange markets, international money and capital markets, exchange rate determination, currency swaps, and currency and interest rate exposure management."
+    },
+    "UO_17": {
+        "title": "ADM 2372 Management Information Systems (3 units)",
+        "description": "Introduction to management information systems, their underlying infrastructure and technology, and their impacts on organizations and individuals. Applications of information systems at the operational and decision making levels. Electronic business. Ethical and legal issues. Security and quality issues. Advanced topics including knowledge management and business intelligence."
     },
     "UO_170": {
         "title": "ADM 6357 Options, Futures and Derivative Securities (3 units)",
@@ -679,6 +323,10 @@
         "title": "ADM 6376 Information Systems for Decision-Making (3 units)",
         "description": "Main information systems at the higher levels of the organization: executive systems, strategic systems (inter-organizational systems, cooperative systems), decision support systems, group decision support and expert systems. Practical examples from the private sector and government."
     },
+    "UO_18": {
+        "title": "ADM 2381 Business Communication Skills (3 units)",
+        "description": "Develop effective written and oral business communication skills.  Emphasis will be on quality in business written communications; strategies for planning and implementing effective communication to different audiences, including oral communication and presentations in front of an audience."
+    },
     "UO_180": {
         "title": "ADM 6377 Planning and Development of Information Systems (3 units)",
         "description": "Management issues associated with the planning, development, and maintenance of information systems; methods and tools for systems planning and development; project management techniques and tools for information systems development with a life-cycle approach; methods and tools for systems maintenance."
@@ -712,6 +360,10 @@
     },
     "UO_189": {
         "title": "ADM 6387I Topics in Operations Research (3 crédits / 3 units)"
+    },
+    "UO_19": {
+        "title": "ADM 3301 Operations Management (3 units)",
+        "description": "Nature and context of Operations Management for the manufacturing and service sectors.  Operations strategy and competitiveness.  Introduction to supply chain management: supply chain strategy and design, just-in-time systems.  Planning, managing and controlling operations: forecasting, aggregate planning, inventory control, Material Requirements Planning and introduction to Enterprise Requirement Planning.  Introduction to quality management and control."
     },
     "UO_190": {
         "title": "ADM 6391 Directed Readings in Administration I (3 units)"
@@ -748,6 +400,14 @@
     "UO_199": {
         "title": "PSY 1101 Introduction to Psychology: Foundations (3 units)",
         "description": "Object and method of psychology.  Historical perspective. Nervous system, consciousness.  Sensory processes, perception, cognition, memory, language, and thought.  Emotions, motivation. Learning."
+    },
+    "UO_2": {
+        "title": "ADM 1300 Introduction to Business Management (3 units)",
+        "description": "This course provides the student with the basic knowledge necessary to effectively manage an organization.  The student will learn what constitutes the manager's role and how the managerial functions of planning, organizing, leading, controlling and communication are used to oversee the organization's human, financial, physical, material, and commercial resources.  In particular through the Case Method Approach, students will be introduced to the art of logical problem solving, while addressing such issues as corporate social responsibility and managerial ethics."
+    },
+    "UO_20": {
+        "title": "ADM 3302 Supply Chain Management (3 units)",
+        "description": "Study of supply chain management and of its impact on the competitive success and profitability of modern organizations. The integration of information and materials flows across multiple organizations. The roles of business logistics functions, including forecasting and planning, procurement, purchasing, inventory management, warehousing and materials handling, transportation management, and after sales service and customer relationships in the integrated supply chain. Issues of global logistics and reverse logistics."
     },
     "UO_200": {
         "title": "PSY 1102 Introduction to Psychology: Applications (3 units)",
@@ -787,6 +447,10 @@
     "UO_209": {
         "title": "PSY 3101 The Psychology of Death and Dying (3 units)",
         "description": "The psychology of the dying process. Denial of and vulnerability to death in contemporary times. Normal and problematic grief. Psychological aspects of the funeral. Current research in psychology of death and dying."
+    },
+    "UO_21": {
+        "title": "ADM 3305 Business Simulation Analytics (3 units)",
+        "description": "Advanced prescriptive analytics introducing simulation modeling of complex problems that include both deterministic and probabilistic elements. Students will get hands-on experience with simulation and decision modeling and formulation, software and results interpretation skills."
     },
     "UO_210": {
         "title": "PSY 3102 Interpersonal Relationships (3 units)",
@@ -828,6 +492,10 @@
         "title": "PSY 3126 Cross-Cultural Psychology (3 units)",
         "description": "Definition of culture. Impact of culture on psychological processes (e.g., cognitive development, sensation and perception, social behaviour). Communication across cultures. Ethnic relations in a multicultural society. Psychological effects of culture change. Mental health and well-being among immigrants and refugees. Culture-centred assessment and psychotherapy. Current research in cross-cultural psychology."
     },
+    "UO_22": {
+        "title": "ADM 3308 Business Data Mining (3 units)",
+        "description": "Introduction to the data mining process, data mining tasks including classification, clustering and association rules, as well as data mining modeling techniques such as decision trees, neural networks, and regression analysis. Introduction to the management of Big Data and Big Data Analytics. Examples in various managerial applications including Customer Relationship Management, marketing, sales, credit scoring, churn, and survival analysis."
+    },
     "UO_220": {
         "title": "PSY 3128 The Psychology of Ageing (3 units)",
         "description": "Psychological processes of late adulthood. Sensory processes, attention, memory, learning, intelligence, personality, interpersonal relationships, coping strategies, mental health issues, depression, dementia, interventions of the clinical psychologist. Current research in the psychology of ageing."
@@ -867,6 +535,10 @@
     "UO_229": {
         "title": "PSY 3303 Personality (3 units)",
         "description": "Major theories in personality. Main schools of thought and study of general characteristics of each theory. Leading representative of each school. Current research in personality."
+    },
+    "UO_23": {
+        "title": "ADM 3313 New Venture Creation (3 units)",
+        "description": "Ideation, business modeling and validation; the business planning process, including: market evaluation and the marketing plan, physical, human resources and organizational planning, and the financial plan. Student projects in moving an actual business concept through the process from idea to plan, including: crafting a business idea; building a business model; implementing a validation plan; and, writing a business plan."
     },
     "UO_230": {
         "title": "PSY 3306 Psychosocial Aspects of Health (3 units)",
@@ -908,6 +580,10 @@
         "title": "PSY 4130 History and Systems of Psychology (3 units)",
         "description": "Philosophical and scientific background of psychology. Birth of scientific psychology and its development."
     },
+    "UO_24": {
+        "title": "ADM 3316 Competitive Intelligence (3 units)",
+        "description": "Main elements of competitive intelligence and understanding of fundamental issues.  Concepts of competitive intelligence, market insight, foresight, peripheral vision and analytics will be used to better understand and use relevant commercial information."
+    },
     "UO_240": {
         "title": "PSY 4134 Community Psychology (3 units)",
         "description": "History and definition. Community perspective on mental health, social intervention, prevention, health promotion and research methods. Role of community psychologists. Current research in community psychology."
@@ -948,6 +624,10 @@
         "title": "PSY 4310 Directed Research in Psychology (3 units)",
         "description": "Completion, individually or in a small group, of a research project under the supervision of a professor. This course allows for the application of already acquired abilities and the acquisition of new knowledge related to performing research. Registration for directed research is limited and must be approved by the undergraduate program director in keeping with modalities approved by the Faculty."
     },
+    "UO_25": {
+        "title": "ADM 3317 The Global Context of Business: Merchants, Traders, Capitalists and Profit Seekers (3 units)",
+        "description": "Examines and evaluates the practices of merchants, traders, entrepreneurs, financiers, marketers and profit seekers of the 15th to the 19th centuries who contributed to the development of global business and trade. Emphasizes the dynamic intertwining of markets and their social, technological, political, economic and cultural context via the analysis and discussion of case studies, readings and other sources."
+    },
     "UO_250": {
         "title": "PSY 4327 Sleep and Dreams (3 units)",
         "description": "Sleep and dreams in the context of physiology and psychological adaptation. Functions of sleep. Sleep disorders and their treatment. Theories of dream functions. Dreams, health, personality and consciousness. Course includes laboratory activities (e.g., sleep-lab experiment or dream analysis lab)."
@@ -986,6 +666,10 @@
     "UO_259": {
         "title": "PSY 5103 Fundamentals or Behavioural Neuroscience (3 units)",
         "description": "Critical analysis of research trends in behavioural neuroscience and of the relations between neuroanatomy, functional systems, and complex behaviours (e.g., spatial orientation, memory, language, reasoning)."
+    },
+    "UO_26": {
+        "title": "ADM 3318 International Business (3 units)",
+        "description": "Study of the changing international business environment, from a competitive and economic perspective. With a regional and a global approach, trade patterns, the role of international institutions (IMF, WTO, CNUCED, etc.) and trading blocks (EU, NAFTA, APEC, etc.) are analyzed. Questions related to ethics, environmental issues and corporate responsibility are also considered."
     },
     "UO_260": {
         "title": "PSY 5104 Integration Seminar in Program Evaluation (3 units)",
@@ -1027,6 +711,10 @@
         "title": "PSY 5158 Research Practicum in Social and Interpersonal Relations (3 units)",
         "description": "Current research in assertion and social skills training is studied through student and staff participation in research projects."
     },
+    "UO_27": {
+        "title": "ADM 3319 Cross-Cultural Management (3 units)",
+        "description": "Diagnostic of intercultural situations in international contexts. Theoretical aspects of various disciplines linked to comparative management.  Concepts of culture, values, behaviour, intercultural communication and their relation to the dynamics of management, organizational structure, human resources, technology transfer, ethics in an intercultural context.  The intercultural team and synergy. Profile of the interculturally effective person.  The feminine entrepreneurship in international management. Monograph on the socio-political situation and the business culture of various countries.  Enterprise and Canadian diversity, Charter of Human Rights and Freedoms, legislation and policies on multiculturalism. Acculturation."
+    },
     "UO_270": {
         "title": "PSY 5202 Psychodiagnostic Assessment of Adults and Children (6 units)",
         "description": "Assessment of intellectual, behavioural and emotional functioning of children and adults. Administration, scoring, and interpretation of selected instruments. Integration of data for communication of assessment findings to clients and others (e.g., parents, teachers)."
@@ -1066,6 +754,10 @@
     "UO_279": {
         "title": "PSY 6002 Practicum en recherche appliquée / Practicum in Applied Research (3 crédits / 3 units)",
         "description": "Ce practicum de recherche doit se dérouler dans un milieu de recherche appliquée (ex. industrie pharmaceutique ou de haute technologie, service de gestion des ressources humaines, milieu hospitalier ou scolaire). On reconnaît aux étudiants un total de 90 heures de travail dans un ou plusieurs projets de recherche liés à leur domaine de spécialisation. Ce practicum constitue une approximation d'un système co-op et fournit aux étudiants l'occasion de profiter d'une expérience dans le marché du travail et de mettre à l'épreuve la pertinence de leurs connaissances et de leurs habiletés. / This research practicum is to take place in an applied research setting off campus (e.g. pharmaceutical or high-technology industry, human resources management service, hospitals or school setting). Students are credited for a total of 90 hours of work on one or several research projects related to their area of expertise. This practicum is intended as an approximation of a co-op system whereby students have the opportunity to gain some experience in the work force and test the relevance of their knowledge base and skills."
+    },
+    "UO_28": {
+        "title": "ADM 3321 Consumer Behaviour (3 units)",
+        "description": "Synthesis of the behavioural analysis of the consumer (psychology, sociology, social psychology). Recent applications of behavioural theory will be investigated in light of the consumer's behaviour, individually and as mediated by group processes. Behavioural impact of the corporate and marketing strategies on the consumer."
     },
     "UO_280": {
         "title": "PSY 6007 Practicum clinique / Clinical Practicum (1-99 crédit / 1-99 unit)",
@@ -1107,6 +799,10 @@
         "title": "PSY 6102 Social Development (3 units)",
         "description": "A review of current issues in the literature on social development in childhood. Topics to include the development of attachment, influence of parents and peers, social competence, and social cognition."
     },
+    "UO_29": {
+        "title": "ADM 3322 Services Marketing (3 units)",
+        "description": "Concepts and decisions involved with marketing of services.  It concerns specific service industries (i.e. tourism, financial) and firms that primarily sell goods that include services (i.e. computers). Special attention is given to service quality in the profit and non-profit context."
+    },
     "UO_290": {
         "title": "PSY 6103 Socialization and Individual Differences (3 units)",
         "description": "Review and critical evaluation of theoretical models and empirical research in the study of socialization, gender differences, and other individual differences during childhood and adolescence."
@@ -1147,6 +843,14 @@
         "title": "PSY 6117 Comparative Cognition (3 units)",
         "description": "Examination of the goals of comparative analysis of cognitive processes and the contribution of behavioural ecologists to the study of cognition in non-human species.  Topics to include the dynamics of choice and timing, memory and place learning, and concept formation."
     },
+    "UO_3": {
+        "title": "ADM 1301 Social Context of Business (3 units)",
+        "description": "The course situates business within its changing socio-economic, political and tehnological environments. Managers must learn to both distinguish between and properly utilize the more confrontational world of lobbying, as well as the collaborative governance mechanisms that join private, public and civic organizations. Students will address real-world predicaments of ethical management, corporate social responsibility, and strategic governance that arise within the social context of business."
+    },
+    "UO_30": {
+        "title": "ADM 3323 Market Research (3 units)",
+        "description": "Review of exploratory, descriptive, and causal research methods such as interviews and focus groups, surveys, and experiments. Topics include: sample selection, the gathering, analysis and interpretation of market-related data, study of multivariate data analysis techniques, investigation of relevant applied market research topics."
+    },
     "UO_300": {
         "title": "PSY 6118 Reasoning, Judgement and Decision (3 units)",
         "description": "Seminars on causal reasoning, deductive and inductive inference, hypothesis formation and evaluation, probabilistic judgment, and covariation detection. Examination of these cognitive activities in the light of theoretical models based on various concepts such as logic, formal or natural, heuristics, or connectionist mechanisms."
@@ -1185,6 +889,10 @@
     "UO_309": {
         "title": "PSY 6144 Application of Microcomputers to Human Experimental Psychology (3 units)",
         "description": "Use of micro-computers in behavioural data acquisition and file organization for purposes of statistical treatment. Subjects to be covered include: writing instructions for video display, video display techniques, techniques for recording answers, statistical properties of various answers. Applied assignments are important components of this course."
+    },
+    "UO_31": {
+        "title": "ADM 3326 Advertising and Sales Promotion Management (3 units)",
+        "description": "Theory and practice of advertising and sales promotion in the context of the integrated marketing communications field. Focus on the strategy and tactics of creative and media decisions in advertising."
     },
     "UO_310": {
         "title": "PSY 6145 Cognitive Psychology of Language (3 units)",
@@ -1226,6 +934,10 @@
         "title": "PSY 6167 Experimental Techniques in Sleep Research (3 units)",
         "description": "Seminars/tutorials on the experimental techniques that apply to the psychophysiological and cognitive study of sleep.  Selected topics to include the use of these techniques in the study of the time course of sleeping episodes, neurophysiological correlates of sleep stages, the phenomenon of dreaming, and sleep disorders."
     },
+    "UO_32": {
+        "title": "ADM 3333 Staffing Organizations (3 units)",
+        "description": "In-depth study of external and internal staffing policies and practices in organizations. HR Forecasting, recruitment, selection, human rights and employment equity issues in staffing, identification and validation of selection criteria and techniques, career and succession planning, destaffing, and the relationship between the staffing process and other organizational processes."
+    },
     "UO_320": {
         "title": "PSY 61671 Experimental Techniques in Sleep Research (Part 1 of 2)",
         "description": "Seminars/tutorials on the experimental techniques that apply to the psychophysiological and cognitive study of sleep.  Selected topics to include the use of these techniques in the study of the time course of sleeping episodes, neurophysiological correlates of sleep stages, the phenomenon of dreaming, and sleep disorders. (Part 1 of 2)"
@@ -1266,6 +978,10 @@
         "title": "PSY 6202 Advanced Seminar in Behavioural Neuroscience (6 units)",
         "description": "Advanced seminar course integrating behavioural analyses with aspects of neural circuits mediating and regulating these behaviours."
     },
+    "UO_33": {
+        "title": "ADM 3334 Industrial Relations (3 units)",
+        "description": "Theories of industrial relations, structure and functions of labour organizations, union-management relations, employer-employee relations, legislation and policies regulating industrial relations, negotiation and administration of collective agreements and bargaining outcomes."
+    },
     "UO_330": {
         "title": "PSY 6391 Psychophysiology of Individual Differences (3 units)",
         "description": "Seminar/tutorial examining psychophysiological research on the nature of individual differences in personality, intelligence and learning disabilities."
@@ -1303,6 +1019,10 @@
     "UO_339": {
         "title": "PSY 7107 Psychology of the Family (3 units)",
         "description": "Examination of the empirical literature on how families deal with normative and non-normative life transitions across the family life cycle, with discussion of major challenges facing families."
+    },
+    "UO_34": {
+        "title": "ADM 3337 Compensation Administration (3 units)",
+        "description": "Economic and non-economic rewards, compensation, performance and satisfaction, job analysis, evaluation and internal comparisons, pay surveys and external comparisons, pay structure, merit pay, incentive pay and benefits, impact of pay equity legislation and collective bargaining on compensation."
     },
     "UO_340": {
         "title": "PSY 7108 Multicultural Clinical Psychology (3 units)",
@@ -1343,6 +1063,9 @@
         "title": "MAT 1300 Mathematical Methods I (3 units)",
         "description": "Review of elementary functions.  Limits.  Geometric series. Differential and integral calculus in one variable with applications. Functions of several variables.  Partial derivatives."
     },
+    "UO_35": {
+        "title": "ADM 3340 Intermediate Accounting II (3 units)"
+    },
     "UO_350": {
         "title": "MAT 1302 Mathematical Methods II (3 units)",
         "description": "Solution of systems of linear equations. Matrix algebra. Determinants. Complex numbers, fundamental theorem of algebra. Eigenvalues and eigenvectors of real matrices. Introduction to vector spaces, linear independence, bases. Applications. This course is intended primarily for students in the School of Management and the Faculty of Social Sciences."
@@ -1381,6 +1104,10 @@
     "UO_359": {
         "title": "MAT 1339 Introduction to Calculus and Vectors (3 units)",
         "description": "Instantaneous rate of change as a limit, derivatives of polynomials using limits, derivatives of sums, products, the chain rule, derivatives of rational, trigonometric, exponential, logarithmic, and radical functions. Applications to finding maxima and minima and graph sketching. Concavity and points of inflection, the second derivative. Optimization in models involving polynomial, rational, and exponential functions. Vectors in two and three dimensions. Cartesian, polar and geometric forms. Algebraic operations on vectors, dot product, cross product. Applications to projections, area of parallelograms, volume of parallelepipeds. Scalar and vector parametric form of equations of lines and planes in two and three dimensions. Intersections of lines and planes.  Solution of up to three equations in three unknowns by elimination or substitution. Geometric interpretation of the solutions. Prerequisite: Ontario 4U Functions (MHF4U) or MAT1318 or equivalent. The courses MAT1339, Ontario 4U Calculus and Vectors (MCV4U) or any equivalent cannot be combined for credits. MAT1339 may be taken for upgrading purposes or as an admission requirement In all cases, credits for this course do not count as part of any program requirements. S/NS grading scheme."
+    },
+    "UO_36": {
+        "title": "ADM 3345 Taxation I (3 units)",
+        "description": "Provides a general knowledge of the Canadian Federal Income Tax system as it relates to individual taxpayers. The course includes the tax provisions for calculating all sources of taxpayer income to arrive at taxable income and the calculation of income taxes payable by an individual taxpayer."
     },
     "UO_360": {
         "title": "MAT 1341 Introduction to Linear Algebra (3 units)",
@@ -1422,6 +1149,10 @@
         "title": "MAT 2125 Elementary Real Analysis (3 units)",
         "description": "Review of the completeness properties of real numbers. Supremum and infimum, lim sup, lim inf. The topology of R¢n.  Uniform continuity. Compactness, Heine-Borel.  The Riemann integral, the fundamental theorem of calculus, improper integrals. Sequences and series of functions, uniform convergence. Fourier series."
     },
+    "UO_37": {
+        "title": "ADM 3346 Cost Accounting (3 units)",
+        "description": "An in-depth study of the principal concepts and techniques of cost analysis and cost management within the organization. The major part of the course concentrates on a mastery of the different cost accumulation systems, such as job order and process costing and cost analysis such as variance analysis. Special attention is given to the implications and integration of the different methods, techniques and studies related to the formal accounting system in the firm."
+    },
     "UO_370": {
         "title": "MAT 2141 Honours Linear Algebra (3 units)",
         "description": "Vector spaces, direct sums and complement of subspaces, linear maps, representation of linear maps by matrices, dual spaces, transpose mappings, multilinear mappings, determinants, inner products, orthogonal projections, the Gram-Schmidt algorithm. Eigenvalues and eigenvectors, diagonalization of symmetric matrices. The emphasis of this course is on proving all results."
@@ -1461,6 +1192,10 @@
     "UO_379": {
         "title": "MAT 2375 Introduction to Statistics (3 units)",
         "description": "Theory of statistical inference; point and interval estimation, tests of hypotheses. Inferences about normal models.  Introduction to nonparametric methods."
+    },
+    "UO_38": {
+        "title": "ADM 3349 Auditing Theory (3 units)",
+        "description": "Definition of auditing. Concepts of management assertions, audit objectives, evidence, materiality and risk, internal control, audit planning, and reporting as applied to financial statements. Professional ethics, legal liability, and the responsibilities of auditors to society are also addressed."
     },
     "UO_380": {
         "title": "MAT 2377 Probability and Statistics for Engineers (3 units)",
@@ -1502,6 +1237,10 @@
         "title": "MAT 3153 Introduction to Topology (3 units)",
         "description": "Sets, functions, countability. Topology of the real line and of Euclidean space, compactness and connectedness, continuous functions. An introduction to algebraic methods in topology: homotopies and the winding number of curves in the plane, the index of a vector field in the plane, or the classification of surfaces."
     },
+    "UO_39": {
+        "title": "ADM 3350 Corporate Finance (3 units)",
+        "description": "Credit management, capital budgeting under risk, capital structure, dividend policy, mergers and acquisitions, leasing, introduction to derivates, introduction to corporate risk management."
+    },
     "UO_390": {
         "title": "MAT 3155 Introd to Differential Geomet. (3 units)",
         "description": "Introduction to elementary Riemannian geometry, applications to curves and surfaces, special topics chosen from geometry and physics."
@@ -1541,6 +1280,14 @@
     "UO_399": {
         "title": "MAT 3375 Regression Analysis (3 units)",
         "description": "Distribution theory, hypothesis testing and estimation for simple, multiple and non-linear regression. Generalized linear models, logistic and Poisson regression. Analysis of data using statistical software packages."
+    },
+    "UO_4": {
+        "title": "ADM 1340 Financial Accounting (3 units)",
+        "description": "This course introduces students to the financial statements of an organization and the accounting system that produces them. Emphasis is placed on understanding the role the financial statements play in communicating meaningful information about the firm, and how estimates and accounting policy choices affect the numbers in the statements."
+    },
+    "UO_40": {
+        "title": "ADM 3351 Fixed Income Investments (3 units)",
+        "description": "Markets for debt instruments, term structure of interest rates, bond valuation, duration analysis, bond portfolio management and immunization, fixed income derivatives."
     },
     "UO_400": {
         "title": "MAT 3377 Sampling and Surveys (3 units)",
@@ -1582,6 +1329,10 @@
         "title": "MAT 4141 Rings and Modules II (3 units)",
         "description": "Noetherian and artinian modules and rings.    Algebraic sets, vanishing ideals, Hilbert Basis Theorem, radical ideals, Hilbert Nullstellensatz.  Localization of rings and modules.  Tensor product of modules and algebras.  Semisimple rings and modules, Schur’s lemma, Jacobson Density Theorem, Artin-Wedderburn Theorem.  Short exact sequences, free modules, projective modules, injective modules, flat modules."
     },
+    "UO_41": {
+        "title": "ADM 3352 Portfolio Management (3 units)",
+        "description": "Modern portfolio theory, the capital asset pricing model, the arbitrage pricing theory, portfolio selection, efficient markets, active portfolio management and performance measurement."
+    },
     "UO_410": {
         "title": "MAT 4142 Introduction to Lie Algebras (3 units)",
         "description": "Structure of solvable, nilpotent and semisimple finite dimensional Lie algebras."
@@ -1621,6 +1372,10 @@
     "UO_419": {
         "title": "MAT 4167 Topics in Number Theory (3 units)",
         "description": "Topics from analytic number theory, algebraic number theory, Diophantine approximation, modular forms or arithmetic geometry."
+    },
+    "UO_42": {
+        "title": "ADM 3357 Applied Investment Fund Management Module I (3 units)",
+        "description": "Students will oversee a portfolio of Canadian equity securities, with investments made via funds donated to the program. Emphasis is on applied equity valuation and portfolio management. Comprising a two-academic year program, students must complete Module I (3 credits) in Fall of the two year program, attend financial presentations, trip to Toronto, portfolio team meetings and portfolio management activities on an ongoing basis throughout the remainder of the academic year, and end with completion of Module II (3 credits) in Winter of the second year of the program."
     },
     "UO_420": {
         "title": "MAT 4170 Probability Theory I (3 units)",
@@ -1662,6 +1417,10 @@
         "title": "MAT 4372 Financial Mathematics (3 units)",
         "description": "Review of conditional expectation and an introduction to martingales, stopping times and the Snell envelope. Interest rate and present value, discrete time option pricing. Review of the multivariate normal with applications to Markovitz portfolio theory. An introduction to Brownian motion and the Black-Scholes formula for European options."
     },
+    "UO_43": {
+        "title": "ADM 3358 Multinational Business Finance (3 units)",
+        "description": "The international financial environment, foreign exchange markets and derivatives, managing transaction and economic exposures, foreign investment and financing decisions, and managing mutinational operations."
+    },
     "UO_430": {
         "title": "MAT 4373 Statistical Machine Learning (3 units)",
         "description": "Discriminant analysis, principal component analysis, support vector machines; reproducing kernel Hilbert spaces and kernel methods; neural networks; VC Theory; PAC learning. Additional topics may include: Bayesian modelling, manifold learning, boosting."
@@ -1701,6 +1460,10 @@
     "UO_439": {
         "title": "MAT 5106 Combinatorial Optimization (3 units)",
         "description": "Network flow theory and related material. Topics will include shortest paths, minimum spanning trees, maximum flows, minimum cost flows. Optimal matching in bipartite graphs. This course is equivalent to MATH 5808 at Carleton University."
+    },
+    "UO_44": {
+        "title": "ADM 3360 Business Law (3 units)",
+        "description": "A foundation course in law that aims to introduce the student to the fundamental concepts of the common law. It comprises a study of the Canadian legal system, principles of statutory interpretation, the role of precedent in judicial decisions, the basic elements of contract law, negligence and product liability, and certain important concepts in property law such as land tenure, mortgages, landlords and tenant and personal property."
     },
     "UO_440": {
         "title": "MAT 5107 Discrete Applied Mathematics II: Combinatorial Enumeration (3 units)",
@@ -1742,6 +1505,10 @@
         "title": "MAT 5141 Algebra I: Rings and Modules (3 units)",
         "description": "Noetherian and artinian modules and rings. Algebraic sets, vanishing ideals, Hilbert Basis Theorem, radical ideals, Hilbert Nullstellensatz. Localization of rings and modules. Tensor product of modules and algebras. Semisimple rings and modules, Schur's lemma, Jacobson Density Theorem, Artin-Wedderburn Theorem. Short exact sequences, free modules, projective modules, injective modules, flat modules. This course is equivalent to MATH 5107 at Carleton University."
     },
+    "UO_45": {
+        "title": "ADM 3363 Healthcare Informatics for Managers (3 units)",
+        "description": "Assess healthcare analytics from a data perspective, specifically how patient data is acquired, turned into information and translated into knowledge; how healthcare information systems are designed and evaluated; how different systems such as clinical, electronic health records and public health systems function and are integrated; how the benefits and barriers of e-health systems including security, privacy, ethical and legal issues are assessed."
+    },
     "UO_450": {
         "title": "MAT 5142 Algebra II: Groups and Galois Theory (3 units)",
         "description": "Group actions, class equation, Sylow theorems, central, composition and derived series, Jordan-Holder theorem, field extensions and minimal polynomials, algebraic closure, separable extensions, integral ring extensions, Galois groups, fundamental theorem of Galois theory, finite fields, cyclotomic field extensions, fundamental theorem of algebra, transcendental extensions. This course is equivalent to MATH 5109 at Carleton University."
@@ -1781,6 +1548,10 @@
     "UO_459": {
         "title": "MAT 5151 Topology I (3 units)",
         "description": "Topological spaces, product and identification topologies, countability and separation axioms, compactness, connectedness, homotopy, fundamental group, net and filter convergence. This course is equivalent to MATH 5205 at Carleton University."
+    },
+    "UO_46": {
+        "title": "ADM 3378 Emerging Topics in Management Information Systems (3 units)",
+        "description": "Emerging topics in the Management of Information Systems including green IT; cloud computing; social media in general and social networks in particular; mobile technologies; sustainability; IT security; auditing and ethics; feasibility assessments. Topics may vary with each offering of the course based on emerging trends in IT and its management."
     },
     "UO_460": {
         "title": "MAT 5152 Topology II (3 units)",
@@ -1822,6 +1593,10 @@
         "title": "MAT 5167 Formal Language and Syntax Analysis (3 units)",
         "description": "This course is equivalent to MATH/COMP 5807 at Carleton University."
     },
+    "UO_47": {
+        "title": "ADM 3379 Systems Analysis, Development, and Performance (3 units)",
+        "description": "Systemic methodology for analyzing business problems or opportunities and the role of technologies in addressing business needs; articulating business requirements for technology solutions; high-level logical system characteristics including business process requirements and data design; formal methodologies for converting business requirements into solution characteristics and technical specifications; business process (re-)design and change management; systems acquisition alternatives and feasibility based on cost/benefit, ethical, cultural and legal considerations."
+    },
     "UO_470": {
         "title": "MAT 5168 Homology Theory (3 units)",
         "description": "This course is equivalent to MATH 5202 at Carleton University."
@@ -1861,6 +1636,10 @@
     "UO_479": {
         "title": "MAT 5177 Multivariate Normal Theory (3 units)",
         "description": "This course is equivalent to STAT 5500 at Carleton University."
+    },
+    "UO_48": {
+        "title": "ADM 3396 Seminar in Administration (3 units)",
+        "description": "The seminars will focus on issues in administrative studies. The focus of these seminars should be expected to change from year to year."
     },
     "UO_480": {
         "title": "MAT 5180 Numerical Analysis for Differential Equations (3 units)",
@@ -1902,6 +1681,9 @@
         "title": "MAT 5194 Stochastic Processes and Times Series Analysis (3 units)",
         "description": "This course is equivalent to STAT 5504 at Carleton University."
     },
+    "UO_49": {
+        "title": "ADM 4103 Project Management (3 units)"
+    },
     "UO_490": {
         "title": "MAT 5195 Design of Experiments (3 units)",
         "description": "Overview of linear model theory; orthogonality; randomized block and split plot designs; Latin square designs; randomization theory; incomplete block designs; factorial experiments; confounding and fractional replication; response surface methodology. Miscellaneous topics. This course is equivalent to STAT 5505 at Carleton University."
@@ -1942,6 +1724,14 @@
         "title": "MAT 5309 Harmonic Analysis on Groups (3 units)",
         "description": "This course is equivalent to MATH 6002 at Carleton University."
     },
+    "UO_5": {
+        "title": "ADM 1370 Applications of Information Technology for Business (3 units)",
+        "description": "Introduction to information technology tools to support operational, tactical and strategic level processes and decision making in an organization. Business applications and problem solving using spreadsheets, databases and collaborative tools. Introduction to specific IT tools used to support operations and decision making within the various functional areas of an organization, including marketing, sales and customer service, human resources, finance and accounting. Introduction to business intelligence and performance management concepts and tools."
+    },
+    "UO_50": {
+        "title": "ADM 4307 Business Forecasting Analytics (3 units)",
+        "description": "Advanced predictive analytics methods for business and management; time series analysis, econometric modeling, growth models, substitution and diffusion models, opinion polling, technology forecasting; selection of appropriate prediction techniques, collection and use of data, critical evaluation of results. Overview of advanced quantitative and qualitative techniques and of their context of utilization via presentations, projects and in-class discussions."
+    },
     "UO_500": {
         "title": "MAT 5312 Topics in Topology (3 units)",
         "description": "This course is equivalent to MATH 6201 at Carleton University."
@@ -1980,6 +1770,10 @@
     "UO_509": {
         "title": "MAT 5326 Topics in Analysis (3 units)",
         "description": "This course is equivalent to MATH 6008 at Carleton University."
+    },
+    "UO_51": {
+        "title": "ADM 4311 Strategic Management (3 units)",
+        "description": "This course integrates knowledge attained from prior courses combined with the latest strategy frameworks and analytical concepts. Students must examine and resolve the complex decisions top managers face in today's globally competitive world. Pedagogically, the course utilizes the case study method, which encourages student centered learning, real business analysis, and group participation. As an introductory course in strategy, the emphasis is placed on the fundamental tools of strategic formulation, competitive and market analysis, developing resource and organizational capabilities, shaping strategic fit, and leading organizational integration, with the aim of improving a firm's long-term performance."
     },
     "UO_510": {
         "title": "MAT 5327 Topics in Algebra (3 units)",
@@ -2021,6 +1815,10 @@
         "title": "CSI 1306 Computing Concepts for Business (3 units)",
         "description": "Introduction to computer-based problem solving from the perspective of the business world. Design of algorithms for solving business problems. Basics of computer programming in a modern programming language. Solving business problems using application packages including spreadsheets and databases. Basics of web design. Collaborative tools. Using open source software."
     },
+    "UO_52": {
+        "title": "ADM 4312 Management in the New Economy (3 units)",
+        "description": "Brief overview of the traditional model for strategy making; new business models and their strategy implications in the new economy, i.e. an economy based on information technology and on companies focused on leveraging the Internet. Modern strategy themes include emergent strategy, system thinking, business webs and disruptive technologies. Practical learning experience as students explore the value propositions of thirty new economy companies."
+    },
     "UO_520": {
         "title": "CSI 1308 Introduction to Computing Concepts (3 units)",
         "description": "Introduction to computer based problem solving for scientific applications.  Design of algorithms and algorithms descriptions.  4th generation languages. Software packages.  Structured program development.  Modular and object-oriented programming.  Program testing."
@@ -2060,6 +1858,10 @@
     "UO_529": {
         "title": "CSI 3120 Programming Language Concepts (3 units)",
         "description": "Design and evaluation criteria for programming languages. Introduction to syntactic and semantic description of programming languages. Basics of programming language implementation. Scripting languages. A comparison of design choices across programming paradigms: data objects, data types, control structures, sub-programs. Basics of concurrency."
+    },
+    "UO_53": {
+        "title": "ADM 4315 Strategic Entrepreneurship (3 units)",
+        "description": "Strategic entrepreneurship, encompassing entrepreneurship in existing large and small firms and in not-for-profit organisations. Strategic entrepreneurship emphasises simultaneity in opportunity-seeking behaviours - supported by entrepreneurial leadership and an entrepreneurial culture - and advantage-seeking behaviours - supported by strategic management of resources."
     },
     "UO_530": {
         "title": "CSI 3130 Databases II (3 units)",
@@ -2101,6 +1903,10 @@
         "title": "CSI 4108 Cryptography (3 units)",
         "description": "The notion of secure communication.  Building secure cryptosystems based on the assumption of computational hardness. Cryptographic one-way functions, trap-door functions, pseudorandom generators, and public/private-key encryption schemes. Computational indistinguishable and unpredictability.  Digital signature and message authentication. Zero-knowledge/interactive proof systems. Application to e-commerce and e-trade."
     },
+    "UO_54": {
+        "title": "ADM 4316 Management of Innovation (3 units)",
+        "description": "The Innovation process, from discovery to diffusion; intellectual property, innovation financing, organization design and strategy for innovation. Successful frameworks, strategies, funding techniques, business models, risks, and barriers for introducing break-through products and services."
+    },
     "UO_540": {
         "title": "CSI 4109 Introduction to Distributed Computing (3 units)",
         "description": "Computational models. Communication complexity.  Design and analysis of distributed algorithms.  Control algorithms.  Asynchronous computations. Synchronous computations.  Fault-tolerant algorithms.  Manipulation of distributed data.  Examples of applications in data and communication networks, mobile computing and systems of communicating agents."
@@ -2140,6 +1946,10 @@
     "UO_549": {
         "title": "CSI 4139 Design of Secure Computer Systems (3 units)",
         "description": "Security policies. Security mechanisms. Physical security. Security awareness. User authentication. Application security mechanisms. Encryption. External and internal firewalls. Security of operating systems and software. Security of e-commerce applications. Design of security system and components. Devices for security analysis; sniffers, attack detectors. Information warfare. Ethical issues in computer security."
+    },
+    "UO_55": {
+        "title": "ADM 4317 Leadership, Strategy and Sustainability (3 units)",
+        "description": "Corporate social responsibility (CSR) and sustainability at multiple levels  self, others, the organization and society. Personal values, ethics, beliefs and attitudes and their relation to CSR and sustainability. Emphasis upon action, with the opportunity for leadership development. Social entrepreneurship, B-Corps, carbon-negative enterprises, regenerative business models, cradle-to-cradle design thinking, the circular economy."
     },
     "UO_550": {
         "title": "CSI 4140 Introduction to Parallel Computing (3 units)",
@@ -2181,6 +1991,10 @@
         "title": "CSI 5106 Cryptography (3 units)",
         "description": "Security in encryption algorithms. Encryption and decryption. Entropy, equivocation, and unicity distance.  Cryptanalysis and computational complexity. Substitution, transposition, and product ciphers. Symmetric ciphers: block and stream modes. Modular arithmetic. Public key cryptosystems. Factorization methods. Elliptic curve, lattice-based, and homomorphic cryptography. Proofs of security."
     },
+    "UO_56": {
+        "title": "ADM 4318 Multinational Business Policy (3 units)",
+        "description": "Stages of multinational organization: exports, foreign direct investment, joint ventures and licensing agreements, mergers and acquisitions.  Managing multinational corporations, regional and global strategies: organization and structures, adjusting to cultural differences and political risk assessment.  Governments and multinational corporations (MNCs) relations: benefits of MNCs for host countries and national investment policies.  Corporate responsibility: ethics, environment and labour standards."
+    },
     "UO_560": {
         "title": "CSI 5110 Principles of Formal Software Development (3 units)",
         "description": "Methodologies in formal software specification, development, and verification. The use of theorem proving, automated deduction, and other related formal methods for software correctness. Applications in program verification and secure computation.  This course is equivalent to COMP 5707 at Carleton University."
@@ -2220,6 +2034,10 @@
     "UO_569": {
         "title": "CSI 5124 Computational Aspects of Geographic Information Systems (3 units)",
         "description": "Computational perspective of geographic information systems (GIS). Data representations and their operations on raster and vector devices: e.g., quadtrees, grid files, digital elevation models, triangular irregular network models. Analysis and design of efficient algorithms for solving GIS problems: visibility queries, point location, facility location. This course is equivalent to COMP 5204 at Carleton University."
+    },
+    "UO_57": {
+        "title": "ADM 4319 Strategic Management in Developing and Emerging Economies (3 units)",
+        "description": "Strategic management in developing and emerging economies, with an emphasis on the interconnection between business growth and equitable development. Poverty, inequality, technological and institutional gaps remain significant hurdles to competitive performance, economic development and global business integration; the strategies, policies, organizational and institutional changes required to address these challenges are examined. Development issues and approaches are considered from multiple perspectives, particularly those of managers and policymakers."
     },
     "UO_570": {
         "title": "CSI 5126 Algorithms in Bioinformatics (3 units)",
@@ -2261,6 +2079,10 @@
         "title": "CSI 5138 Selected Topics in Theory of Computing (Category T) (3 units)",
         "description": "Selected topics in Theory of Computing (Category T), not covered by other graduate courses. Details will be available from the School at the time of registration. This course is equivalent to COMP 5900 at Carleton University."
     },
+    "UO_58": {
+        "title": "ADM 4322 Marketing Strategy (3 units)",
+        "description": "This capstone course in marketing provides a hands-on experience to students in developing a marketing strategy in a competitive environment.  Students are expected to work in groups on marketing projects sponsored by companies.  This project-oriented course uses case studies and/or marketing simulation, in addition to regular lectures."
+    },
     "UO_580": {
         "title": "CSI 5139 Selected Topics in Computer Applications (Category A) (3 units)",
         "description": "Selected topics in Computer Applications (Category A), not covered by other graduate courses. Details will be available from the School at the time of registration. This course is equivalent to COMP 5900 at Carleton University."
@@ -2297,6 +2119,10 @@
     "UO_589": {
         "title": "CSI 5153 Data Management for Business Intelligence (3 units)",
         "description": "Data management problems and information technology in decision making support in business environments. Topics include advanced data modeling, semantic modeling, multidimensional databases and data warehousing, on-line-analytical processing, elements of data mining, context in data management, data quality assessment, data cleaning, elements of business process modeling. This course emphasizes concepts and techniques rather than specific applications or systems/implementations. This course is equivalent to COMP 5111 at Carleton University."
+    },
+    "UO_59": {
+        "title": "ADM 4325 Promotional Planning Practicum (3 units)",
+        "description": "A highly applied course with a mix of formal lectures and group research activities, in which students work in groups to address the strategic promotional mandate from a major corporate sponsor. Each group will first develop and implement a primary and/or secondary market research project to gather a portion of the necessary intelligence. Then, using the pooled research reports, each group will develop a detailed strategic promotional plan. At the conclusion of the course, the teams with the three best promotional plans will compete in a public presentation known as the Michel Cloutier Marketing Competition."
     },
     "UO_590": {
         "title": "CSI 5154 Algorithms for Data Science (3 units)",
@@ -2337,6 +2163,14 @@
     "UO_599": {
         "title": "CSI 5169 Wireless Networks and Mobile Computing (3 units)"
     },
+    "UO_6": {
+        "title": "ADM 2302 Business Analytics (3 units)",
+        "description": "Introduction to problem solving techniques with the focus on decision making for efficiency, profitability, and sustainability. Tools for structured problem solving applicable in the areas of management, finance, marketing, organizational planning, transportation, operations, and allocation of scarce resources. Emphasis on computer-based modeling approaches to facilitate formulation, resolution, and interpretation of the results."
+    },
+    "UO_60": {
+        "title": "ADM 4326 Digital Marketing Technologies (3 units)",
+        "description": "The Internet and a wide range of related digital technologies have changed the way businesses design and implement marketing strategies. This course focuses on the strategic and tactical applications of these ever-changing digital marketing technologies on decision-making and strategy formulation in areas such as business intelligence gathering, competitive analysis, customer analysis, customer relationship management, supply chain management, new product development, branding, positioning, promotion, and advertising, services management, and e-commerce. Hands-on experience with selected technologies/tools may be provided."
+    },
     "UO_600": {
         "title": "CSI 5173 Data Networks (3 units)",
         "description": "Mathematical and practical aspects of design and analysis of communication networks. Topics include: basic concepts, layering, delay models, multi-access communication, queuing theory, routing, fault-tolerance, and advanced topics on high-speed networks, ATM, mobile wireless networks, and optical networks. This course is equivalent to COMP 5203 at Carleton University."
@@ -2375,6 +2209,10 @@
         "title": "CSI 5312 Distributed Operating Systems Engineering (3 units)",
         "description": "Design issues of advanced multiprocessor distributed operating systems: multiprocessor system architectures; process and object models; synchronization and message passing primitives; memory architectures and management; distributed file systems; protection and security; distributed concurrency control; deadlock; recovery; remote tasking; dynamic reconfiguration; performance measurement, modeling, and system tuning. This course is equivalent to COMP 5102 at Carleton University."
     },
+    "UO_61": {
+        "title": "ADM 4328 International Marketing (3 units)",
+        "description": "Strategic approach for international markets. Markets selection and segmentation: formulation of the international marketing mix programs; international marketing strategies for small, medium and multinational firms."
+    },
     "UO_610": {
         "title": "CSI 5314 Object-Oriented Software Development (3 units)",
         "description": "Issues in modeling and verifying quality and variability in object-oriented systems. Testable models in model-driven and test-driven approaches. System family engineering. Functional conformance: scenario modeling and verification, design by contract. Conformance to non-functional requirements: goals, forces and tradeoffs, metrics. This course is equivalent to COMP 5104 at Carleton University."
@@ -2412,6 +2250,10 @@
         "title": "CSI 7161 Advanced Topics in Programming Systems and Languages (3 units)",
         "description": "This course is equivalent to COMP 6603 at Carleton University."
     },
+    "UO_62": {
+        "title": "ADM 4329 Personal Selling (3 units)",
+        "description": "Personal visits and personal contacts remain the most effective way of building a committed relationship between a buyer and a seller, especially in business markets.  The course will focus on the acquisition of essential selling skills required to meet the challenges facing sales professionals and on the development of expertise to retain customers and expand business opportunities."
+    },
     "UO_620": {
         "title": "CSI 7162 Advanced Topics in Computer Applications (3 units)",
         "description": "This course is equivalent to COMP 6604 at Carleton University."
@@ -2427,5 +2269,163 @@
     "UO_623": {
         "title": "CSI 7314 Advanced Topics in Object-Oriented Systems (3 units)",
         "description": "Advanced object-oriented software engineering, in particular the issues of reuse and testing. Sample topics include: interaction modeling; class and cluster testing; traceability; design patterns and testing; the C++ standard template library. Students will carry out research. This course is equivalent to COMP 6104 at Carleton University."
+    },
+    "UO_63": {
+        "title": "ADM 4336 Occupational Health and Safety (3 units)",
+        "description": "This course recognizes the leadership role that HR professionals take on the issues of workplace health, safety, and workers compensation. It reviews current legislation, and good management practice re: hazard management, accident investigation, emergency preparedness, managing physical & psychological toxic elements in the workplace, and diversity management (e.g. attending to the health/safety concerns of special-needs populations)."
+    },
+    "UO_64": {
+        "title": "ADM 4337 Managing Change (3 units)",
+        "description": "Strategic management of change in organizations: change agent-client relationships, managing large scale systems change, process consulting skills, intervention techniques and change management, evaluation of change efforts and effectiveness."
+    },
+    "UO_65": {
+        "title": "ADM 4338 International Training and Development for Sustainability (3 units)",
+        "description": "Organizations that wish to be globally competitive need to learn how to innovate sustainably. Both human resource development specialists and global managers need to know how to inculcate the competencies that will enable their employees require to perform their current jobs and maximize their career potential. Students will learn how to connect global sustainability strategies and performance appraisals to training needs; to resolve the staffing/training tradeoff; to diagnose learning styles and design training and career development plans; to deliver professional development programs; and to evaluate the effectiveness of such programs."
+    },
+    "UO_66": {
+        "title": "ADM 4339 Strategic Human Resources Planning (3 units)",
+        "description": "This integrative, capstone course for the HRM option is designed to teach prospective human resource professionals how to plan and make decisions about the allocation and alignment of human resources, within a given organizational strategy. You will acquire technical knowledge related to traditional human resource planning activities, such as forecasting demand and ascertaining supply of human resources, and implementing a succession management program."
+    },
+    "UO_67": {
+        "title": "ADM 4340 Cases Studies in Accounting (3 units)",
+        "description": "The cases studied in this course present an opportunity for students to integrate the knowledge acquired in previous accounting, tax, auditing and finance courses while putting into practice the knowledge acquired in other management courses in the process of making multidisciplinary decisions . Students are also able to improve their ability to address problems in multisubject and comprehensive cases."
+    },
+    "UO_68": {
+        "title": "ADM 4341 Advanced Auditing (3 units)",
+        "description": "This advanced course in auditing examines the role of the auditing profession and audit in society. The general assurance framework and its concepts are addressed. Audit and assurance concepts are applied to a range of specific engagement types. Current issues facing the profession are explored."
+    },
+    "UO_69": {
+        "title": "ADM 4342 Seminar in Accounting Theory (3 units)",
+        "description": "Discussions on the role of accounting in business and in society. Topics include relevant theories for accounting development and standard-setting, professional judgement and other emerging issues within accounting and the accounting profession."
+    },
+    "UO_7": {
+        "title": "ADM 2303 Statistics for Management (3 units)",
+        "description": "Introduction to the use of statistical methods and tools in business,  Data exploration. Descriptive statistics including graphical representation of data, measure of central tendency and dispersion.  Applications of random variables and their probability distribution in business.  Useful probability distributions in management, including binomial, Poisson, normal, exponential and uniform distributions.  Introduction to statistical process control and quality improvement.  Hands-on experience with Excel and/or Minitab. (The lab is optional.)"
+    },
+    "UO_70": {
+        "title": "ADM 4344 Taxation II (3 units)",
+        "description": "Gives an in-depth knowledge of corporate taxation and of tax planning for the company, its managers and shareholders. The course includes calculation of corporate income tax, tax implications of the distribution of retained earnings, and the tax implications of owner/manager decisions regarding remuneration, incorporation and succession planning."
+    },
+    "UO_71": {
+        "title": "ADM 4345 Management Control Systems (3 units)",
+        "description": "Integrates the various concepts of procedures that make up a managerial planning and control system from an accounting, performance measurement, behavioural, organisational design, and strategy implementation point of view. The course emphasizes modern performance measurement and control techniques in the context of changing competitive environments."
+    },
+    "UO_72": {
+        "title": "ADM 4346 Accounting Information Systems Auditing (3 units)",
+        "description": "Information technology and accounting information systems as they affect the internal and external auditor are introduced. The modifications to traditional compliance and substantive auditing techniques that are necessary to address the automated business world are explored."
+    },
+    "UO_73": {
+        "title": "ADM 4348 Special Topics in Financial Accounting (3 units)",
+        "description": "Covers specialized topics in financial reporting, including accounting for not-for-profit organizations, leases, benefit plans, and corporate income taxes."
+    },
+    "UO_74": {
+        "title": "ADM 4349 Advanced Accounting (3 units)",
+        "description": "Covers advanced topics in financial reporting, including long-term investments, business combinations, consolidations, and foreign currency translation."
+    },
+    "UO_75": {
+        "title": "ADM 4350 Equity Valuation (3 units)",
+        "description": "Securities analysis, financial statement analysis, free cash flow and valuation, relative valuation, and value-enhancing strategies."
+    },
+    "UO_76": {
+        "title": "ADM 4351 Options and Futures (3 units)",
+        "description": "Derivatives markets, risk neutral valuation, option pricing models, option strategies, convertible securities and warrants, forward and futures contracts, index futures, and swaps."
+    },
+    "UO_77": {
+        "title": "ADM 4352 Advanced Corporate Finance (3 units)",
+        "description": "Advanced topics in capital budgeting and strategy, real options, capital structure, dividend policy, agency theory, corporate governance, mergers and acquisitions, and empirical studies of corporate performance."
+    },
+    "UO_78": {
+        "title": "ADM 4354 International Financial Management (3 units)",
+        "description": "Foreign exchange markets, exchange rate determination, international money and capital markets, currency futures, options, and swaps, corporate exposure management, and international investing."
+    },
+    "UO_79": {
+        "title": "ADM 4355 Finance, Ethics and Social Responsibility (3 units)",
+        "description": "Ethical issues specific to the financial sector, ethical decision making, societal impact of finance decisions, impact of responsible investing, and links among corporate governance, reporting practices and socially responsible behavior."
+    },
+    "UO_8": {
+        "title": "ADM 2304 Applications of Statistical Methods in Business (3 units)",
+        "description": "Topics include the estimation (using confidence intervals) and hypothesis testing (including non-parametric methods); correlation and the simple linear regression model (with extensions to multiple regression); and chi-square tests on qualitative data. Emphasis on understanding when and how to use (and not misuse) various methods.  Hands-on experience with statistical software tools. (The lab is optional.)"
+    },
+    "UO_80": {
+        "title": "ADM 4356 Alternative Investments and Risk Management (3 units)",
+        "description": "Non-traditional alternative investments such as mutual funds, hedge funds, real estate, commodities, and income trusts. Basic concepts of risk management, including risk identification and analysis; likelihood of risks; types of risks affecting property, income, responsibility, and decision-making in risk management."
+    },
+    "UO_81": {
+        "title": "ADM 4357 Applied Investment Fund Management Module II (3 units)",
+        "description": "Students will oversee a portfolio of Canadian equity securities, with investments made via funds donated to the program. Emphasis is on applied equity valuation and portfolio management. Comprising a two-academic year program, students must complete Module I (3 credits) in Fall of the two year program, attend financial presentations, trip to Toronto, portfolio team meetings and portfolio management activities on an ongoing basis throughout the remainder of the academic year, and end with completion of Module II (3 credits) in Winter of the second year of the program."
+    },
+    "UO_82": {
+        "title": "ADM 4363 Business Optimization Analytics (3 units)",
+        "description": "Advanced prescriptive analytics techniques such as optimization and queuing theory in applied settings. Businesses are awash in data but often have little sense as to how that data ought to be used to develop policy. Students will also learn how to use these techniques to help businesses better manage processes in a data-driven fashion, while understanding the limitations of analytical tools."
+    },
+    "UO_83": {
+        "title": "ADM 4377 Digital Enterprise Systems and Strategies (3 units)",
+        "description": "Current trends and case studies in technology enabled business models and strategies; Usability principles for web and mobile environments; Cyber security and risk management; Mobile commerce applications; Business applications and ecosystems for cloud computing and web services; Enterprise applications and best practices for social media; requirements and solutions for web and social analytics."
+    },
+    "UO_84": {
+        "title": "ADM 4378 Business Communications Networks (3 units)",
+        "description": "Networking fundamentals including elements of data communications, Internet and transport protocols. Internet applications. Local and Wide Area Networks. Virtual Private networks. Wireless LAN. Network Security. Network Management. Management of emerging technologies, and current market trends. Topics related to telecom equipment vendors, and service providers, their products and services, and the competitive environment in telecom market."
+    },
+    "UO_85": {
+        "title": "ADM 4379 Management and Implementation of Web Technologies in Organizations (3 units)",
+        "description": "Implementation of Web-based systems as a critical component of organizations.  Web-based technologies as central elements of organizational structures.  Critical analysis of the usage of web technologies in organizations and the integration of web technologies and business needs.  Internet-based computer systems for management and decision-making in organizations, principles of analysis, design and development of web-based systems, practical experience with web development tools and hand coding of web pages and web sites for organizational and management needs."
+    },
+    "UO_86": {
+        "title": "ADM 4396 Seminar in Administration (3 units)",
+        "description": "The seminars will focus on issues in administrative studies. The focus of these seminars should be expected to change from year to year."
+    },
+    "UO_87": {
+        "title": "ADM 5102 Labour Management Relation (3 units)"
+    },
+    "UO_88": {
+        "title": "ADM 5300 Data Analysis (3 units)",
+        "description": "Managerial methods and applications of manual and computer based data collection and presentation techniques. Descriptive statistics, probability concepts, uniform and normal probability distributions, sampling and the central limit theorem, point and interval estimation, large and small sample inferences for means and proportions, type I and type II errors, linear regression."
+    },
+    "UO_89": {
+        "title": "ADM 5310 Public Sector and Business (3 units)",
+        "description": "Working of the private and public sectors in modern societies and of their interrelations. Public decision-making at the federal, provincial and local level; impact of social and economic regulation; choice of governing instruments; government and business perspectives on government-business relations; lobbying and other mechanisms through which business can influence government. Government-business relations in international context."
+    },
+    "UO_9": {
+        "title": "ADM 2313 The Entrepreneurial Society (3 units)",
+        "description": "The entrepreneurial process and characteristics of the entrepreneur; social entrepreneurship; intrapreneurship; women and minorities in entrepreneurship; entrepreneurial failure; entrepreneurship as an economic development strategy and resulting programs and policies; steps in moving entrepreneurial endeavors forward; introduction to ideation and business planning."
+    },
+    "UO_90": {
+        "title": "ADM 5320 Marketing (3 units)",
+        "description": "Marketing decision-making for managers. The marketing concept; segmentation; product differentiation; consumer and industrial buyer behaviour; marketing planning; product decisions, pricing decisions; advertising and promotion decisions; selling and distribution decisions; social, legal and ethical issues in marketing."
+    },
+    "UO_91": {
+        "title": "ADM 5330 Organizational Behavior (3 units)",
+        "description": "Theories, methods and applications of behaviour science in organizations. Work motivation, job design, group dynamics, leadership, contingency organization design, organization culture, conflict management and managing organizational change."
+    },
+    "UO_92": {
+        "title": "ADM 5331 Human Resource Management (3 units)",
+        "description": "Human Resource Management models, workforce diversity, human rights and employment equity, human resource strategies and planning, job analysis, recruitment, selection, orientation, training, appraisal, career planning and development, compensation and pay equity, employee and labour relations, occupational health and safety."
+    },
+    "UO_93": {
+        "title": "ADM 5341 Financial Accounting (3 units)",
+        "description": "Conceptual framework of financial reporting, the accounting cycle, financial statements, accounting for assets and liabilities, measurement of income, accounting for partnerships and corporations, accounting for government and non-profit organizations, and analysis and interpretation of financial statements."
+    },
+    "UO_94": {
+        "title": "ADM 5342 Managerial Accounting (3 units)",
+        "description": "Cost analysis and estimation, cost/volume/profit relationships, profit planning, control of operations, motivation and performance measurement, relevant costs and decision-making, and managerial accounting in the new industrial environment."
+    },
+    "UO_95": {
+        "title": "ADM 5350 Principles of Finance (3 units)",
+        "description": "Canadian financial markets, the fiscal environment, present value analysis, risk and asset valuation, capital budgeting under certainty, long-term financing, leverage and the cost of capital, and working capital management."
+    },
+    "UO_96": {
+        "title": "ADM 5351 Managerial Microeconomics (3 units)",
+        "description": "Consumer demand, production, technology and cost functions, pricing and market structure, and economic analysis of Canadian public policy towards business."
+    },
+    "UO_97": {
+        "title": "ADM 5352 Managerial Macroeconomics (3 units)",
+        "description": "National accounting, aggregate economic models, fiscal and monetary policies in an open economy, inflation and unemployment, and economic indicators and forecasting."
+    },
+    "UO_98": {
+        "title": "ADM 5360 Strategic Management and Policy I (3 units)",
+        "description": "The top management function in the organization, framework and methodology of strategic management, strategy formulation based on environmental analysis, organizational resources and competencies, and the values of the decision-makers."
+    },
+    "UO_99": {
+        "title": "ADM 5361 Strategic Management and Policy II (3 units)"
     }
 }

@@ -39,7 +39,8 @@ def parse_courses():
 
 	# JSON write from https://stackoverflow.com/questions/12309269/how-do-i-write-json-data-to-a-file/20776329#20776329
 	with open(BASE_DIR + '/preprocessed.json', 'w') as outfile:
-		json.dump(parsed, outfile, indent = 4, ensure_ascii = False)
+		# Sorting dictionary from https://stackoverflow.com/questions/9001509/how-can-i-sort-a-dictionary-by-key
+		json.dump(dict(sorted(parsed.items())), outfile, indent = 4, ensure_ascii = False)
 
 # Throw error if file already generated
 if not os.path.isfile(BASE_DIR + '/preprocessed.json'):
