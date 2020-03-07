@@ -4,7 +4,6 @@ from nltk.tokenize import word_tokenize
 from utilities import BASE_DIR, clean
 import argparse
 import json
-import os
 import math
 
 # index = {

@@ -3,6 +3,7 @@ from django.http import Http404
 from django.shortcuts import render
 from .controllers import search
 from onesearch.settings import BASE_DIR
+from .index import courses_index, reuters_index
 import json
 
 class SearchForm(forms.Form):
@@ -22,7 +23,12 @@ def search_results(request):
 	if request.method == 'GET':
 		collection = request.GET['collections']
 		processed_path = BASE_DIR + '/processed/' + collection
-		results = search(request.GET['query'], request.GET['model'], processed_path)
+
+		if collection == 'courses':
+			results = search(request.GET['query'], request.GET['model'], processed_path, courses_index)
+		elif collection == 'reuters':
+			results = search(request.GET['query'], request.GET['model'], processed_path, reuters_index)
+
 		documents = {}
 		with open(processed_path + '/preprocessed.json') as file:
 			corpus = json.load(file)
