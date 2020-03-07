@@ -21,5 +21,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', index, name='index'),
     path('result/', search_results, name='results'),
-    path('document/<str:collection>/<str:doc_id>/', document, name='document')
+    path('document/<str:collection>/<int:doc_id>/', document, name='document')
 ]

@@ -5,15 +5,15 @@ from utilities import BASE_DIR, clean
 import argparse
 import json
 import math
+import progressbar
 
 # index = {
 # 	'word': {
 #		'idf': 0
-#		'documents': [
+#		'docs': [
 # 			{
-#				'doc_id': 0,
-#				'frequency': 1 
-#				'tf-idf': 1
+#				'id': 0,
+#				'tf': 1 
 #			}
 # 		]
 #	}
@@ -25,12 +25,14 @@ def save_dict_index(path):
 
 	with open(path + '/preprocessed.json') as file:
 		data = json.load(file)
-		for doc_id in data:
-			doc = data[doc_id]
+		# https://stackoverflow.com/questions/3002085/python-to-print-out-status-bar-and-percentage
+		bar = progressbar.ProgressBar(maxval=len(data))
+		bar.start()
+		for doc in data:
 			words = word_tokenize(doc['title'])
 			frequency = {}
-			if 'description' in doc:
-				words += word_tokenize(doc['description'])
+			if 'body' in doc:
+				words += word_tokenize(doc['body'])
 			for word in words:
 				if word.lower() in raw_dictionary:
 					raw_dictionary[word.lower()] += 1
@@ -50,16 +52,15 @@ def save_dict_index(path):
 					index[word]['docs'] = []
 					dictionary.append(word)
 				index[word]['docs'].append({
-					'id': doc_id,
-					'freq': frequency[word]
+					'id': doc['id'],
+					'tf': frequency[word]
 				})
-			print(doc_id)
+			bar.update(doc['id'])
+		bar.finish()
 		# Add VSM calculations to index
 		num_docs = len(data)
 		for word in index:
 			index[word]['idf'] = math.log(num_docs / (len(index[word]['docs'])),10)
-			for word_doc in index[word]['docs']:
-				word_doc['tfidf'] = word_doc['freq'] * index[word]['idf']
 
 	with open(path + '/dictionary.json', 'w') as outfile:
 		json.dump(dictionary, outfile, indent = 4, ensure_ascii = False)

@@ -3,7 +3,6 @@ from django.http import Http404
 from django.shortcuts import render
 from .controllers import search
 from onesearch.settings import BASE_DIR
-from .index import courses_index, reuters_index
 import json
 
 class SearchForm(forms.Form):
@@ -21,20 +20,19 @@ def index(request):
 
 def search_results(request):
 	if request.method == 'GET':
-		collection = request.GET['collections']
+		collection = request.GET['collection']
 		processed_path = BASE_DIR + '/processed/' + collection
-
-		if collection == 'courses':
-			results = search(request.GET['query'], request.GET['model'], processed_path, courses_index)
-		elif collection == 'reuters':
-			results = search(request.GET['query'], request.GET['model'], processed_path, reuters_index)
+		results = search(request.GET['query'], request.GET['model'], processed_path)
 
 		documents = {}
 		with open(processed_path + '/preprocessed.json') as file:
 			corpus = json.load(file)
-			for doc_id in results[0]:
-				documents[doc_id] = corpus[doc_id]
-
+			for doc in results[0]:
+				if request.GET['model'] == 'boolean':
+					documents[doc] = (corpus[doc], None)
+				elif request.GET['model'] == 'vsm':
+					documents[doc[0]] = (corpus[doc[0]], doc[1])
+		
 		context = { 'collection': collection, 'documents':  documents, 'corrections': results[1] }
 		return render(request, 'results.html', context)
 	raise Http404("No GET request")

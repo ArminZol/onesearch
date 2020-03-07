@@ -6,7 +6,9 @@ Django==3.0.3
 django-heroku==0.3.1
 gunicorn==20.0.4
 nltk==3.4.5
+progressbar2==3.50.0
 psycopg2==2.8.4
+python-utils==2.4.0
 pytz==2019.3
 six==1.14.0
 soupsieve==1.9.5

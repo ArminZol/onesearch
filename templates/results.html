@@ -3,7 +3,12 @@
 
 {% block form %}
 
+	<!-- https://materializecss.com/tooltips.html -->
 	<script type="text/javascript">
+		document.addEventListener('DOMContentLoaded', function() {
+			var elems = document.querySelectorAll('.tooltipped');
+			var instances = M.Tooltip.init(elems);
+		});
 	</script>
 
 	<div class="row">
@@ -23,11 +28,18 @@
 
 			{% for id,doc in documents.items %}
 				<div class="section">
-					<a href="/document/{{collection}}/{{id}}"><h5>{{doc.title}}</h5></a>
-					{% if doc.description %}
+					<h5>
+						<a
+							{% if doc.1 %}
+								class="tooltipped" data-position="top" data-tooltip="Score: {{doc.1|floatformat:'3'}}"
+							{% endif %} 
+							href="/document/{{collection}}/{{id}}">{{doc.0.title}}
+						</a>
+					</h5>
+					{% if doc.0.body %}
 						<p>
-							{{doc.description|slice:100}}
-							{% if doc.description|length > 100 %}
+							{{doc.0.body|slice:100}}
+							{% if doc.0.body|length > 100 %}
 								...
 							{% endif %}
 						</p>
