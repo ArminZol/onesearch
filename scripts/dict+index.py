@@ -47,19 +47,19 @@ def save_dict_index(path):
 			for word in frequency:
 				if word not in index:
 					index[word] = {}
-					index[word]['documents'] = []
+					index[word]['docs'] = []
 					dictionary.append(word)
-				index[word]['documents'].append({
-					'doc_id': doc_id,
-					'frequency': frequency[word]
+				index[word]['docs'].append({
+					'id': doc_id,
+					'freq': frequency[word]
 				})
 			print(doc_id)
 		# Add VSM calculations to index
 		num_docs = len(data)
 		for word in index:
-			index[word]['idf'] = math.log(num_docs / (len(index[word]['documents'])),10)
-			for word_doc in index[word]['documents']:
-				word_doc['tf-idf'] = word_doc['frequency'] * index[word]['idf']
+			index[word]['idf'] = math.log(num_docs / (len(index[word]['docs'])),10)
+			for word_doc in index[word]['docs']:
+				word_doc['tfidf'] = word_doc['freq'] * index[word]['idf']
 
 	with open(path + '/dictionary.json', 'w') as outfile:
 		json.dump(dictionary, outfile, indent = 4, ensure_ascii = False)

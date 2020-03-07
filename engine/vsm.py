@@ -21,12 +21,12 @@ def vsm_search(query, index, settings, tmp_correction):
 	docs_vector = {}
 	for word in query_vector:
 		if word in index:
-			for doc in index[word]['documents']:
-				value = query_vector[word] * doc['tf-idf']
-				if doc['doc_id'] in docs_vector:
-					docs_vector[doc['doc_id']] += value
+			for doc in index[word]['docs']:
+				value = query_vector[word] * doc['freq'] * index[word]['idf']
+				if doc['id'] in docs_vector:
+					docs_vector[doc['id']] += value
 				else:
-					docs_vector[doc['doc_id']] = value
+					docs_vector[doc['id']] = value
 
 	# Modified from https://stackoverflow.com/questions/613183/how-do-i-sort-a-dictionary-by-value
 	# print({k: v for k, v in sorted(docs_vector.items(), key=lambda item: item[1], reverse=True)}) # Left here for debugging

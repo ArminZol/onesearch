@@ -3,7 +3,7 @@ from django.http import Http404
 from django.shortcuts import render
 from .controllers import search
 from onesearch.settings import BASE_DIR
-from .index import courses_index, reuters_index
+# from .index import courses_index, reuters_index
 import json
 
 class SearchForm(forms.Form):

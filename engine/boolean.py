@@ -98,7 +98,7 @@ def boolean_calculate(ids1, ids2, operator):
 def word_to_ids(word_list):
 	ids = []
 	for item in word_list:
-		ids.append(item['doc_id'])
+		ids.append(item['id'])
 	return ids
 
 def handle_wildcard(word, index, processed_path):
@@ -130,7 +130,7 @@ def handle_wildcard(word, index, processed_path):
 
 		documents = []
 		for word in words:
-			documents = boolean_calculate(documents, word_to_ids(index[word]['documents']), 'OR')
+			documents = boolean_calculate(documents, word_to_ids(index[word]['docs']), 'OR')
 		return documents
 
 def boolean_search(query, index, settings, processed_path):
@@ -148,7 +148,7 @@ def boolean_search(query, index, settings, processed_path):
 			if '*' in cleaned:
 				ids = handle_wildcard(cleaned, index, processed_path)
 			elif cleaned and cleaned in index:
-				ids = word_to_ids(index[cleaned]['documents'])
+				ids = word_to_ids(index[cleaned]['docs'])
 			else:
 				tmp_correction = correction(item, processed_path)
 				if tmp_correction:
