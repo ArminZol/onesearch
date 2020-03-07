@@ -2,7 +2,7 @@ from nltk.tokenize import word_tokenize
 from scripts.utilities import clean
 from engine.spelling_correction import correction
 
-def vsm_search(query, index, settings):
+def vsm_search(query, index, settings, tmp_correction):
 	tokens = word_tokenize(query)
 	query_vector = {}
 	possible_corrections = {}
@@ -10,9 +10,9 @@ def vsm_search(query, index, settings):
 	for token in tokens:
 		tmp = clean(token, settings)
 		if tmp not in index:
-			tmp_correction = correction(token)
+			tmp_correction = correction(token, processed_path)
 			if tmp_correction:
-				possible_corrections[token] = correction(token)
+				possible_corrections[token] = tmp_correction
 		if tmp in query_vector:
 			query_vector[tmp] += 1
 		else:

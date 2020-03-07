@@ -23,7 +23,7 @@
 
 			{% for id,doc in documents.items %}
 				<div class="section">
-					<a href="/document/{{id}}"><h5>{{doc.title}}</h5></a>
+					<a href="/document/{{collection}}/{{id}}"><h5>{{doc.title}}</h5></a>
 					{% if doc.description %}
 						<p>
 							{{doc.description|slice:100}}

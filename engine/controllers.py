@@ -3,12 +3,12 @@ from engine.vsm import vsm_search
 from onesearch.settings import BASE_DIR
 import json
 
-def search(query, model):
-	with open(BASE_DIR + '/index.json') as indexFile:
-		with open(BASE_DIR + '/settings.json') as settingsFile:
+def search(query, model, processed_path):
+	with open(processed_path + '/index.json') as indexFile:
+		with open(BASE_DIR + '/processed/settings.json') as settingsFile:
 			index = json.load(indexFile)
 			settings = json.load(settingsFile)
 			if model == 'boolean':
-				return boolean_search(query, index, settings)
+				return boolean_search(query, index, settings, processed_path)
 			else:
-				return vsm_search(query, index, settings)
+				return vsm_search(query, index, settings, processed_path)

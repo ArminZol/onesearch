@@ -1,15 +1,14 @@
-from onesearch.settings import BASE_DIR
 from scripts.utilities import is_stopword
 import json
 
-def correction(null_word):
+def correction(null_word, processed_path):
 	if len(null_word) < 4 or is_stopword(null_word):
 		return None
 
 	null_word = null_word.lower()
 
 	possiblilities = []
-	with open(BASE_DIR + '/raw_dictionary.json') as file:
+	with open(processed_path + '/raw_dictionary.json') as file:
 		words = json.load(file)
 		for word in words:
 			if word[0] == null_word[0] and len(word) < len(null_word) + 3 and len(word) > len(null_word) - 3 and not is_stopword(word):

@@ -1,7 +1,6 @@
 from scripts.utilities import clean
 from nltk.tokenize import word_tokenize 
 from django.http import UnreadablePostError
-from onesearch.settings import BASE_DIR
 from engine.spelling_correction import correction
 import json
 
@@ -102,7 +101,7 @@ def word_to_ids(word_list):
 		ids.append(item['doc_id'])
 	return ids
 
-def handle_wildcard(word, index):
+def handle_wildcard(word, index, processed_path):
 	split = word.split('*')
 	word_bigram = []
 
@@ -120,7 +119,7 @@ def handle_wildcard(word, index):
 	if len(word_bigram) == 0:
 		return []
 
-	with open(BASE_DIR + '/bigrams.json') as file:
+	with open(processed_path + '/bigrams.json') as file:
 		bigrams = json.load(file)
 		words = sorted(bigrams[word_bigram[0]])
 		for i in range(1, len(word_bigram)):
@@ -134,7 +133,7 @@ def handle_wildcard(word, index):
 			documents = boolean_calculate(documents, word_to_ids(index[word]['documents']), 'OR')
 		return documents
 
-def boolean_search(query, index, settings):
+def boolean_search(query, index, settings, processed_path):
 	infix = infix_to_postfix(query)
 	stack = []
 	possible_corrections = {}
@@ -147,13 +146,13 @@ def boolean_search(query, index, settings):
 			ids = []
 			cleaned = clean(item, settings)
 			if '*' in cleaned:
-				ids = handle_wildcard(cleaned, index)
+				ids = handle_wildcard(cleaned, index, processed_path)
 			elif cleaned and cleaned in index:
 				ids = word_to_ids(index[cleaned]['documents'])
 			else:
-				tmp_correction = correction(item)
+				tmp_correction = correction(item, processed_path)
 				if tmp_correction:
-					possible_corrections[item] = correction(item)
+					possible_corrections[item] = tmp_correction
 
 			stack.append(ids)
 	return (stack.pop(), possible_corrections)

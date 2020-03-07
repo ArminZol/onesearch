@@ -20,19 +20,21 @@ def index(request):
 
 def search_results(request):
 	if request.method == 'GET':
-		results = search(request.GET['query'], request.GET['model'])
+		collection = request.GET['collections']
+		processed_path = BASE_DIR + '/processed/' + collection
+		results = search(request.GET['query'], request.GET['model'], processed_path)
 		documents = {}
-		with open(BASE_DIR + '/preprocessed.json') as file:
+		with open(processed_path + '/preprocessed.json') as file:
 			corpus = json.load(file)
 			for doc_id in results[0]:
 				documents[doc_id] = corpus[doc_id]
 
-		context = { 'documents':  documents, 'corrections': results[1] }
+		context = { 'collection': collection, 'documents':  documents, 'corrections': results[1] }
 		return render(request, 'results.html', context)
 	raise Http404("No GET request")
 
-def document(request, doc_id):
-	with open(BASE_DIR + '/preprocessed.json') as file:
+def document(request, collection, doc_id):
+	with open(BASE_DIR + '/processed/' + collection + '/preprocessed.json') as file:
 		corpus = json.load(file)
 		context = { 'doc_id': doc_id, 'document':  corpus[doc_id] }
 		return render(request, 'document.html', context)
