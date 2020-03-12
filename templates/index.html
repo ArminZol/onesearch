@@ -2,6 +2,7 @@
 
 {% block form %}
 	<script type="text/javascript">
+		// https://materializecss.com/autocomplete.html used for UI with manual functionality below
 		document.addEventListener('DOMContentLoaded', function() {
 			var elems = document.querySelectorAll('.autocomplete');
 			var instances = M.Autocomplete.init(elems);
@@ -12,6 +13,8 @@
 
 		function setup_autocomplete(event, self) {
 			var instance = M.Autocomplete.getInstance(self);
+
+			// Update results if spacebar is clicked
 			if (event.keyCode == 32) {
 				var autofill_word = self.value.toLowerCase().trim().split(" ").slice(-1)[0];
 				var autocomplete_data = {};
@@ -25,10 +28,11 @@
 
 				var words = bigrams[autofill_word];
 				for (var word in words) {
+					// https://via.placeholder.com used to generate image with conditional frequency 
 					autocomplete_data[self.value.toLowerCase() + " " + word] = 'https://via.placeholder.com/250?text=' + words[word];
 				}
 				instance.updateData(autocomplete_data);
-			} else {
+			} else { // Remove all results otherwise
 				instance.updateData({});
 			}
 		}
