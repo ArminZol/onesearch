@@ -1,11 +1,44 @@
 {% extends "base.html" %}
 
 {% block form %}
+	<script type="text/javascript">
+		document.addEventListener('DOMContentLoaded', function() {
+			var elems = document.querySelectorAll('.autocomplete');
+			var instances = M.Autocomplete.init(elems);
+		});
+
+		var courses_bigrams = {{courses_bigrams|safe}};
+		var reuters_bigrams = {{reuters_bigrams|safe}};
+
+		function setup_autocomplete(event, self) {
+			var instance = M.Autocomplete.getInstance(self);
+			if (event.keyCode == 32) {
+				var autofill_word = self.value.toLowerCase().trim().split(" ").slice(-1)[0];
+				var autocomplete_data = {};
+				
+				var bigrams = {}
+				if (document.getElementById('courses_collection').checked) {
+					bigrams = courses_bigrams;
+				} else if (document.getElementById('reuters_collection').checked) {
+					bigrams = reuters_bigrams;
+				}
+
+				var words = bigrams[autofill_word];
+				for (var word in words) {
+					autocomplete_data[self.value.toLowerCase() + " " + word] = 'https://via.placeholder.com/250?text=' + words[word];
+				}
+				instance.updateData(autocomplete_data);
+			} else {
+				instance.updateData({});
+			}
+		}
+	</script>
+
 	<form action="result" method="GET" class="col s12">
 		<div class="row">
 			<div class="input-field col s9">
 				<i class="material-icons prefix">account_circle</i>
-				{{form.query}}
+				<input type="text" name="query" maxlength="100" required class="autocomplete" id="{{form.query.auto_id}}" onkeypress="setup_autocomplete(event,this)">
 				{{form.query.label_tag}}
 			</div>
 			<button class="btn waves-effect waves-light" type="submit" name="action" style="margin: 1rem 0">Submit
@@ -29,13 +62,13 @@
 				<p>Collections:</p>
 					<p>
 						<label>
-							<input name="collection" value="courses" type="radio" checked/>
+							<input name="collection" value="courses" type="radio" id="courses_collection" checked/>
 							<span>uOttawa Courses</span>
 						</label>
 					</p>
 					<p>
 						<label>
-							<input name="collection" value="reuters" type="radio"/>
+							<input name="collection" value="reuters" id="reuters_collection" type="radio"/>
 							<span>Reuters</span>
 						</label>
 					</p>

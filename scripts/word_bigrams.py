@@ -24,16 +24,20 @@ def save_bigrams(path):
 				for i in range(1, len(words)):
 					word1 = words[i-1].lower()
 					word2 = words[i].lower()
-					if len(word1) > 1 and len(word2) > 1:
-						increment = 1 / dictionary[word1]
+					# Only accepts pairs where words are longer than 1 letter, and that the conditioning word has more than 5 tf.
+					if len(word1) > 1 and len(word2) > 1 and dictionary[word1] >= 5:
+						# increment = 1 / dictionary[word1]
 						if word1 in bigrams:
 							if word2 in bigrams[word1]:
-								bigrams[word1][word2] += increment
+								bigrams[word1][word2] += 1
 							else:
-								bigrams[word1][word2] = increment
+								bigrams[word1][word2] = 1
 						else:
-							bigrams[word1] = { word2: increment }
+							bigrams[word1] = { word2: 1 }
 				bar.update(doc['id'])
+			# Only keeps top 3 results of each
+			for word in bigrams:
+				bigrams[word] = {k: v for k, v in sorted(bigrams[word].items(), key=lambda item: item[1], reverse=True)[:3]}
 			bar.finish()
 
 	with open(path + '/word_bigrams.json', 'w') as outfile:

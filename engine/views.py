@@ -15,7 +15,14 @@ class SearchForm(forms.Form):
 
 def index(request):
 	form = SearchForm()
-	context = { 'form': form }
+	courses_bigrams = {}
+	reuters_bigrams = {}
+	with open(BASE_DIR + '/processed/courses/word_bigrams.json') as file:
+		courses_bigrams = json.load(file)
+	with open(BASE_DIR + '/processed/reuters/word_bigrams.json') as file:
+		reuters_bigrams = json.load(file)
+
+	context = { 'form': form, 'courses_bigrams': courses_bigrams, 'reuters_bigrams': reuters_bigrams }
 	return render(request, 'index.html', context)
 
 def search_results(request):
