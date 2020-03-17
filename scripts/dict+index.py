@@ -63,10 +63,10 @@ def save_dict_index(path):
 			index[word]['idf'] = math.log(num_docs / (len(index[word]['docs'])),10)
 
 	with open(path + '/dictionary.json', 'w') as outfile:
-		json.dump(dictionary, outfile, indent = 4, ensure_ascii = False)
+		json.dump(dictionary, outfile, indent = 2, ensure_ascii = False)
 
 	with open(path + '/raw_dictionary.json', 'w') as outfile:
-		json.dump(raw_dictionary, outfile, indent = 4, ensure_ascii = False)
+		json.dump(raw_dictionary, outfile, indent = 2, ensure_ascii = False)
 
 	with open(path + '/index.json', 'w') as outfile:
 		json.dump(index, outfile, ensure_ascii = False)
@@ -96,7 +96,7 @@ else:
 	settings['stopword_removal'] = True
 
 with open(BASE_DIR + '/processed/settings.json', 'w') as outfile:
-	json.dump(settings, outfile, indent = 4, ensure_ascii = False)
+	json.dump(settings, outfile, indent = 2, ensure_ascii = False)
 
 print("Starting Courses...")
 save_dict_index(BASE_DIR + "/processed/courses")

@@ -40,7 +40,7 @@ def parse_courses(processed_path):
 
 	# JSON write from https://stackoverflow.com/questions/12309269/how-do-i-write-json-data-to-a-file/20776329#20776329
 	with open(processed_path, 'w') as outfile:
-		json.dump(parsed, outfile, indent = 4, ensure_ascii = False)
+		json.dump(parsed, outfile, indent = 2, ensure_ascii = False)
 
 # Throw error if file already generated
 processed_path = BASE_DIR + "/processed/courses/preprocessed.json"

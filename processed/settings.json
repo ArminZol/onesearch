@@ -1,5 +1,5 @@
 {
-    "stemming": true,
-    "normalization": true,
-    "stopword_removal": true
+  "stemming": true,
+  "normalization": true,
+  "stopword_removal": true
 }

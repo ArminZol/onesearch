@@ -28,7 +28,7 @@ def save_letter_bigrams(path):
 					bigrams[item] = [word]
 
 	with open(path + '/letter_bigrams.json', 'w') as outfile:
-		json.dump(bigrams, outfile, indent = 4, ensure_ascii = False)
+		json.dump(bigrams, outfile, indent = 2, ensure_ascii = False)
 
 print("Starting Courses...")
 save_letter_bigrams(BASE_DIR + "/processed/courses")
