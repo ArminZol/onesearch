@@ -34,10 +34,11 @@ def save_dict_index(path):
 			if 'body' in doc:
 				words += word_tokenize(doc['body'])
 			for word in words:
-				if word.lower() in raw_dictionary:
-					raw_dictionary[word.lower()] += 1
+				word = word.lower()
+				if word in raw_dictionary:
+					raw_dictionary[word] += 1
 				else:
-					raw_dictionary[word.lower()] = 1
+					raw_dictionary[word] = 1
 					
 				word = clean(word, settings)
 				if word == None or word == '':

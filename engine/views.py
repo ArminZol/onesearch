@@ -32,6 +32,7 @@ def search_results(request):
 		results = search(request.GET['query'], request.GET['model'], processed_path)
 
 		documents = {}
+		topics = {}
 		with open(processed_path + '/preprocessed.json') as file:
 			corpus = json.load(file)
 			for doc in results[0]:
@@ -39,8 +40,25 @@ def search_results(request):
 					documents[doc] = (corpus[doc], None)
 				elif request.GET['model'] == 'vsm':
 					documents[doc[0]] = (corpus[doc[0]], doc[1])
-		
-		context = { 'collection': collection, 'documents':  documents, 'corrections': results[1] }
+	
+		if collection == 'reuters':
+			with open(processed_path + '/topics.json') as file:
+				tmp = json.load(file)
+				for doc in documents:
+					topic = tmp[doc]
+					if len(topic['topics']) == 0:
+						if 'none' in topics:
+							topics['none'].append(doc)
+						else:
+							topics['none'] = [doc]
+					for t in topic['topics']:
+						if t in topics:
+							topics[t].append(doc)
+						else:
+							topics[t] = [doc]
+
+		# TODO: Create filter for topics
+		context = { 'collection': collection, 'documents':  documents, 'corrections': results[1], 'topics': topics }
 		return render(request, 'results.html', context)
 	raise Http404("No GET request")
 
@@ -48,5 +66,8 @@ def document(request, collection, doc_id):
 	with open(BASE_DIR + '/processed/' + collection + '/preprocessed.json') as file:
 		corpus = json.load(file)
 		context = { 'doc_id': doc_id, 'document':  corpus[doc_id] }
+		if collection == 'reuters':
+			with open(BASE_DIR + '/processed/' + collection + '/topics.json') as topicsFile:
+				context['topic'] = json.load(topicsFile)[doc_id]
 		return render(request, 'document.html', context)
 	return Http404("Missing Preprocessed File")

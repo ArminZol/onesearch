@@ -5,7 +5,7 @@ from bs4.element import Tag
 from utilities import BASE_DIR
 import json
 import os.path
-import time
+
 # This code is designed directly from the Beautiful Soup documentation
 # https://www.crummy.com/software/BeautifulSoup/bs4/doc/
 

@@ -3,9 +3,8 @@
 {% block form %}
 	<script type="text/javascript">
 		// https://materializecss.com/autocomplete.html used for UI with manual functionality below
-		document.addEventListener('DOMContentLoaded', function() {
-			var elems = document.querySelectorAll('.autocomplete');
-			var instances = M.Autocomplete.init(elems);
+		$(document).ready(function(){
+			$('input.autocomplete').autocomplete();
 		});
 
 		var courses_bigrams = {{courses_bigrams|safe}};

@@ -5,6 +5,23 @@
 		<div class="col s12">
 			<div class="section">
 				<h5>DOC ID: {{doc_id}}</h5>
+				
+				{% if topic %}
+					<h5>
+					Topic(s): 
+					{% if topic.topics %}
+						{% for item in topic.topics %}
+							{{item}}{% if not forloop.last %},{% endif %}
+						{% endfor %}
+					{% else %}
+						None
+					{% endif %}
+					{% if not topic.assigned %}
+						(Generated)
+					{% endif %}
+					</h5>
+				{% endif %}
+
 				<h5>{{document.title}}</h5>
 				<p>{{document.body}}</p>
 			</div>

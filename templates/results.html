@@ -5,14 +5,39 @@
 
 	<!-- https://materializecss.com/tooltips.html -->
 	<script type="text/javascript">
-		document.addEventListener('DOMContentLoaded', function() {
-			var elems = document.querySelectorAll('.tooltipped');
-			var instances = M.Tooltip.init(elems);
+		$(document).ready(function(){
+			$('.tooltipped').tooltip();
+			$('.dropdown-trigger').dropdown();
 		});
+
+		var topics = {{topics|safe}};
+		function filter_topic(filter) {
+			// https://stackoverflow.com/questions/4644673/hide-all-elements-with-class-using-plain-javascript
+			document.querySelectorAll('.doc-preview').forEach(function(el) {
+				el.style.display = "none";
+			});
+			for (var item in topics[filter]) {
+				document.getElementById(topics[filter][item]).style.display = "block";
+			}
+		}
 	</script>
 
 	<div class="row">
+	</div>
+
+	<div class="row">
 		<div class="col s12">
+			{% if topics %}
+				<a class='dropdown-trigger btn right' href='#' data-target='topic-dropdown'>Drop Me!</a>
+
+				<!-- Dropdown Structure -->
+				<ul id='topic-dropdown' class='dropdown-content'>
+					{% for topic in topics %}
+						<li><a href="#!" onclick="filter_topic('{{topic}}')">{{topic}}</a></li>
+					{% endfor %}
+				</ul>
+			{% endif %}
+
 			{% if not documents.items %}
 				<h5>No results</h5>
 			{% endif %}
@@ -27,7 +52,7 @@
 			{% endif %}
 
 			{% for id,doc in documents.items %}
-				<div class="section">
+				<div class="section doc-preview" id="{{id}}">
 					<h5>
 						<a
 							{% if doc.1 %}
@@ -45,8 +70,8 @@
 						</p>
 
 					{% endif %}
+					<div class="divider"></div>
 				</div>
-				<div class="divider"></div>
 			{% endfor %}
 		</div>
 	</div>
