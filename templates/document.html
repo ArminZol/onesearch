@@ -4,10 +4,10 @@
 	<div class="row">
 		<div class="col s12">
 			<div class="section">
-				<h5>DOC ID: {{doc_id}}</h5>
+				<p>DOC ID: {{doc_id}}</p>
 				
 				{% if topic %}
-					<h5>
+					<p>
 					Topic(s): 
 					{% if topic.topics %}
 						{% for item in topic.topics %}
@@ -19,11 +19,11 @@
 					{% if not topic.assigned %}
 						(Generated)
 					{% endif %}
-					</h5>
+					</p>
 				{% endif %}
 
 				<h5>{{document.title}}</h5>
-				<p>{{document.body}}</p>
+				<p style="white-space: pre-wrap;">{{document.body}}</p>
 			</div>
 		</div>
 	</div>

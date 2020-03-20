@@ -40,7 +40,7 @@ with open(path + '/reuters/preprocessed.json') as preprocessedFile, \
 				for item in index[word]['docs']:
 					if item['id'] != topic['id'] and 'topics' in topics[item['id']]: # Only find score of objects that have topics
 						if item['id'] in scores:
-							scores[item['id']] += item['tf'] * word_count[word]
+							scores[item['id']] += item['tf'] * index[word]['idf'] * word_count[word]
 						else:
 							scores[item['id']] = item['tf'] * word_count[word]
 			nn = [key for key,value in sorted(scores.items(), key=lambda item: item[1], reverse=True)[:3]]

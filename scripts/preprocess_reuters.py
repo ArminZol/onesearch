@@ -37,7 +37,7 @@ def parse_courses(processed_path):
 				if title:
 					item['title'] = title.string
 				if body:
-					item['body'] = body.string
+					item['body'] = body.string.replace('\u0003', '')
 				if 'title' in item and 'body' in item:
 					parsed.append(item)
 					topics.append(topic)

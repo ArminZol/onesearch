@@ -57,7 +57,6 @@ def search_results(request):
 						else:
 							topics[t] = [doc]
 
-		# TODO: Create filter for topics
 		context = { 'collection': collection, 'documents':  documents, 'corrections': results[1], 'topics': topics }
 		return render(request, 'results.html', context)
 	raise Http404("No GET request")
