@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 from nltk.tokenize import word_tokenize 
-from utilities import BASE_DIR
+from utilities import BASE_DIR, is_stopword
 import json
 import progressbar
 
@@ -25,7 +25,7 @@ def save_bigrams(path):
 					word1 = words[i-1].lower()
 					word2 = words[i].lower()
 					# Only accepts pairs where words are longer than 1 letter, and that the conditioning word has more than 5 tf.
-					if len(word1) > 1 and len(word2) > 1 and dictionary[word1] >= 5:
+					if len(word1) > 1 and len(word2) > 1 and dictionary[word1] >= 5 and not is_stopword(word1) and not is_stopword(word2):
 						# increment = 1 / dictionary[word1]
 						if word1 in bigrams:
 							if word2 in bigrams[word1]:

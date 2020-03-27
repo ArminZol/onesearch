@@ -11,28 +11,31 @@
 		var reuters_bigrams = {{reuters_bigrams|safe}};
 
 		function setup_autocomplete(event, self) {
-			var instance = M.Autocomplete.getInstance(self);
+			// Only do autocomplete when VSM selected
+			if (document.getElementById('id_model_1').checked) {
+				var instance = M.Autocomplete.getInstance(self);
 
-			// Update results if spacebar is clicked
-			if (event.keyCode == 32) {
-				var autofill_word = self.value.toLowerCase().trim().split(" ").slice(-1)[0];
-				var autocomplete_data = {};
-				
-				var bigrams = {}
-				if (document.getElementById('courses_collection').checked) {
-					bigrams = courses_bigrams;
-				} else if (document.getElementById('reuters_collection').checked) {
-					bigrams = reuters_bigrams;
-				}
+				// Update results if spacebar is clicked
+				if (event.keyCode == 32) {
+					var autofill_word = self.value.toLowerCase().trim().split(" ").slice(-1)[0];
+					var autocomplete_data = {};
+					
+					var bigrams = {}
+					if (document.getElementById('courses_collection').checked) {
+						bigrams = courses_bigrams;
+					} else if (document.getElementById('reuters_collection').checked) {
+						bigrams = reuters_bigrams;
+					}
 
-				var words = bigrams[autofill_word];
-				for (var word in words) {
-					// https://via.placeholder.com used to generate image with conditional frequency 
-					autocomplete_data[self.value.toLowerCase() + " " + word] = 'https://via.placeholder.com/250?text=' + words[word];
+					var words = bigrams[autofill_word];
+					for (var word in words) {
+						// https://via.placeholder.com used to generate image with conditional frequency 
+						autocomplete_data[self.value.toLowerCase() + " " + word] = 'https://via.placeholder.com/250?text=' + words[word];
+					}
+					instance.updateData(autocomplete_data);
+				} else { // Remove all results otherwise
+					instance.updateData({});
 				}
-				instance.updateData(autocomplete_data);
-			} else { // Remove all results otherwise
-				instance.updateData({});
 			}
 		}
 	</script>

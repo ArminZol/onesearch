@@ -4,44 +4,15 @@
     "1101": 1,
     "1300": 1
   },
-  "introduction": {
-    "to": 97,
-    "and": 1
-  },
-  "to": {
-    "math": 59,
-    "comp": 56,
-    "the": 46
-  },
   "business": {
     "intelligence": 7,
-    "and": 5,
-    "models": 5
-  },
-  "this": {
-    "course": 154,
-    "seminar": 2,
-    "field": 2
+    "models": 5,
+    "communication": 4
   },
   "course": {
-    "is": 140,
     "includes": 7,
-    "in": 6
-  },
-  "the": {
-    "course": 19,
-    "organization": 13,
-    "study": 13
-  },
-  "student": {
-    "will": 3,
-    "with": 2,
-    "an": 1
-  },
-  "with": {
-    "the": 12,
-    "applications": 7,
-    "individuals": 4
+    "provides": 2,
+    "situates": 2
   },
   "basic": {
     "concepts": 3,
@@ -49,89 +20,24 @@
     "research": 3
   },
   "knowledge": {
-    "of": 5,
     "necessary": 2,
-    "related": 2
-  },
-  "an": {
-    "introduction": 11,
-    "organization": 6,
-    "in-depth": 3
-  },
-  "will": {
-    "be": 20,
-    "focus": 5,
-    "vary": 5
-  },
-  "learn": {
-    "how": 3,
-    "what": 2,
-    "to": 2
+    "related": 2,
+    "acquired": 2
   },
   "'s": {
     "theorem": 12,
     "four": 3,
     "lemma": 3
   },
-  "role": {
-    "of": 14,
-    "and": 2,
-    "in": 2
-  },
-  "and": {
-    "the": 52,
-    "their": 22,
-    "analysis": 17
-  },
-  "how": {
-    "to": 8,
-    "the": 3,
-    "estimates": 1
-  },
   "managerial": {
     "accounting": 3,
     "functions": 2,
     "ethics": 2
   },
-  "functions": {
-    "of": 13,
-    "and": 7,
-    "to": 1
-  },
-  "of": {
-    "the": 128,
-    "data": 16,
-    "information": 14
-  },
-  "communication": {
-    "and": 3,
-    "of": 3,
-    "are": 2
-  },
-  "are": {
-    "used": 3,
-    "also": 3,
-    "introduced": 3
-  },
-  "used": {
-    "to": 7,
-    "in": 5,
-    "for": 1
-  },
   "organization": {
     "'s": 5,
-    "and": 4,
-    "design": 3
-  },
-  "in": {
-    "the": 70,
-    "psychology": 27,
-    "social": 13
-  },
-  "through": {
-    "the": 6,
-    "which": 1,
-    "practical": 1
+    "design": 3,
+    "culture": 1
   },
   "case": {
     "studies": 7,
@@ -139,43 +45,11 @@
     "study": 1
   },
   "method": {
-    "of": 4,
-    "approach": 2,
-    "for": 1
-  },
-  "students": {
-    "will": 12,
-    "are": 4,
-    "to": 3
-  },
-  "be": {
-    "used": 6,
-    "expected": 4,
-    "available": 4
-  },
-  "introduced": {
-    "to": 3,
-    "using": 1
+    "approach": 2
   },
   "problem": {
     "solving": 12,
-    "of": 1,
     "using": 1
-  },
-  "such": {
-    "as": 31,
-    "issues": 2,
-    "programs": 1
-  },
-  "issues": {
-    "in": 16,
-    "and": 9,
-    "of": 5
-  },
-  "as": {
-    "well": 9,
-    "the": 8,
-    "an": 8
   },
   "corporate": {
     "finance": 8,
@@ -184,76 +58,28 @@
   },
   "social": {
     "psychology": 15,
-    "and": 9,
-    "responsibility": 6
-  },
-  "responsibility": {
-    "and": 2,
-    "accounting": 1,
-    "are": 1
-  },
-  "context": {
-    "of": 16,
-    "in": 2,
-    "via": 1
-  },
-  "within": {
-    "the": 5,
-    "its": 2,
-    "accounting": 1
-  },
-  "its": {
-    "changing": 2,
-    "development": 2,
-    "impact": 1
+    "responsibility": 6,
+    "development": 6
   },
   "changing": {
     "socio-economic": 2,
     "international": 1,
     "competitive": 1
   },
-  "political": {
-    "and": 2,
-    "risk": 1,
-    "viability": 1
-  },
   "technological": {
-    "and": 2,
     "risk": 2,
-    "environments": 1
+    "environments": 1,
+    "networks": 1
   },
   "managers": {
     "must": 2,
-    "and": 2,
-    "face": 1
+    "face": 1,
+    "need": 1
   },
   "must": {
     "learn": 2,
     "complete": 2,
-    "be": 2
-  },
-  "both": {
-    "the": 3,
-    "distinguish": 2,
-    "deterministic": 1
-  },
-  "between": {
-    "and": 2,
-    "the": 2,
-    "risk": 1
-  },
-  "more": {
-    "confrontational": 2,
-    "of": 2,
-    "in-depth": 1
-  },
-  "world": {
-    "of": 2,
-    "are": 1,
-    "wide": 1
-  },
-  "well": {
-    "as": 9
+    "examine": 1
   },
   "collaborative": {
     "governance": 2,
@@ -261,122 +87,50 @@
     "virtual": 1
   },
   "governance": {
-    "mechanisms": 2,
-    "that": 2
-  },
-  "mechanisms": {
-    "that": 2,
-    "underlying": 2,
-    "through": 1
-  },
-  "that": {
-    "apply": 3,
-    "join": 2,
-    "arise": 2
-  },
-  "public": {
-    "and": 4,
-    "sector": 4,
-    "policy": 3
+    "mechanisms": 2
   },
   "address": {
     "real-world": 2,
-    "the": 2,
-    "these": 1
+    "problems": 1,
+    "local": 1
   },
   "ethical": {
     "issues": 5,
     "management": 2,
-    "and": 2
+    "decision": 1
   },
   "strategic": {
     "management": 8,
     "entrepreneurship": 3,
     "governance": 2
   },
-  "particular": {
-    "topic": 5,
-    "attention": 3,
-    "through": 1
-  },
   "financial": {
     "statements": 7,
     "accounting": 4,
     "reporting": 4
   },
+  "accounting": {
+    "information": 3,
+    "system": 2,
+    "policy": 1
+  },
   "statements": {
-    "of": 2,
     "play": 1
   },
-  "accounting": {
-    "for": 5,
-    "and": 3,
-    "information": 3
-  },
-  "system": {
-    "architectures": 2,
-    "that": 1,
-    "as": 1
-  },
-  "emphasis": {
-    "on": 14,
-    "is": 6,
-    "will": 1
-  },
-  "is": {
-    "equivalent": 143,
-    "limited": 6,
-    "on": 4
-  },
-  "on": {
-    "the": 32,
-    "professor": 5,
-    "understanding": 3
-  },
-  "understanding": {
-    "the": 2,
-    "when": 1,
-    "of": 1
+  "policy": {
+    "choices": 1,
+    "towards": 1,
+    "ii": 1
   },
   "information": {
     "systems": 23,
     "technology": 7,
     "retrieval": 7
   },
-  "about": {
-    "the": 3,
-    "future": 3,
-    "ordinary": 2
-  },
-  "policy": {
-    "and": 7,
-    "choices": 1,
-    "towards": 1
-  },
-  "numbers": {
-    "to": 2,
-    "in": 1,
-    "and": 1
-  },
-  "applications": {
-    "of": 26,
-    "to": 14,
-    "in": 7
-  },
   "technology": {
-    "and": 5,
     "forecasting": 3,
-    "in": 3
-  },
-  "for": {
-    "the": 15,
-    "students": 5,
-    "solving": 5
-  },
-  "tools": {
-    "for": 5,
-    "and": 3,
-    "to": 2
+    "tools": 1,
+    "transfer": 1
   },
   "support": {
     "systems": 2,
@@ -385,52 +139,32 @@
   },
   "level": {
     "processes": 1,
-    "and": 1,
-    "research": 1
-  },
-  "processes": {
-    "and": 4,
-    "in": 1,
-    "of": 1
+    "research": 1,
+    "fault": 1
   },
   "decision": {
     "making": 7,
     "theory": 4,
     "support": 3
   },
-  "making": {
-    "in": 1,
-    "within": 1,
-    "for": 1
-  },
   "solving": {
     "business": 2,
-    "and": 2,
-    "using": 1
+    "using": 1,
+    "techniques": 1
   },
   "using": {
     "statistical": 4,
-    "the": 3,
-    "spreadsheets": 1
+    "spreadsheets": 1,
+    "confidence": 1
   },
-  "databases": {
-    "and": 4,
-    "ii": 1
+  "tools": {
+    "used": 1,
+    "associated": 1
   },
-  "specific": {
-    "applications": 2,
-    "it": 1,
-    "service": 1
-  },
-  "it": {
-    "relates": 3,
-    "and": 2,
-    "tools": 1
-  },
-  "operations": {
-    "management": 4,
-    "research": 3,
-    "on": 3
+  "making": {
+    "within": 1,
+    "levels": 1,
+    "multidisciplinary": 1
   },
   "various": {
     "concepts": 2,
@@ -442,20 +176,10 @@
     "areas": 1,
     "impairments": 1
   },
-  "areas": {
-    "of": 6,
-    "not": 2,
-    "such": 1
-  },
   "including": {
-    "the": 2,
     "marketing": 1,
-    "graphical": 1
-  },
-  "sales": {
-    "promotion": 3,
-    "and": 1,
-    "service": 1
+    "graphical": 1,
+    "binomial": 1
   },
   "customer": {
     "relationship": 2,
@@ -467,84 +191,30 @@
     "resource": 8,
     "sexual": 4
   },
-  "finance": {
-    "and": 2,
-    "theory": 1,
-    "courses": 1
-  },
-  "intelligence": {
-    "and": 3,
-    "technologies": 2,
-    "gathering": 1
-  },
   "performance": {
     "measurement": 7,
-    "and": 3,
-    "management": 2
+    "management": 2,
+    "appraisal": 2
   },
   "management": {
-    "and": 14,
-    "of": 10,
-    "in": 4
-  },
-  "concepts": {
-    "of": 16,
-    "and": 9,
-    "are": 3
-  },
-  "techniques": {
-    "in": 11,
-    "for": 8,
-    "and": 7
-  },
-  "focus": {
-    "on": 14,
-    "of": 3,
-    "groups": 1
+    "information": 3,
+    "ii": 3,
+    "issues": 3
   },
   "organizational": {
     "change": 3,
     "planning": 2,
-    "and": 2
-  },
-  "allocation": {
-    "of": 1,
-    "and": 1
+    "effectiveness": 2
   },
   "modeling": {
-    "and": 7,
-    "of": 2,
-    "approaches": 1
-  },
-  "approaches": {
-    "to": 8,
-    "in": 4,
-    "for": 2
-  },
-  "interpretation": {
-    "of": 9,
-    "skills": 1,
-    "mechanisms": 1
-  },
-  "statistics": {
-    "for": 3,
-    "in": 3,
-    "and": 2
-  },
-  "use": {
-    "of": 13,
-    "relevant": 1,
-    "these": 1
+    "approaches": 1,
+    "techniques": 1,
+    "applied": 1
   },
   "statistical": {
     "software": 7,
     "inference": 5,
     "methods": 4
-  },
-  "methods": {
-    "for": 14,
-    "in": 13,
-    "and": 10
   },
   "data": {
     "mining": 10,
@@ -554,14 +224,10 @@
   "descriptive": {
     "statistics": 6
   },
-  "representation": {
-    "of": 3,
-    "theory": 2,
-    "theorems": 1
-  },
-  "measure": {
-    "and": 6,
-    "of": 1
+  "statistics": {
+    "including": 1,
+    "using": 1,
+    "ii": 1
   },
   "central": {
     "limit": 6,
@@ -573,57 +239,24 @@
     "graphs": 2,
     "environments": 2
   },
-  "variables": {
-    "and": 1,
-    "affecting": 1
-  },
-  "their": {
-    "underlying": 2,
-    "relation": 2,
-    "integration": 2
-  },
   "probability": {
-    "and": 9,
     "theory": 7,
-    "distributions": 3
-  },
-  "distribution": {
-    "of": 3,
-    "functions": 3,
-    "theory": 2
-  },
-  "distributions": {
-    "and": 2,
-    "in": 1
-  },
-  "exponential": {
-    "and": 2,
-    "functions": 1,
-    "map": 1
+    "distributions": 3,
+    "spaces": 2
   },
   "process": {
-    "and": 3,
-    "from": 2,
-    "management": 2
-  },
-  "control": {
-    "and": 3,
-    "systems": 2,
-    "of": 2
+    "management": 2,
+    "control": 1,
+    "costing": 1
   },
   "quality": {
     "management": 3,
     "issues": 2,
-    "in": 2
+    "control": 2
   },
   "hands-on": {
     "experience": 7,
     "exercises": 1
-  },
-  "experience": {
-    "with": 6,
-    "in": 2,
-    "as": 1
   },
   "and/or": {
     "minitab": 1,
@@ -631,14 +264,9 @@
     "secondary": 1
   },
   "topics": {
-    "in": 75,
     "include": 18,
-    "to": 10
-  },
-  "include": {
-    "the": 9,
-    "lectures": 3,
-    "current": 2
+    "chosen": 8,
+    "may": 5
   },
   "confidence": {
     "intervals": 4,
@@ -648,13 +276,10 @@
     "testing": 6,
     "formation": 1
   },
-  "correlation": {
-    "and": 4
-  },
   "simple": {
     "methods": 2,
     "linear": 1,
-    "and": 1
+    "differential": 1
   },
   "linear": {
     "algebra": 7,
@@ -664,92 +289,47 @@
   "regression": {
     "analysis": 5,
     "model": 1,
-    "and": 1
-  },
-  "extensions": {
-    "and": 2,
-    "of": 2,
-    "to": 1
+    "estimation": 1
   },
   "multiple": {
     "regression": 4,
     "research": 3,
     "organizations": 1
   },
-  "tests": {
-    "of": 3,
-    "and": 2,
-    "on": 1
-  },
   "qualitative": {
     "techniques": 2,
     "data": 1,
     "characteristics": 1
   },
-  "not": {
-    "covered": 6,
-    "satisfactory": 3,
-    "count": 2
-  },
   "software": {
     "packages": 6,
     "engineering": 6,
-    "and": 5
+    "development": 4
   },
   "entrepreneurial": {
     "society": 1,
     "process": 1,
     "failure": 1
   },
-  "characteristics": {
-    "of": 4,
-    "including": 1,
-    "and": 1
-  },
-  "women": {
-    "and": 1,
-    "in": 1
-  },
-  "entrepreneurship": {
-    "in": 2,
-    "as": 1,
-    "emphasises": 1
-  },
   "economic": {
     "development": 2,
-    "and": 2,
-    "perspective": 1
+    "perspective": 1,
+    "exposures": 1
   },
   "development": {
-    "of": 24,
-    "and": 7,
-    "in": 3
-  },
-  "strategy": {
-    "and": 7,
-    "formulation": 2,
-    "frameworks": 1
-  },
-  "programs": {
-    "in": 4,
-    "and": 1,
-    "for": 1
-  },
-  "evolution": {
-    "of": 5
+    "processes": 2,
+    "strategy": 1,
+    "issues": 1
   },
   "marketing": {
     "strategies": 3,
     "strategy": 3,
     "concept": 2
   },
-  "segmentation": {
-    "and": 3
-  },
   "decisions": {
     "involving": 1,
     "involved": 1,
-    "in": 1
+    "top": 1
   },
   "involving": {
     "product": 1,
@@ -761,15 +341,13 @@
     "concepts": 1,
     "underlying": 1
   },
-  "planning": {
-    "and": 13,
-    "for": 2,
-    "process": 1
+  "variables": {
+    "affecting": 1
   },
   "work": {
-    "in": 5,
     "motivation": 3,
-    "on": 2
+    "place": 2,
+    "environment": 1
   },
   "job": {
     "analysis": 4,
@@ -778,46 +356,24 @@
   },
   "group": {
     "dynamics": 2,
-    "will": 2,
-    "theory": 2
-  },
-  "conflict": {
-    "and": 1,
-    "management": 1
+    "theory": 2,
+    "actions": 2
   },
   "resource": {
     "planning": 4,
     "management": 3,
     "development": 2
   },
-  "policies": {
-    "and": 2,
-    "on": 1,
-    "regulating": 1
-  },
   "practices": {
-    "in": 4,
-    "and": 2,
-    "for": 2
-  },
-  "training": {
-    "and": 3,
-    "needs": 1,
-    "is": 1
+    "relating": 1,
+    "enabling": 1
   },
   "collective": {
     "bargaining": 2,
     "agreements": 1,
     "computation": 1
   },
-  "from": {
-    "the": 14,
-    "year": 6,
-    "an": 2
-  },
   "decision-making": {
-    "in": 3,
-    "and": 2,
     "process": 1
   },
   "major": {
@@ -825,95 +381,48 @@
     "assessment": 2,
     "topics": 1
   },
-  "products": {
-    "and": 4
-  },
   "cost": {
     "analysis": 3,
-    "of": 2,
-    "behaviour": 1
+    "behaviour": 1,
+    "allocation": 1
   },
   "relevant": {
     "scientific": 3,
     "costs": 2,
-    "to": 2
+    "commercial": 1
   },
   "standard": {
     "template": 2,
     "costs": 1,
     "error": 1
   },
-  "all": {
-    "cases": 2,
-    "topics": 1,
-    "sources": 1
+  "responsibility": {
+    "accounting": 1
   },
-  "order": {
-    "to": 2,
-    "equations": 2,
-    "and": 1
-  },
-  "value": {
-    "analysis": 2,
-    "theorem": 2,
-    "theorems": 2
-  },
-  "available": {
-    "from": 4,
-    "for": 1
-  },
-  "analysis": {
-    "of": 48,
-    "and": 23,
-    "in": 3
-  },
-  "solution": {
-    "of": 9,
-    "characteristics": 1,
-    "method": 1
+  "techniques": {
+    "used": 2,
+    "available": 1,
+    "covered": 1
   },
   "problems": {
-    "in": 6,
-    "and": 4,
-    "that": 3
-  },
-  "by": {
-    "the": 12,
-    "other": 4,
-    "required": 3
-  },
-  "environment": {
-    "and": 3,
-    "in": 1
-  },
-  "risk": {
-    "management": 7,
-    "and": 4,
-    "neutral": 2
+    "faced": 1,
+    "across": 1,
+    "posed": 1
   },
   "capital": {
     "budgeting": 5,
     "structure": 3,
     "management": 2
   },
-  "budgeting": {
-    "under": 4,
-    "and": 1
-  },
-  "under": {
-    "the": 6,
-    "supervision": 3,
-    "certainty": 2
+  "finance": {
+    "theory": 1,
+    "courses": 1,
+    "decisions": 1
   },
   "theoretical": {
     "models": 4,
     "aspects": 2,
-    "and": 2
-  },
-  "paradigms": {
-    "of": 1,
-    "on": 1,
-    "from": 1
+    "problems": 2
   },
   "modern": {
     "finance": 1,
@@ -921,43 +430,24 @@
     "portfolio": 1
   },
   "expected": {
-    "to": 4,
     "values": 2,
-    "utility": 1
+    "utility": 1,
+    "mean": 1
   },
-  "behavioural": {
-    "neuroscience": 8,
-    "and": 5,
-    "pharmacology": 2
+  "risk": {
+    "management": 7,
+    "neutral": 2,
+    "aversion": 1
   },
   "mental": {
     "health": 7,
     "accounting": 1,
-    "and": 1
+    "computation": 1
   },
   "underlying": {
     "principles": 2,
     "infrastructure": 1,
     "concepts": 1
-  },
-  "organizations": {
-    "and": 3,
-    "that": 1,
-    "from": 1
-  },
-  "systems": {
-    "and": 12,
-    "of": 8,
-    "at": 3
-  },
-  "at": {
-    "carleton": 136,
-    "the": 10,
-    "taxable": 1
-  },
-  "operational": {
-    "semantics": 2,
-    "and": 1
   },
   "electronic": {
     "commerce": 4,
@@ -969,43 +459,37 @@
     "liability": 1,
     "system": 1
   },
-  "security": {
-    "and": 7,
-    "mechanisms": 2,
-    "of": 2
-  },
   "advanced": {
     "topics": 14,
     "seminars": 3,
     "prescriptive": 2
   },
+  "communication": {
+    "skills": 2,
+    "systems": 2,
+    "networks": 2
+  },
   "develop": {
     "effective": 1,
-    "and": 1,
     "policy": 1
-  },
-  "strategies": {
-    "for": 5,
-    "and": 2,
-    "on": 1
   },
   "different": {
     "types": 3,
     "topics": 2,
     "audiences": 1
   },
-  "nature": {
-    "of": 4,
-    "and": 1
+  "operations": {
+    "management": 4,
+    "research": 3,
+    "strategy": 1
   },
   "service": {
-    "and": 2,
     "quality": 2,
-    "sectors": 1
+    "sectors": 1,
+    "industries": 1
   },
   "supply": {
     "chain": 13,
-    "of": 2,
     "networks": 1
   },
   "chain": {
@@ -1013,67 +497,38 @@
     "rule": 6,
     "strategy": 1
   },
-  "managing": {
-    "and": 2,
-    "organizational": 2,
-    "the": 2
-  },
   "inventory": {
     "management": 2,
     "control": 1,
     "analysis": 1
   },
   "requirements": {
-    "and": 3,
-    "for": 2,
-    "planning": 1
+    "planning": 1,
+    "capture": 1,
+    "engineering": 1
   },
   "enterprise": {
     "resource": 2,
     "requirement": 1,
-    "and": 1
-  },
-  "study": {
-    "of": 33,
-    "in": 2,
-    "method": 1
-  },
-  "impact": {
-    "of": 7,
-    "on": 1,
-    "psychological": 1
+    "systems": 1
   },
   "competitive": {
     "intelligence": 3,
-    "and": 2,
-    "environment": 2
-  },
-  "integration": {
-    "of": 10,
-    "into": 2,
-    "by": 2
+    "environment": 2,
+    "success": 1
   },
   "flows": {
     "across": 1
   },
   "across": {
-    "the": 3,
     "multiple": 1,
-    "subfields": 1
+    "subfields": 1,
+    "cultures": 1
   },
-  "forecasting": {
-    "and": 1,
-    "analytics": 1,
-    "demand": 1
-  },
-  "warehousing": {
-    "and": 2,
-    "appliances": 1
-  },
-  "relationships": {
-    "and": 2,
-    "in": 1,
-    "by": 1
+  "sales": {
+    "promotion": 3,
+    "service": 1,
+    "professionals": 1
   },
   "global": {
     "business": 2,
@@ -1083,12 +538,12 @@
   "simulation": {
     "analytics": 1,
     "modeling": 1,
-    "and": 1
+    "techniques": 1
   },
   "analytics": {
     "introducing": 1,
-    "will": 1,
-    "from": 1
+    "methods": 1,
+    "techniques": 1
   },
   "complex": {
     "numbers": 6,
@@ -1098,14 +553,14 @@
   "results": {
     "interpretation": 1
   },
-  "mining": {
-    "and": 2,
-    "process": 1,
-    "tasks": 1
+  "interpretation": {
+    "skills": 1,
+    "mechanisms": 1
   },
-  "clustering": {
-    "and": 2,
-    "algorithms": 1
+  "mining": {
+    "process": 1,
+    "tasks": 1,
+    "modeling": 1
   },
   "neural": {
     "networks": 3,
@@ -1115,13 +570,12 @@
   "big": {
     "data": 10
   },
-  "examples": {
-    "of": 4,
-    "from": 3,
-    "in": 2
+  "applications": {
+    "include": 2,
+    "chosen": 2,
+    "including": 1
   },
   "relationship": {
-    "between": 4,
     "management": 2,
     "status": 1
   },
@@ -1130,52 +584,39 @@
     "venture": 1,
     "business": 1
   },
+  "planning": {
+    "process": 1,
+    "practicum": 1,
+    "activities": 1
+  },
   "market": {
     "research": 4,
     "evaluation": 1,
     "insight": 1
   },
-  "evaluation": {
-    "of": 20,
-    "and": 5,
-    "practice": 2
-  },
-  "resources": {
-    "and": 2,
-    "planning": 1,
-    "information": 1
-  },
-  "projects": {
-    "and": 3,
-    "on": 2,
-    "in": 1
-  },
-  "concept": {
-    "of": 5,
-    "learning": 2,
-    "through": 1
+  "student": {
+    "projects": 1,
+    "centered": 1
   },
   "validation": {
-    "of": 3,
-    "and": 2,
-    "plan": 1
+    "plan": 1,
+    "methods": 1
   },
   "main": {
     "elements": 1,
     "information": 1,
     "schools": 1
   },
-  "elements": {
-    "of": 15,
-    "in": 1
-  },
   "fundamental": {
     "theorem": 9,
     "concepts": 2,
     "issues": 1
   },
+  "use": {
+    "relevant": 1,
+    "techniques": 1
+  },
   "profit": {
-    "and": 3,
     "seekers": 2,
     "planning": 1
   },
@@ -1184,29 +625,8 @@
     "intertwining": 1,
     "system": 1
   },
-  "markets": {
-    "and": 2,
-    "for": 2,
-    "selection": 1
-  },
-  "via": {
-    "the": 4,
-    "funds": 2,
-    "presentations": 1
-  },
-  "discussion": {
-    "of": 3,
-    "include": 2
-  },
-  "readings": {
-    "in": 2,
-    "and": 1,
-    "conducted": 1
-  },
-  "other": {
-    "graduate": 4,
-    "applications": 2,
-    "sources": 1
+  "context": {
+    "via": 1
   },
   "international": {
     "financial": 5,
@@ -1218,11 +638,6 @@
     "patterns": 1,
     "policies": 1
   },
-  "related": {
-    "to": 12,
-    "digital": 1,
-    "psychological": 1
-  },
   "also": {
     "considered": 1,
     "addressed": 1,
@@ -1233,90 +648,57 @@
     "situations": 1,
     "context": 1
   },
-  "aspects": {
-    "of": 20
-  },
   "comparative": {
     "management": 3,
     "cognition": 1,
     "analysis": 1
-  },
-  "relation": {
-    "to": 4,
-    "of": 3,
-    "between": 1
-  },
-  "ethics": {
-    "and": 4,
-    "of": 2,
-    "in": 1
-  },
-  "team": {
-    "meetings": 2,
-    "project": 2,
-    "and": 1
-  },
-  "culture": {
-    "of": 1,
-    "on": 1,
-    "change": 1
   },
   "canadian": {
     "equity": 2,
     "diversity": 1,
     "federal": 1
   },
-  "legislation": {
-    "and": 4,
-    "regulating": 1,
-    "in": 1
-  },
   "consumer": {
     "behaviour": 1,
     "'s": 1,
-    "and": 1
+    "demand": 1
+  },
+  "behavioural": {
+    "neuroscience": 8,
+    "pharmacology": 2,
+    "analysis": 1
   },
   "recent": {
     "applications": 1,
     "development": 1,
     "professional": 1
   },
-  "theory": {
-    "and": 17,
-    "of": 15,
-    "to": 2
-  },
   "services": {
     "marketing": 2,
-    "for": 2,
     "management": 1
   },
-  "firms": {
-    "that": 1,
-    "and": 1
+  "specific": {
+    "applications": 2,
+    "service": 1,
+    "engagement": 1
+  },
+  "include": {
+    "lectures": 3,
+    "current": 2,
+    "services": 1
   },
   "special": {
     "topics": 14,
     "attention": 2,
     "emphasis": 1
   },
-  "attention": {
-    "is": 3,
-    "to": 3,
-    "will": 1
-  },
-  "given": {
-    "to": 4,
-    "organizational": 1
-  },
-  "review": {
-    "of": 30,
-    "and": 1
-  },
   "research": {
-    "in": 37,
     "project": 9,
-    "methods": 8
+    "methods": 8,
+    "trends": 4
+  },
+  "focus": {
+    "groups": 1
   },
   "sample": {
     "theory": 2,
@@ -1328,35 +710,30 @@
     "data": 2,
     "statistical": 2
   },
-  "applied": {
-    "to": 4,
-    "mathematics": 4,
-    "research": 3
+  "analysis": {
+    "techniques": 1,
+    "tools": 1,
+    "computer": 1
   },
-  "advertising": {
-    "and": 3,
-    "effectiveness": 1,
-    "packaging": 1
+  "applied": {
+    "mathematics": 4,
+    "research": 3,
+    "investment": 2
   },
   "promotion": {
-    "and": 3,
     "management": 1,
-    "in": 1
-  },
-  "practice": {
-    "of": 5,
-    "re": 1,
-    "the": 1
+    "decisions": 1,
+    "strategy": 1
   },
   "communications": {
-    "and": 2,
     "field": 1,
-    "networks": 1
+    "networks": 1,
+    "software": 1
   },
   "media": {
     "decisions": 1,
-    "in": 1,
-    "download": 1
+    "download": 1,
+    "streaming": 1
   },
   "staffing": {
     "organizations": 1,
@@ -1368,19 +745,13 @@
     "knowledge": 1,
     "coverage": 1
   },
-  "external": {
-    "and": 3,
-    "clinical": 2,
-    "comparisons": 1
-  },
   "internal": {
-    "and": 3,
     "staffing": 1,
-    "comparisons": 1
+    "comparisons": 1,
+    "control": 1
   },
   "employment": {
     "equity": 3,
-    "and": 1,
     "income": 1
   },
   "equity": {
@@ -1388,57 +759,34 @@
     "legislation": 2,
     "securities": 2
   },
-  "identification": {
-    "and": 3,
-    "of": 2,
-    "topologies": 2
-  },
   "selection": {
-    "of": 3,
-    "and": 2,
     "criteria": 1
-  },
-  "career": {
-    "possibilities": 3,
-    "and": 1,
-    "potential": 1
   },
   "industrial": {
     "relations": 5,
-    "and": 3,
-    "engineering": 2
-  },
-  "theories": {
-    "of": 8,
-    "and": 5,
-    "for": 1
-  },
-  "structure": {
-    "and": 4,
-    "of": 3,
-    "under": 1
+    "engineering": 2,
+    "buyer": 1
   },
   "labour": {
     "organizations": 2,
     "standards": 1,
     "management": 1
   },
-  "administration": {
-    "of": 2,
-    "ii": 2,
-    "iii": 2
+  "policies": {
+    "regulating": 1
   },
   "compensation": {
-    "administration": 1,
-    "and": 1
+    "administration": 1
   },
   "pay": {
     "equity": 4,
     "surveys": 1,
     "structure": 1
   },
-  "surveys": {
-    "and": 1
+  "external": {
+    "clinical": 2,
+    "comparisons": 1,
+    "auditor": 1
   },
   "general": {
     "concepts": 3,
@@ -1446,9 +794,9 @@
     "area": 3
   },
   "income": {
-    "and": 4,
     "tax": 2,
-    "taxes": 2
+    "taxes": 2,
+    "investments": 1
   },
   "tax": {
     "implications": 2,
@@ -1460,33 +808,20 @@
     "taxpayers": 1,
     "taxpayer": 1
   },
-  "includes": {
-    "laboratory": 4,
-    "the": 1,
-    "calculation": 1
-  },
   "principal": {
     "component": 4,
     "concepts": 1,
     "ideal": 1
   },
-  "part": {
-    "of": 3
-  },
   "variance": {
-    "and": 4,
     "component": 2,
-    "analysis": 1
-  },
-  "implications": {
-    "of": 3,
-    "and": 1,
-    "in": 1
+    "analysis": 1,
+    "estimation": 1
   },
   "studies": {
-    "in": 6,
-    "of": 2,
-    "related": 1
+    "related": 1,
+    "and/or": 1,
+    "public": 1
   },
   "formal": {
     "languages": 2,
@@ -1494,32 +829,19 @@
     "accounting": 1
   },
   "auditing": {
-    "and": 2,
     "theory": 1,
-    "examines": 1
-  },
-  "definition": {
-    "of": 4,
-    "and": 2
+    "examines": 1,
+    "profession": 1
   },
   "audit": {
     "objectives": 1,
     "planning": 1,
-    "in": 1
-  },
-  "reporting": {
-    "as": 1,
-    "practices": 1,
-    "issues": 1
+    "functions": 1
   },
   "professional": {
     "skills": 9,
     "issues": 2,
     "ethics": 1
-  },
-  "society": {
-    "are": 1,
-    "on": 1
   },
   "fixed": {
     "income": 4,
@@ -1529,17 +851,16 @@
   "interest": {
     "rate": 3,
     "rates": 2,
-    "in": 2
+    "tests": 1
   },
   "portfolio": {
     "management": 11,
     "theory": 2,
-    "of": 2
+    "team": 2
   },
   "asset": {
     "valuation": 3,
-    "pricing": 2,
-    "and": 1
+    "pricing": 2
   },
   "pricing": {
     "models": 2,
@@ -1552,44 +873,45 @@
     "production": 1
   },
   "investment": {
-    "and": 3,
     "fund": 2,
-    "policies": 1
+    "policies": 1,
+    "decisions": 1
   },
   "investments": {
-    "made": 2,
-    "and": 1,
-    "such": 1
+    "made": 2
+  },
+  "via": {
+    "funds": 2,
+    "presentations": 1,
+    "simulation": 1
   },
   "funds": {
     "donated": 2
   },
-  "valuation": {
-    "and": 2
-  },
   "year": {
-    "to": 6,
     "program": 4,
-    "of": 2
+    "'s": 1
+  },
+  "students": {
+    "must": 3,
+    "enrolled": 3,
+    "explore": 1
   },
   "two": {
     "professors": 3,
-    "and": 3,
-    "year": 2
+    "year": 2,
+    "specialized": 1
   },
-  "activities": {
-    "include": 3,
-    "on": 2,
-    "in": 2
+  "team": {
+    "meetings": 2,
+    "project": 2
   },
   "basis": {
     "theorem": 3,
-    "throughout": 2,
-    "for": 2
+    "throughout": 2
   },
   "module": {
-    "ii": 3,
-    "and": 1
+    "ii": 3
   },
   "second": {
     "year": 2,
@@ -1610,58 +932,47 @@
     "markets": 3,
     "rate": 2
   },
+  "managing": {
+    "organizational": 2,
+    "technological": 2,
+    "transaction": 1
+  },
   "financing": {
     "decisions": 1,
     "real": 1
   },
-  "law": {
-    "and": 2,
-    "of": 2,
-    "that": 1
-  },
-  "principles": {
-    "of": 15,
-    "for": 4,
-    "and": 4
-  },
   "product": {
-    "and": 3,
-    "of": 3,
-    "measures": 2
+    "measures": 2,
+    "liability": 1,
+    "development": 1
   },
   "property": {
-    "law": 1,
-    "and": 1
+    "law": 1
   },
   "personal": {
     "selling": 2,
     "property": 1,
     "values": 1
   },
-  "into": {
-    "local": 2,
-    "information": 1,
-    "knowledge": 1
-  },
   "health": {
-    "and": 4,
     "promotion": 2,
-    "psychology": 2
+    "psychology": 2,
+    "service": 2
   },
-  "function": {
-    "theorem": 3,
-    "and": 2,
-    "of": 2
+  "public": {
+    "sector": 4,
+    "policy": 3,
+    "sectors": 2
+  },
+  "systems": {
+    "including": 2,
+    "development": 2,
+    "examples": 2
   },
   "emerging": {
     "topics": 2,
     "trends": 2,
     "economies": 2
-  },
-  "networks": {
-    "and": 3,
-    "in": 1,
-    "protocols": 1
   },
   "mobile": {
     "commerce": 2,
@@ -1670,114 +981,59 @@
   },
   "may": {
     "include": 9,
-    "be": 4,
-    "change": 2
+    "change": 2,
+    "vary": 1
   },
-  "vary": {
-    "depending": 5,
-    "with": 1
+  "system": {
+    "architectures": 2,
+    "characteristics": 1,
+    "thinking": 1
   },
-  "each": {
-    "30": 7,
-    "of": 3,
-    "group": 2
+  "characteristics": {
+    "including": 1,
+    "method": 1
   },
-  "based": {
-    "on": 11,
-    "data": 1,
-    "problem": 1
-  },
-  "trends": {
-    "in": 6,
-    "and": 2
-  },
-  "methodology": {
-    "for": 2,
-    "of": 1,
-    "and": 1
-  },
-  "or": {
-    "two": 4,
-    "more": 2,
-    "opportunities": 1
-  },
-  "opportunities": {
-    "and": 1,
-    "into": 1,
-    "in": 1
-  },
-  "technologies": {
-    "in": 3,
-    "and": 3,
-    "have": 1
-  },
-  "methodologies": {
-    "for": 2,
-    "selected": 1,
-    "in": 1
-  },
-  "design": {
-    "and": 25,
-    "of": 14,
-    "for": 2
+  "solution": {
+    "characteristics": 1,
+    "method": 1,
+    "methods": 1
   },
   "change": {
     "management": 5,
-    "from": 5,
-    "research": 2
+    "research": 2,
+    "agent-client": 1
   },
   "acquisition": {
-    "of": 3,
-    "alternatives": 1,
-    "and": 1
-  },
-  "seminar": {
-    "in": 13,
-    "public": 1,
-    "on": 1
-  },
-  "seminars": {
-    "in": 6,
-    "on": 4,
-    "will": 3
+    "alternatives": 1
   },
   "administrative": {
     "studies": 3,
     "policy": 1,
     "sciences": 1
   },
-  "these": {
-    "techniques": 5,
-    "seminars": 3,
-    "challenges": 1
-  },
   "project": {
     "management": 12,
     "carried": 3,
     "outside": 3
   },
+  "forecasting": {
+    "analytics": 1,
+    "demand": 1
+  },
   "time": {
     "series": 5,
-    "of": 4,
-    "course": 3
+    "course": 3,
+    "domain": 1
   },
   "series": {
     "analysis": 4,
-    "of": 3,
-    "solutions": 3
+    "solutions": 3,
+    "data": 1
   },
   "critical": {
     "analysis": 6,
     "review": 5,
     "evaluation": 4
-  },
-  "overview": {
-    "of": 15,
-    "is": 1
-  },
-  "quantitative": {
-    "methods": 4,
-    "and": 2
   },
   "in-class": {
     "activities": 3,
@@ -1786,16 +1042,17 @@
   },
   "courses": {
     "combined": 1,
-    "while": 1,
-    "in": 1
+    "mat1339": 1,
+    "ebc5389": 1
   },
-  "frameworks": {
-    "and": 3
+  "strategy": {
+    "formulation": 2,
+    "frameworks": 1,
+    "making": 1
   },
-  "which": {
-    "are": 2,
-    "encourages": 1,
-    "students": 1
+  "study": {
+    "method": 1,
+    "behaviour": 1
   },
   "real": {
     "estate": 6,
@@ -1803,28 +1060,15 @@
     "numbers": 2
   },
   "developing": {
-    "and": 3,
     "resource": 1,
     "international": 1
   },
   "leading": {
-    "to": 2,
     "organizational": 1,
     "representative": 1
   },
   "firm": {
-    "'s": 2,
-    "and": 1
-  },
-  "model": {
-    "theory": 3,
-    "evaluation": 2,
-    "for": 1
-  },
-  "models": {
-    "of": 9,
-    "and": 8,
-    "for": 7
+    "'s": 2
   },
   "economy": {
     "based": 1,
@@ -1832,7 +1076,6 @@
     "together": 1
   },
   "themes": {
-    "in": 2,
     "include": 1,
     "may": 1
   },
@@ -1842,62 +1085,56 @@
     "experience": 2
   },
   "learning": {
-    "and": 5,
     "disabilities": 2,
-    "systems": 2
+    "systems": 2,
+    "experience": 1
   },
-  "large": {
-    "numbers": 4,
-    "and": 2,
-    "sample": 2
+  "value": {
+    "analysis": 2,
+    "theorem": 2,
+    "theorems": 2
   },
   "small": {
     "business": 2,
     "firms": 1,
     "sample": 1
   },
-  "leadership": {
-    "and": 1,
-    "development": 1,
-    "role": 1
+  "entrepreneurship": {
+    "emphasises": 1
   },
   "innovation": {
     "process": 1,
     "financing": 1,
-    "in": 1
+    "strategy": 1
   },
   "intellectual": {
     "property": 3,
     "development": 1
   },
-  "sustainability": {
-    "at": 1,
-    "strategies": 1,
-    "for": 1
+  "emphasis": {
+    "upon": 1
+  },
+  "leadership": {
+    "development": 1,
+    "role": 1
+  },
+  "design": {
+    "techniques": 2,
+    "issues": 2,
+    "principles": 2
   },
   "direct": {
     "sums": 2,
     "investment": 1,
     "products": 1
   },
-  "differences": {
-    "and": 2,
-    "in": 2,
-    "during": 1
+  "political": {
+    "risk": 1,
+    "viability": 1
   },
-  "required": {
-    "computer": 3,
-    "to": 2
-  },
-  "challenges": {
-    "facing": 3,
-    "are": 1,
-    "including": 1
-  },
-  "groups": {
-    "and": 5,
-    "on": 1,
-    "to": 1
+  "projects": {
+    "sponsored": 1,
+    "related": 1
   },
   "regular": {
     "functions": 2,
@@ -1909,15 +1146,9 @@
     "mandate": 1,
     "plan": 1
   },
-  "lectures": {
-    "in": 3,
-    "and": 2,
-    "on": 1
-  },
   "first": {
     "order": 3,
-    "develop": 1,
-    "and": 1
+    "develop": 1
   },
   "three": {
     "dimensions": 4,
@@ -1925,7 +1156,6 @@
     "sections": 1
   },
   "presentation": {
-    "and": 3,
     "known": 1,
     "techniques": 1
   },
@@ -1934,33 +1164,32 @@
     "technologies": 1,
     "enterprise": 1
   },
-  "internet": {
-    "and": 4,
-    "for": 2,
-    "applications": 1
+  "related": {
+    "digital": 1,
+    "psychological": 1,
+    "issues": 1
   },
-  "have": {
-    "the": 2,
-    "changed": 1,
-    "little": 1
-  },
-  "formulation": {
-    "and": 3,
-    "of": 2,
-    "in": 1
+  "intelligence": {
+    "technologies": 2,
+    "gathering": 1,
+    "approaches": 1
   },
   "selected": {
     "topics": 26,
     "instruments": 3,
-    "from": 3
+    "advanced": 2
   },
-  "approach": {
-    "for": 1
+  "markets": {
+    "selection": 1
   },
   "skills": {
-    "in": 4,
     "modules": 3,
-    "required": 1
+    "required": 1,
+    "training": 1
+  },
+  "challenges": {
+    "facing": 3,
+    "including": 1
   },
   "current": {
     "research": 34,
@@ -1972,90 +1201,86 @@
     "sciences": 6,
     "disorders": 4
   },
+  "large": {
+    "numbers": 4,
+    "sample": 2,
+    "scale": 1
+  },
   "intervention": {
-    "and": 4,
     "skills": 3,
-    "strategies": 2
-  },
-  "effectiveness": {
-    "of": 1
-  },
-  "option": {
-    "pricing": 4,
     "strategies": 2,
-    "is": 1
+    "techniques": 1
   },
-  "plan": {
-    "and": 1,
-    "essentials": 1,
-    "with": 1
+  "career": {
+    "possibilities": 3,
+    "potential": 1,
+    "development": 1
+  },
+  "sustainability": {
+    "strategies": 1
+  },
+  "training": {
+    "needs": 1
+  },
+  "resources": {
+    "planning": 1,
+    "information": 1,
+    "development": 1
+  },
+  "given": {
+    "organizational": 1
   },
   "cases": {
     "studies": 1,
-    "studied": 1,
-    "in": 1
+    "studied": 1
   },
-  "studied": {
-    "is": 2,
-    "in": 1,
-    "from": 1
+  "issues": {
+    "associated": 2,
+    "facing": 1,
+    "within": 1
   },
-  "framework": {
-    "and": 3,
-    "of": 2,
-    "applicable": 1
+  "within": {
+    "accounting": 1,
+    "organizations": 1
   },
-  "procedures": {
-    "that": 1,
-    "associated": 1
+  "includes": {
+    "laboratory": 4,
+    "calculation": 1,
+    "proofs": 1
+  },
+  "control": {
+    "systems": 2,
+    "algorithms": 2,
+    "system": 1
   },
   "implementation": {
-    "of": 11,
-    "and": 2,
-    "point": 1
-  },
-  "point": {
-    "of": 2,
-    "and": 2,
-    "estimation": 2
-  },
-  "measurement": {
-    "and": 2,
-    "of": 1,
-    "techniques": 1
+    "point": 1,
+    "issues": 1,
+    "initiatives": 1
   },
   "securities": {
-    "and": 2,
     "analysis": 1,
     "markets": 1
   },
-  "flow": {
-    "and": 1,
-    "of": 1,
-    "theory": 1
-  },
-  "options": {
-    "and": 2,
-    "to": 1
-  },
   "derivatives": {
-    "of": 5,
-    "as": 2,
     "markets": 1
   },
+  "option": {
+    "pricing": 4,
+    "strategies": 2
+  },
   "futures": {
-    "and": 2,
     "contracts": 1
   },
   "empirical": {
     "research": 3,
     "studies": 1,
-    "and": 1
+    "issues": 1
   },
   "rate": {
-    "of": 3,
     "determination": 2,
-    "swaps": 1
+    "swaps": 1,
+    "exposure": 1
   },
   "societal": {
     "impact": 2,
@@ -2067,22 +1292,17 @@
     "corporate": 1,
     "immigrants": 1
   },
-  "likelihood": {
-    "ratio": 4,
-    "and": 3,
-    "of": 1
-  },
-  "types": {
-    "of": 7
+  "reporting": {
+    "practices": 1,
+    "issues": 1
   },
   "risks": {
-    "affecting": 1,
-    "in": 1
+    "affecting": 1
   },
   "optimization": {
     "problems": 4,
     "analytics": 1,
-    "and": 1
+    "methods": 1
   },
   "queuing": {
     "theory": 4,
@@ -2093,41 +1313,25 @@
     "testing": 1,
     "inspections": 1
   },
-  "web": {
-    "and": 3,
-    "services": 3,
-    "technologies": 3
-  },
   "commerce": {
     "technologies": 2,
     "applications": 1
   },
-  "computing": {
-    "and": 4,
-    "concepts": 2,
-    "problems": 1
-  },
-  "solutions": {
-    "about": 2,
-    "of": 2,
-    "for": 1
+  "web": {
+    "services": 3,
+    "technologies": 3,
+    "pages": 2
   },
   "fundamentals": {
-    "of": 6,
-    "including": 1,
-    "or": 1
+    "including": 1
   },
   "transport": {
-    "protocols": 1,
-    "and": 1
+    "protocols": 1
   },
-  "local": {
-    "and": 3,
-    "level": 1,
-    "laws": 1
+  "internet": {
+    "applications": 1
   },
   "area": {
-    "of": 7,
     "networks": 1
   },
   "virtual": {
@@ -2137,13 +1341,13 @@
   },
   "private": {
     "sector": 3,
-    "and": 2,
-    "networks": 1
+    "networks": 1,
+    "sectors": 1
   },
   "wireless": {
     "networks": 3,
     "lan": 1,
-    "and": 1
+    "ad": 1
   },
   "network": {
     "security": 3,
@@ -2155,105 +1359,78 @@
     "technologies": 1,
     "content": 1
   },
-  "component": {
-    "analysis": 4,
-    "in": 2,
-    "models": 2
-  },
   "computer": {
     "science": 6,
     "systems": 5,
     "methods": 3
   },
   "5102": {
-    "at": 2,
     "labour": 1,
-    "applied": 1
+    "applied": 1,
+    "topics": 1
+  },
+  "based": {
+    "data": 1,
+    "problem": 1,
+    "simulation": 1
   },
   "normal": {
-    "and": 3,
     "distribution": 3,
-    "probability": 1
-  },
-  "sampling": {
-    "distributions": 3,
-    "and": 2,
-    "theory": 1
+    "probability": 1,
+    "aspects": 1
   },
   "limit": {
     "theorem": 6,
     "theorems": 4
   },
   "ii": {
-    "errors": 1,
-    "and": 1
+    "errors": 1
   },
-  "sector": {
-    "and": 2,
-    "management": 2,
-    "programs": 1
-  },
-  "government": {
-    "and": 3,
-    "on": 1,
-    "incentives": 1
-  },
-  "perspectives": {
-    "on": 1,
-    "in": 1,
-    "and": 1
+  "local": {
+    "level": 1,
+    "laws": 1
   },
   "influence": {
-    "of": 4,
-    "government": 1,
-    "on": 1
+    "government": 1
   },
-  "relations": {
-    "in": 2,
-    "and": 2,
-    "between": 1
+  "distribution": {
+    "functions": 3,
+    "theory": 2,
+    "decisions": 1
   },
   "behaviour": {
     "change": 3,
     "science": 1,
-    "and": 1
+    "relationships": 1
   },
-  "science": {
-    "in": 1,
-    "ii": 1
+  "conflict": {
+    "management": 1
   },
   "conceptual": {
     "framework": 2,
-    "and": 2,
-    "understanding": 1
+    "understanding": 1,
+    "foundations": 1
   },
-  "motivation": {
-    "and": 1,
-    "as": 1
-  },
-  "values": {
-    "of": 2,
-    "as": 2
-  },
-  "foundations": {
-    "of": 11,
-    "for": 1,
-    "in": 1
-  },
-  "levels": {
-    "in": 1,
-    "of": 1,
-    "through": 1
+  "formulation": {
+    "based": 1
   },
   "database": {
     "design": 2,
     "systems": 2,
     "management": 1
   },
+  "quantitative": {
+    "methods": 4
+  },
   "production": {
     "oriented": 1,
     "systems": 1,
-    "of": 1
+    "manager": 1
+  },
+  "seminar": {
+    "public": 1,
+    "studies": 1,
+    "course": 1
   },
   "directed": {
     "readings": 3,
@@ -2263,25 +1440,31 @@
   "1.5": {
     "unit": 36
   },
+  "methods": {
+    "used": 3,
+    "including": 2,
+    "based": 1
+  },
   "life": {
     "sciences": 6,
     "cycle": 3,
     "events": 1
   },
+  "experience": {
+    "using": 1
+  },
   "covered": {
-    "by": 6,
     "include": 5,
     "within": 1
   },
+  "function": {
+    "theorem": 3,
+    "spaces": 2,
+    "deployment": 1
+  },
   "concurrent": {
     "programming": 2,
-    "methods": 1,
-    "and": 1
-  },
-  "image": {
-    "and": 2,
-    "enhancement": 1,
-    "restoration": 1
+    "methods": 1
   },
   "video": {
     "communications": 2,
@@ -2292,116 +1475,116 @@
     "opportunities": 1,
     "energy": 1
   },
-  "assessment": {
-    "of": 8,
-    "and": 4,
-    "findings": 3
-  },
   "associated": {
-    "with": 6,
     "international": 1,
-    "pathways": 1
+    "pathways": 1,
+    "neuropsychological": 1
   },
-  "laws": {
-    "of": 2,
-    "on": 1
-  },
-  "bases": {
-    "of": 2,
-    "and": 1
+  "warehousing": {
+    "appliances": 1
   },
   "power": {
     "requirements": 2,
     "series": 2,
-    "and": 1
-  },
-  "engineering": {
-    "and": 1,
-    "applications": 1,
-    "into": 1
+    "residues": 1
   },
   "future": {
     "career": 3,
     "challenges": 1,
     "methods": 1
   },
+  "used": {
+    "multivariate": 1,
+    "extensively": 1,
+    "theoretical": 1
+  },
+  "component": {
+    "analysis": 4,
+    "models": 2,
+    "structure": 1
+  },
   "factor": {
     "analysis": 4,
     "analyses": 1,
     "analytic": 1
+  },
+  "assessment": {
+    "findings": 3,
+    "devices": 2,
+    "techniques": 1
+  },
+  "sector": {
+    "management": 2,
+    "programs": 1,
+    "financial": 1
   },
   "program": {
     "evaluation": 7,
     "'s": 3,
     "director": 2
   },
-  "dealing": {
-    "with": 5
-  },
   "contemporary": {
     "issues": 7,
     "psychology": 3,
     "times": 1
   },
-  "effects": {
-    "of": 3,
-    "and": 1
-  },
-  "interaction": {
-    "between": 1,
-    "of": 1,
-    "paradigms": 1
-  },
-  "needs": {
-    "of": 1,
-    "assessment": 1
-  },
-  "application": {
-    "of": 6,
-    "to": 4,
-    "work": 3
-  },
   "sciences": {
-    "from": 3,
     "applied": 1,
-    "ii": 1
+    "ii": 1,
+    "using": 1
   },
-  "perspective": {
-    "of": 5,
-    "on": 2
+  "advertising": {
+    "effectiveness": 1,
+    "packaging": 1
   },
-  "processing": {
-    "and": 3,
-    "languages": 1,
-    "equipment": 1
+  "particular": {
+    "topic": 5,
+    "attention": 3,
+    "aspect": 1
+  },
+  "concepts": {
+    "covered": 1,
+    "underlying": 1
+  },
+  "legislation": {
+    "regulating": 1,
+    "related": 1
+  },
+  "understanding": {
+    "published": 1,
+    "brain": 1
+  },
+  "structure": {
+    "theory": 1,
+    "theorem": 1,
+    "design": 1
   },
   "derivative": {
     "securities": 3,
-    "formulas": 1,
-    "of": 1
-  },
-  "instruments": {
-    "and": 1
+    "formulas": 1
   },
   "estate": {
     "investment": 1,
     "property": 1,
     "investments": 1
   },
-  "dimensions": {
-    "of": 2
+  "framework": {
+    "applicable": 1
   },
-  "protection": {
-    "of": 1,
-    "and": 1
+  "government": {
+    "incentives": 1
+  },
+  "plan": {
+    "essentials": 1
   },
   "higher": {
     "order": 4,
     "levels": 1,
     "derivatives": 1
   },
-  "economics": {
-    "of": 2
+  "technologies": {
+    "including": 1,
+    "supporting": 1
   },
   "mathematical": {
     "logic": 5,
@@ -2411,35 +1594,27 @@
   "programming": {
     "languages": 7,
     "paradigms": 5,
-    "in": 4
+    "language": 4
   },
   "non-linear": {
     "optimization": 2,
     "programming": 1,
     "regression": 1
   },
-  "university": {
-    "of": 1
+  "administration": {
+    "ii": 2,
+    "iii": 2,
+    "iv": 1
   },
   "several": {
     "variables": 4,
     "national": 1,
     "research": 1
   },
-  "limited": {
-    "and": 3,
-    "by": 3,
-    "to": 2
-  },
   "psy": {
     "1101": 1,
     "1102": 1,
     "2105": 1
-  },
-  "object": {
-    "and": 1,
-    "recognition": 1,
-    "oriented": 1
   },
   "historical": {
     "development": 2,
@@ -2448,7 +1623,6 @@
   },
   "sensory": {
     "processes": 2,
-    "and": 2,
     "signals": 1
   },
   "therapeutic": {
@@ -2461,12 +1635,7 @@
     "psychotherapy": 4,
     "psychology": 1
   },
-  "emotional": {
-    "functioning": 3,
-    "and": 1
-  },
   "childhood": {
-    "and": 3,
     "studied": 1,
     "psychopathology": 1
   },
@@ -2479,23 +1648,16 @@
     "psychology": 3
   },
   "psychology": {
-    "of": 16,
     "ii": 3,
-    "and": 3
+    "presented": 2,
+    "research": 1
   },
   "covariance": {
     "analysis": 1,
     "structures": 1
   },
-  "experimental": {
-    "techniques": 6,
-    "designs": 4,
-    "design": 2
-  },
   "protocols": {
-    "and": 2,
-    "employed": 1,
-    "for": 1
+    "employed": 1
   },
   "biological": {
     "foundations": 2,
@@ -2505,129 +1667,72 @@
   "physiological": {
     "psychology": 3,
     "methods": 1,
-    "and": 1
+    "basis": 1
   },
-  "examination": {
-    "of": 14
-  },
-  "topic": {
-    "in": 5
-  },
-  "content": {
-    "and": 5,
-    "may": 2,
-    "varies": 1
-  },
-  "format": {
-    "will": 5
-  },
-  "depending": {
-    "on": 6
+  "vary": {
+    "depending": 5
   },
   "dying": {
-    "and": 2,
-    "process": 1,
-    "or": 1
+    "process": 1
   },
   "laboratory": {
     "activities": 4,
-    "in": 2,
-    "exercises": 1
-  },
-  "preparation": {
-    "for": 3,
-    "of": 1
+    "exercises": 1,
+    "findings": 1
   },
   "sexual": {
     "behaviour": 4,
     "maturity": 1,
     "dimorphism": 1
   },
-  "over": {
-    "algebraically": 2,
-    "complex": 2,
-    "achievement": 1
-  },
   "methodological": {
     "approaches": 3,
     "issues": 1,
     "problems": 1
-  },
-  "sexuality": {
-    "and": 2
-  },
-  "psychopathology": {
-    "and": 1,
-    "within": 1
-  },
-  "supervision": {
-    "of": 5,
-    "and": 1
   },
   "cognitive": {
     "psychology": 5,
     "processes": 5,
     "development": 4
   },
-  "interventions": {
-    "of": 1,
-    "used": 1,
-    "in": 1
+  "culture": {
+    "change": 1
   },
   "clinical": {
     "practicum": 4,
     "psychology": 3,
     "psychologist": 1
   },
+  "content": {
+    "may": 2,
+    "varies": 1,
+    "authentication": 1
+  },
   "children": {
-    "and": 6,
-    "'s": 1,
-    "as": 1
+    "'s": 1
   },
   "language": {
     "development": 4,
-    "and": 3,
-    "processing": 3
-  },
-  "period": {
-    "is": 7,
-    "to": 1
-  },
-  "perception": {
-    "to": 1
-  },
-  "drugs": {
-    "and": 3
-  },
-  "school": {
-    "at": 4,
-    "to": 1,
-    "years": 1
+    "processing": 3,
+    "acquisition": 2
   },
   "brain": {
-    "and": 2,
     "mechanisms": 1,
-    "systems": 1
+    "systems": 1,
+    "insults": 1
   },
-  "memory": {
-    "and": 3,
-    "management": 2,
-    "architectures": 1
+  "mechanisms": {
+    "underlying": 2
   },
   "psychosocial": {
     "aspects": 2,
     "stress": 1,
     "factors": 1
   },
-  "findings": {
-    "to": 3,
-    "and": 1,
-    "for": 1
-  },
   "physical": {
-    "and": 3,
     "database": 2,
-    "health": 1
+    "health": 1,
+    "world": 1
   },
   "psychometric": {
     "methods": 2,
@@ -2636,57 +1741,36 @@
   },
   "test": {
     "construction": 2,
-    "the": 1,
-    "design": 1
+    "design": 1,
+    "derivation": 1
   },
-  "construction": {
-    "of": 4,
-    "and": 2
-  },
-  "properties": {
-    "of": 5,
-    "and": 3
-  },
-  "reasoning": {
-    "and": 2,
-    "about": 1,
-    "techniques": 1
+  "school": {
+    "years": 1,
+    "setting": 1,
+    "psychology": 1
   },
   "disorders": {
-    "among": 2,
-    "of": 1,
-    "and": 1
+    "among": 2
   },
-  "professor": {
-    "in": 1
+  "psychopathology": {
+    "within": 1
   },
-  "registration": {
-    "is": 3,
-    "for": 2
+  "interventions": {
+    "used": 1
   },
-  "approved": {
-    "by": 7,
-    "research": 3
+  "readings": {
+    "conducted": 1
   },
   "modalities": {
     "approved": 5
   },
-  "norms": {
-    "and": 1
-  },
-  "projective": {
-    "modules": 2,
-    "varieties": 2,
-    "and": 1
+  "role": {
+    "norms": 1
   },
   "personality": {
     "measures": 1,
-    "and": 1,
-    "theory": 1
-  },
-  "history": {
-    "and": 3,
-    "of": 2
+    "theory": 1,
+    "traits": 1
   },
   "scientific": {
     "literature": 4,
@@ -2698,58 +1782,47 @@
     "perspective": 1,
     "psychologists": 1
   },
-  "fields": {
-    "of": 2,
-    "and": 2,
-    "such": 1
-  },
   "spatial": {
     "processing": 1,
     "orientation": 1,
     "processes": 1
   },
+  "object": {
+    "recognition": 1,
+    "oriented": 1,
+    "code": 1
+  },
   "literature": {
-    "on": 2,
     "dealing": 1
   },
   "natural": {
     "language": 4,
     "selection": 1
   },
-  "factors": {
-    "in": 3,
-    "and": 1
+  "processes": {
+    "impact": 1,
+    "underlying": 1
   },
-  "individuals": {
-    "and": 1
+  "impact": {
+    "psychological": 1
   },
   "honours": {
     "thesis": 3,
     "programs": 3,
     "linear": 1
   },
-  "out": {
-    "under": 3,
-    "applied": 1,
-    "research": 1
-  },
-  "experiments": {
-    "in": 1
+  "approved": {
+    "research": 3
   },
   "sleep": {
     "disorders": 4,
     "research": 3,
     "stages": 3
   },
-  "forms": {
-    "and": 2,
-    "of": 1,
-    "or": 1
-  },
   "practicum": {
-    "in": 5,
     "en": 4,
-    "clinique": 4
+    "clinique": 4,
+    "de": 2
   },
   "de": {
     "recherche": 7,
@@ -2766,8 +1839,7 @@
     "unit": 7
   },
   "formation": {
-    "pratique": 7,
-    "and": 2
+    "pratique": 7
   },
   "chaque": {
     "période": 7
@@ -2786,35 +1858,28 @@
   "hour": {
     "period": 7
   },
-  "equivalent": {
-    "to": 143,
-    "can": 1
+  "integration": {
+    "seminar": 1,
+    "ii": 1
   },
-  "field": {
-    "extensions": 4,
-    "of": 2,
-    "work": 1
+  "evaluation": {
+    "practice": 2,
+    "issues": 1,
+    "criteria": 1
   },
-  "neuroscience": {
-    "and": 2,
-    "course": 1,
-    "such": 1
+  "theory": {
+    "ii": 2,
+    "leading": 1,
+    "applications": 1
   },
-  "architectures": {
-    "and": 3,
-    "from": 1,
-    "for": 1
-  },
-  "units": {
-    "of": 1
-  },
-  "adolescence": {
-    "and": 1
+  "measurement": {
+    "techniques": 1,
+    "errors": 1
   },
   "parametric": {
-    "and": 3,
     "estimation": 2,
-    "techniques": 1
+    "techniques": 1,
+    "form": 1
   },
   "error": {
     "analysis": 3,
@@ -2822,28 +1887,21 @@
     "counting": 1
   },
   "designs": {
-    "including": 1,
-    "in": 1,
-    "and": 1
+    "including": 1
   },
-  "apply": {
-    "to": 5
+  "required": {
+    "computer": 3
   },
-  "adults": {
-    "and": 3
+  "application": {
+    "work": 3,
+    "layers": 2,
+    "packages": 1
   },
-  "clients": {
-    "and": 3,
-    "to": 1
+  "emotional": {
+    "functioning": 3
   },
-  "consultation": {
-    "with": 3,
-    "and": 1
-  },
-  "modules": {
-    "and": 8,
-    "over": 1,
-    "ii": 1
+  "activities": {
+    "include": 3
   },
   "en": {
     "recherche": 4,
@@ -2856,7 +1914,6 @@
   },
   "approximation": {
     "d'un": 1,
-    "of": 1,
     "methods": 1
   },
   "d'un": {
@@ -2874,85 +1931,60 @@
     "thèse": 3,
     "littérature": 3
   },
-  "one": {
-    "or": 7,
-    "variable": 1
-  },
-  "some": {
-    "of": 2,
-    "additional": 2,
-    "experience": 1
-  },
   "projet": {
     "de": 3,
     "incluant": 3
   },
   "publication": {
-    "sur": 3,
-    "of": 3
+    "sur": 3
   },
   "non": {
     "satisfaisant": 3,
     "constructive": 1,
     "stationarity": 1
   },
-  "parents": {
-    "and": 1
-  },
-  "packages": {
-    "and": 1,
-    "will": 1,
-    "including": 1
-  },
   "analytic": {
     "manifolds": 2,
     "number": 2,
     "example": 1
   },
-  "psychotherapy": {
-    "and": 1
+  "experimental": {
+    "techniques": 6,
+    "designs": 4,
+    "design": 2
   },
   "therapy": {
-    "research": 1,
-    "that": 1,
-    "with": 1
-  },
-  "survey": {
-    "of": 5,
-    "contemporary": 1
-  },
-  "treatment": {
-    "of": 5
-  },
-  "determinants": {
-    "of": 1
+    "research": 1
   },
   "behaviours": {
-    "essential": 1,
-    "and": 1
+    "essential": 1
   },
   "medical": {
     "computing": 2,
     "rehabilitation": 1,
     "services": 1
   },
-  "potential": {
-    "recording": 1,
-    "as": 1
+  "discussion": {
+    "include": 2
   },
-  "cognition": {
-    "in": 1
+  "potential": {
+    "recording": 1
+  },
+  "principles": {
+    "associated": 1,
+    "involved": 1
+  },
+  "concept": {
+    "learning": 2,
+    "formation": 1
+  },
+  "models": {
+    "based": 1,
+    "involving": 1,
+    "abstracting": 1
   },
   "thesis": {
     "projects": 1
-  },
-  "devices": {
-    "with": 1,
-    "for": 1
-  },
-  "measures": {
-    "of": 2,
-    "and": 1
   },
   "family": {
     "life": 2,
@@ -2961,38 +1993,47 @@
   },
   "file": {
     "organization": 1,
-    "and": 1,
-    "system": 1
+    "system": 1,
+    "format": 1
   },
-  "classical": {
-    "and": 2,
-    "geometry": 1,
-    "probability": 1
+  "survey": {
+    "contemporary": 1
   },
   "object-oriented": {
     "programming": 2,
     "software": 2,
     "systems": 2
   },
-  "standards": {
-    "of": 1,
-    "and": 1
+  "practice": {
+    "related": 1
   },
   "graduate": {
     "courses": 4,
     "seminars": 2,
     "course": 1
   },
-  "basics": {
-    "of": 7
+  "neuroscience": {
+    "course": 1
+  },
+  "field": {
+    "extensions": 4,
+    "work": 1,
+    "research": 1
+  },
+  "procedures": {
+    "associated": 1
   },
   "equation": {
-    "modeling": 1,
-    "and": 1
+    "modeling": 1
+  },
+  "needs": {
+    "assessment": 1
   },
   "families": {
-    "deal": 1,
-    "of": 1
+    "deal": 1
+  },
+  "seminars": {
+    "offered": 2
   },
   "mat": {
     "1300": 1,
@@ -3007,22 +2048,15 @@
   "geometric": {
     "problems": 2,
     "series": 1,
-    "and": 1
-  },
-  "differential": {
-    "equations": 31,
-    "operators": 3,
-    "and": 1
+    "forms": 1
   },
   "integral": {
     "ring": 2,
     "calculus": 1,
-    "and": 1
+    "dependence": 1
   },
-  "calculus": {
-    "in": 2,
-    "ii": 2,
-    "for": 2
+  "one": {
+    "variable": 1
   },
   "partial": {
     "differential": 6,
@@ -3034,115 +2068,75 @@
     "norms": 1,
     "analysis": 1
   },
-  "theorem": {
-    "of": 10,
-    "and": 2,
-    "proving": 1
-  },
-  "eigenvalues": {
-    "and": 5
-  },
-  "eigenvectors": {
-    "of": 1
-  },
   "vector": {
     "spaces": 4,
-    "and": 2,
-    "fields": 2
-  },
-  "faculty": {
-    "of": 1
-  },
-  "equations": {
-    "and": 5,
-    "of": 3,
-    "with": 1
+    "fields": 2,
+    "machines": 2
   },
   "additional": {
     "topics": 5,
     "techniques": 1
   },
-  "rule": {
-    "for": 1,
-    "and": 1
-  },
-  "polynomial": {
-    "and": 1,
-    "functions": 1,
-    "rings": 1
-  },
   "rational": {
     "maps": 2,
     "functions": 1
+  },
+  "polynomial": {
+    "functions": 1,
+    "rings": 1,
+    "regression": 1
   },
   "trigonometric": {
     "functions": 5,
     "ratios": 1,
     "identities": 1
   },
-  "credits": {
-    "for": 2
-  },
   "finite": {
     "fields": 6,
     "difference": 2,
     "automata": 2
+  },
+  "functions": {
+    "via": 1
   },
   "numerical": {
     "methods": 4,
     "integration": 2,
     "solution": 2
   },
+  "calculus": {
+    "ii": 2,
+    "emphasizing": 1,
+    "iii": 1
+  },
+  "differential": {
+    "equations": 31,
+    "operators": 3,
+    "geomet": 1
+  },
   "completeness": {
     "axiom": 1,
-    "properties": 1,
-    "and": 1
-  },
-  "proofs": {
-    "of": 3,
-    "and": 1
-  },
-  "curves": {
-    "and": 2,
-    "in": 1
-  },
-  "surfaces": {
-    "and": 3,
-    "in": 1
+    "properties": 1
   },
   "discrete": {
     "mathematics": 3,
     "structures": 3,
     "dynamical": 2
   },
-  "matrices": {
-    "and": 1
-  },
   "graph": {
     "theory": 5,
     "algorithms": 2,
     "sketching": 1
   },
-  "points": {
-    "of": 1
-  },
-  "vectors": {
-    "in": 1
+  "exponential": {
+    "functions": 1,
+    "map": 1,
+    "generating": 1
   },
   "algebraic": {
     "sets": 4,
     "geometry": 3,
     "topology": 3
-  },
-  "mathematics": {
-    "for": 3,
-    "ii": 2,
-    "and": 1
-  },
-  "structures": {
-    "as": 2,
-    "and": 2,
-    "for": 1
   },
   "counting": {
     "arguments": 1,
@@ -3158,43 +2152,28 @@
     "systems": 2,
     "theory": 1
   },
-  "sets": {
-    "and": 2,
-    "of": 1
+  "introduced": {
+    "using": 1
   },
   "integers": {
-    "modulo": 1,
-    "and": 1
-  },
-  "sequences": {
-    "and": 2,
-    "of": 2
-  },
-  "algebra": {
-    "and": 4,
-    "ii": 1
+    "modulo": 1
   },
   "number": {
-    "theory": 9,
-    "of": 2
+    "theory": 9
   },
-  "estimation": {
-    "and": 3,
-    "illustrated": 1,
-    "for": 1
-  },
-  "testing": {
-    "with": 1,
-    "and": 1,
-    "techniques": 1
+  "examples": {
+    "analyzed": 1
   },
   "chosen": {
-    "from": 10,
     "themes": 1
+  },
+  "classical": {
+    "geometry": 1,
+    "probability": 1,
+    "solution": 1
   },
   "line": {
     "integrals": 2,
-    "and": 2,
     "bundles": 2
   },
   "surface": {
@@ -3202,18 +2181,10 @@
     "designs": 1,
     "methodology": 1
   },
-  "topology": {
-    "of": 2,
-    "ii": 2,
-    "control": 1
-  },
   "fourier": {
     "series": 4,
     "transform": 2,
     "transforms": 1
-  },
-  "maps": {
-    "by": 1
   },
   "arithmetic": {
     "modulo": 1,
@@ -3221,49 +2192,44 @@
     "geometry": 1
   },
   "isomorphism": {
-    "theorems": 2,
-    "of": 1
-  },
-  "theorems": {
-    "for": 2,
-    "of": 1,
-    "in": 1
+    "theorems": 2
   },
   "ordinary": {
     "differential": 5,
-    "points": 2,
-    "and": 1
+    "points": 2
   },
   "laplace": {
     "transforms": 2,
     "transform": 1,
     "equation": 1
   },
-  "spaces": {
-    "and": 2,
-    "such": 1
+  "order": {
+    "equations": 2,
+    "relations": 1,
+    "pdes": 1
   },
   "generating": {
     "functions": 5,
     "basic": 1
   },
-  "logic": {
-    "and": 2,
-    "programming": 2,
-    "of": 1
-  },
-  "axioms": {
-    "and": 1
+  "projective": {
+    "modules": 2,
+    "varieties": 2,
+    "geometry": 1
   },
   "conditional": {
     "probability": 2,
     "expectation": 2,
     "probabilities": 1
   },
+  "sampling": {
+    "distributions": 3,
+    "theory": 1
+  },
   "independent": {
     "sets": 2,
     "random": 1,
-    "and": 1
+    "identically": 1
   },
   "convergence": {
     "concepts": 3,
@@ -3280,36 +2246,24 @@
     "densities": 1,
     "martingales": 1
   },
-  "expectation": {
-    "and": 3
-  },
   "poisson": {
     "distributions": 1,
-    "and": 1,
-    "regression": 1
+    "regression": 1,
+    "process": 1
+  },
+  "estimation": {
+    "illustrated": 1
   },
   "categorical": {
     "data": 5
   },
-  "compactness": {
-    "and": 2
+  "mathematics": {
+    "ii": 2
   },
   "nonlinear": {
     "systems": 2,
     "equations": 1,
     "programming": 1
-  },
-  "rings": {
-    "and": 12
-  },
-  "classification": {
-    "of": 4,
-    "and": 1,
-    "in": 1
-  },
-  "geometry": {
-    "and": 2,
-    "algorithms": 1
   },
   "stochastic": {
     "processes": 5,
@@ -3321,12 +2275,8 @@
     "statistics": 2,
     "complexity": 2
   },
-  "trees": {
-    "and": 1
-  },
   "matching": {
     "theory": 1,
-    "in": 1,
     "systems": 1
   },
   "machine": {
@@ -3339,48 +2289,23 @@
     "point": 1
   },
   "block": {
-    "designs": 3,
-    "and": 2
+    "designs": 3
   },
   "space": {
-    "methodology": 1,
-    "of": 1
-  },
-  "differentiation": {
-    "and": 1
-  },
-  "modelling": {
-    "and": 5,
-    "in": 2,
-    "with": 1
-  },
-  "banach": {
-    "and": 3,
-    "algebras": 1,
-    "spaces": 1
+    "methodology": 1
   },
   "hilbert": {
     "spaces": 5,
     "basis": 3,
     "'s": 3
   },
-  "operators": {
-    "on": 1
-  },
-  "continuity": {
-    "and": 2
-  },
-  "pdes": {
-    "and": 2
-  },
-  "separation": {
-    "of": 2,
-    "axioms": 2
-  },
   "maximum": {
     "likelihood": 4,
     "principles": 1,
     "flows": 1
+  },
+  "modules": {
+    "ii": 1
   },
   "tensor": {
     "product": 3,
@@ -3396,34 +2321,47 @@
     "theory": 4,
     "groups": 2
   },
-  "varieties": {
-    "over": 4,
-    "and": 1
+  "identification": {
+    "topologies": 2
+  },
+  "separation": {
+    "axioms": 2
   },
   "homology": {
     "via": 2,
     "functor": 2,
     "theory": 1
   },
-  "independence": {
-    "and": 2
+  "topology": {
+    "ii": 2,
+    "control": 1
+  },
+  "model": {
+    "theory": 3,
+    "evaluation": 2,
+    "verification": 1
   },
   "distributed": {
-    "and": 4,
     "databases": 4,
-    "systems": 3
+    "systems": 3,
+    "computing": 3
+  },
+  "likelihood": {
+    "ratio": 4,
+    "inference": 1,
+    "functions": 1
   },
   "ratio": {
-    "and": 3,
     "tests": 2
+  },
+  "representation": {
+    "theory": 2,
+    "theorems": 1
   },
   "markov": {
     "processes": 3,
     "chains": 1,
     "decision": 1
-  },
-  "inference": {
-    "and": 1
   },
   "math": {
     "6507": 2,
@@ -3433,6 +2371,9 @@
   "carleton": {
     "university": 136
   },
+  "flow": {
+    "theory": 1
+  },
   "optimal": {
     "matching": 1,
     "classifiers": 1,
@@ -3441,36 +2382,26 @@
   "cycle": {
     "index": 1
   },
-  "manifolds": {
-    "and": 1
+  "banach": {
+    "algebras": 1,
+    "spaces": 1
   },
   "asymptotic": {
     "methods": 2,
     "comparison": 1,
     "series": 1
   },
-  "nullstellensatz": {
-    "and": 1
-  },
-  "lemma": {
-    "and": 1
-  },
-  "algebras": {
-    "over": 1
+  "algebra": {
+    "ii": 1
   },
   "category": {
     "theory": 1
   },
-  "representations": {
-    "and": 2
+  "groups": {
+    "representations": 1
   },
-  "authentication": {
-    "and": 2,
-    "techniques": 1
-  },
-  "semantics": {
-    "of": 2,
-    "for": 1
+  "operational": {
+    "semantics": 2
   },
   "complexity": {
     "theory": 3,
@@ -3482,13 +2413,18 @@
     "5508": 1,
     "5604": 1
   },
+  "clustering": {
+    "algorithms": 1
+  },
   "pattern": {
     "recognition": 7,
     "matching": 2,
     "classification": 1
   },
-  "intervals": {
-    "and": 1
+  "point": {
+    "estimation": 2,
+    "location": 2,
+    "methods": 1
   },
   "search": {
     "engines": 2,
@@ -3498,21 +2434,17 @@
   "algorithm": {
     "design": 3,
     "analysis": 2,
-    "for": 1
-  },
-  "tables": {
-    "of": 1,
-    "with": 1
-  },
-  "reliability": {
-    "and": 2,
-    "engineering": 1,
-    "in": 1
+    "development": 1
   },
   "quantum": {
     "computing": 1,
     "bits": 1,
     "mechanics": 1
+  },
+  "logic": {
+    "programming": 2,
+    "gates": 1,
+    "complexity": 1
   },
   "compression": {
     "methods": 2,
@@ -3524,49 +2456,63 @@
     "1308": 1,
     "1390": 1
   },
+  "computing": {
+    "concepts": 2,
+    "problems": 1,
+    "isomorphism": 1
+  },
+  "packages": {
+    "including": 1
+  },
   "algorithms": {
-    "for": 11,
-    "in": 3,
-    "and": 2
+    "descriptions": 1,
+    "ii": 1,
+    "based": 1
   },
   "generation": {
     "languages": 1,
     "strategies": 1
   },
-  "graphs": {
-    "and": 1,
-    "kleene": 1
+  "programs": {
+    "using": 1
   },
   "c++": {
-    "and": 1,
     "data": 1,
     "standard": 1
   },
-  "computation": {
-    "in": 1,
-    "and": 1
+  "memory": {
+    "management": 2,
+    "architectures": 1
   },
-  "automata": {
-    "with": 1,
-    "which": 1
+  "engineering": {
+    "applications": 1,
+    "lifecycle": 1
+  },
+  "graphs": {
+    "kleene": 1
   },
   "semantic": {
     "web": 3,
     "description": 1,
     "modeling": 1
   },
-  "privacy": {
-    "and": 1,
-    "issues": 1,
-    "technologies": 1
+  "databases": {
+    "ii": 1
   },
   "concurrency": {
     "control": 3,
-    "issues": 1,
-    "and": 1
+    "issues": 1
   },
   "operating": {
     "systems": 7
+  },
+  "privacy": {
+    "issues": 1,
+    "technologies": 1,
+    "software": 1
+  },
+  "science": {
+    "ii": 1
   },
   "parallel": {
     "algorithms": 2,
@@ -3577,18 +2523,16 @@
     "intelligence": 6,
     "life": 2
   },
-  "retrieval": {
-    "and": 1,
-    "to": 1
+  "world": {
+    "wide": 1
   },
   "secure": {
     "communication": 1,
     "cryptosystems": 1,
     "computer": 1
   },
-  "details": {
-    "will": 4,
-    "of": 1
+  "networks": {
+    "protocols": 1
   },
   "graphics": {
     "pipeline": 1,
@@ -3599,9 +2543,23 @@
     "data": 2,
     "analytics": 1
   },
+  "image": {
+    "enhancement": 1,
+    "restoration": 1,
+    "segmentation": 1
+  },
   "recognition": {
-    "technics": 1,
-    "of": 1
+    "technics": 1
+  },
+  "processing": {
+    "languages": 1,
+    "equipment": 1,
+    "systems": 1
+  },
+  "security": {
+    "mechanisms": 2,
+    "policies": 1,
+    "awareness": 1
   },
   "real-time": {
     "systems": 5,
@@ -3610,6 +2568,9 @@
   "fault": {
     "tolerance": 5,
     "detection": 1
+  },
+  "modelling": {
+    "techniques": 1
   },
   "plane": {
     "algorithms": 1,
@@ -3620,44 +2581,58 @@
     "5306": 1,
     "5307": 1
   },
-  "languages": {
-    "for": 1
-  },
-  "verification": {
-    "and": 3,
-    "of": 2,
+  "reasoning": {
     "techniques": 1
   },
-  "routing": {
-    "and": 2,
+  "geometry": {
     "algorithms": 1
   },
-  "detection": {
-    "mechanisms": 1,
-    "in": 1
+  "methodologies": {
+    "selected": 1
   },
-  "tolerance": {
-    "through": 1
+  "theorem": {
+    "proving": 1
+  },
+  "reliability": {
+    "engineering": 1
+  },
+  "foundations": {
+    "programming": 1
+  },
+  "paradigms": {
+    "may": 1
+  },
+  "authentication": {
+    "techniques": 1
+  },
+  "detection": {
+    "mechanisms": 1
   },
   "recovery": {
     "techniques": 2,
     "blocks": 1
   },
+  "interaction": {
+    "paradigms": 1,
+    "design": 1,
+    "models": 1
+  },
   "animation": {
-    "principles": 1,
-    "and": 1
+    "principles": 1
   },
   "location": {
     "service": 1
   },
-  "watermarking": {
-    "of": 1,
+  "routing": {
     "algorithms": 1
   },
-  "cryptography": {
-    "in": 1
+  "watermarking": {
+    "algorithms": 1
   },
-  "environments": {
-    "and": 1
+  "verification": {
+    "techniques": 1
+  },
+  "testing": {
+    "techniques": 1
   }
 }
