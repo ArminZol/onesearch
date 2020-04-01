@@ -27,6 +27,37 @@
 				});
 			}
 		}
+
+		function save_relevance(id, collection, is_relevant) {
+			relevantString = getCookie('relevant');
+			relevant = {}
+			if (relevantString != '') {
+				relevant = JSON.parse(relevantString);
+			}
+			if (!relevant[collection]) {
+				relevant[collection] = {};
+			}
+			relevant[collection][id] = is_relevant;
+			document.cookie = "relevant=" + JSON.stringify(relevant);
+		}
+
+		// From https://www.w3schools.com/js/js_cookies.asp
+		function getCookie(cname) {
+			var name = cname + "=";
+			var decodedCookie = decodeURIComponent(document.cookie);
+			var ca = decodedCookie.split(';');
+			for(var i = 0; i <ca.length; i++) {
+				var c = ca[i];
+				while (c.charAt(0) == ' ') {
+					c = c.substring(1);
+				}
+				if (c.indexOf(name) == 0) {
+					return c.substring(name.length, c.length);
+				}
+			}
+  			return "";
+		}
+
 	</script>
 
 	<br>
@@ -101,6 +132,12 @@
 							{% endif %} 
 							href="/document/{{collection}}/{{id}}">{{doc.0.title}}
 						</a>
+						<button class="waves-effect waves-teal btn-flat tooltipped right" data-position="top" data-tooltip="Mark document as relevant" onclick="save_relevance('{{id}}', '{{collection}}', true)">
+							<i class="material-icons">done</i>
+						</button>
+						<button class="waves-effect waves-teal btn-flat tooltipped right" data-position="top" data-tooltip="Mark document as irrelevant" onclick="save_relevance('{{id}}', '{{collection}}', false)">
+							<i class="material-icons">clear</i>
+						</button>
 					</h5>
 					{% if doc.0.body %}
 						<p>
