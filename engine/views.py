@@ -31,8 +31,8 @@ def search_results(request):
 	if request.method == 'GET':
 		collection = request.GET['collection']
 		processed_path = BASE_DIR + '/processed/' + collection
-		print(request.GET['query'])
-		results = search(request.GET['query'], request.GET['model'], processed_path)
+		query = request.GET['query']
+		results = search(query, request.GET['model'], processed_path, collection, request.COOKIES.get('relevant'))
 		documents = {}
 		topics = {}
 		with open(processed_path + '/preprocessed.json') as file:
@@ -45,7 +45,7 @@ def search_results(request):
 
 		# All code for wordnet from documentation: https://www.nltk.org/howto/wordnet.html
 		expansion = {}
-		for word in word_tokenize(request.GET['query']):
+		for word in word_tokenize(query):
 			synsets = wn.synsets(word)
 			if synsets and len(synsets) < 5 and word not in expansion:
 				expansion[word] = []
@@ -54,6 +54,8 @@ def search_results(request):
 						for name in hypernym.lemma_names():
 							if '_' not in name and name not in expansion[word]:
 								expansion[word].append(name)
+				if len(expansion[word]) == 0:
+					del expansion[word]
 	
 		if collection == 'reuters':
 			with open(processed_path + '/topics.json') as file:
@@ -71,7 +73,7 @@ def search_results(request):
 						else:
 							topics[t] = [doc]
 
-		context = { 'collection': collection, 'documents':  documents, 'corrections': results[1], 'topics': topics, 'expansion': expansion }
+		context = { 'collection': collection, 'query': query, 'documents':  documents, 'corrections': results[1], 'topics': topics, 'expansion': expansion }
 		return render(request, 'results.html', context)
 	raise Http404("No GET request")
 

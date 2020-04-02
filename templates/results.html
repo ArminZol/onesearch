@@ -28,7 +28,9 @@
 			}
 		}
 
-		function save_relevance(id, collection, is_relevant) {
+		function save_relevance(id, is_relevant) {
+			query = '{{query}}';
+			collection = '{{collection}}'
 			relevantString = getCookie('relevant');
 			relevant = {}
 			if (relevantString != '') {
@@ -37,7 +39,11 @@
 			if (!relevant[collection]) {
 				relevant[collection] = {};
 			}
-			relevant[collection][id] = is_relevant;
+			if (!relevant[collection][query]) {
+				relevant[collection][query] = {}
+			}
+
+			relevant[collection][query][id] = is_relevant;
 			document.cookie = "relevant=" + JSON.stringify(relevant);
 		}
 
@@ -132,10 +138,10 @@
 							{% endif %} 
 							href="/document/{{collection}}/{{id}}">{{doc.0.title}}
 						</a>
-						<button class="waves-effect waves-teal btn-flat tooltipped right" data-position="top" data-tooltip="Mark document as relevant" onclick="save_relevance('{{id}}', '{{collection}}', true)">
+						<button class="waves-effect waves-teal btn-flat tooltipped right" data-position="top" data-tooltip="Mark document as relevant" onclick="save_relevance('{{id}}', true)">
 							<i class="material-icons">done</i>
 						</button>
-						<button class="waves-effect waves-teal btn-flat tooltipped right" data-position="top" data-tooltip="Mark document as irrelevant" onclick="save_relevance('{{id}}', '{{collection}}', false)">
+						<button class="waves-effect waves-teal btn-flat tooltipped right" data-position="top" data-tooltip="Mark document as irrelevant" onclick="save_relevance('{{id}}', false)">
 							<i class="material-icons">clear</i>
 						</button>
 					</h5>
