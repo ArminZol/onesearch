@@ -52,7 +52,7 @@ def search_results(request):
 				for synset in wn.synsets(word):
 					for hypernym in synset.hypernyms():
 						for name in hypernym.lemma_names():
-							if '_' not in name and name not in expansion[word]:
+							if '_' not in name and name not in expansion[word] and name not in query:
 								expansion[word].append(name)
 				if len(expansion[word]) == 0:
 					del expansion[word]
@@ -73,7 +73,19 @@ def search_results(request):
 						else:
 							topics[t] = [doc]
 
-		context = { 'collection': collection, 'query': query, 'documents':  documents, 'corrections': results[1], 'topics': topics, 'expansion': expansion }
+		vsm_score = None
+		if len(results) > 2:
+			vsm_score = results[2]
+
+		context = { 
+			'collection': collection, 
+			'query': query, 
+			'documents':  documents, 
+			'corrections': results[1], 
+			'topics': topics, 
+			'expansion': expansion,
+			'vsm_score': vsm_score
+		}
 		return render(request, 'results.html', context)
 	raise Http404("No GET request")
 

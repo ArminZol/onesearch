@@ -77,4 +77,4 @@ def vsm_search(query, index, settings, processed_path, collection, relevant_cook
 
 	# Modified from https://stackoverflow.com/questions/613183/how-do-i-sort-a-dictionary-by-value
 	# print({k: v for k, v in sorted(docs_vector.items(), key=lambda item: item[1], reverse=True)}) # Left here for debugging
-	return ([(key,value) for key,value in sorted(docs_vector.items(), key=lambda item: item[1], reverse=True)[:15]], possible_corrections)
+	return ([(key,value) for key,value in sorted(docs_vector.items(), key=lambda item: item[1], reverse=True)[:15]], possible_corrections, query_vector)

@@ -1,6 +1,24 @@
 {% extends "base.html" %}
 {% load url_tags %}
 
+{% block nav_content %}
+	{% if topics %}
+		<ul class="right">
+			<li>
+				<a class="dropdown-trigger" href="#!" data-target="topic-dropdown">FILTER BY TOPIC
+					<i class="material-icons right">arrow_drop_down</i>
+				</a>
+			</li>
+			<ul id='topic-dropdown' class='dropdown-content'>
+				<li><a href="#!" onclick="filter_topic(null)"></a></li>
+				{% for topic in topics %}
+					<li><a href="#!" onclick="filter_topic('{{topic}}')">{{topic}}</a></li>
+				{% endfor %}
+			</ul>
+		</ul>
+		{% endif %}
+{% endblock %}
+
 {% block form %}
 
 	<!-- https://materializecss.com/tooltips.html -->
@@ -70,6 +88,22 @@
 
 	<div class="row">
 		<div class="col s12">
+
+			<div class="row">
+				<div class="input-field col s10 offset-s1">
+					<i class="material-icons prefix">search</i>
+					{% if vsm_score %}
+						<input id="search" type="text" class="validate" 
+							value="{% for word, score in vsm_score.items %}{{word}}&nbsp;({{score}}){% if not forloop.last %},&nbsp;{% endif %}{% endfor %}" disabled>
+						<label for="search">VSM Query</label>
+					{% else %}
+						<input id="search" type="text" class="validate" 
+							value="{{query}}" disabled>
+						<label for="search">Boolean Query</label>
+					{% endif %}
+				</div>
+			</div>
+
 			{% if expansion %}
 				<div class="row">
 					<div class="col s10 offset-s1">
@@ -100,19 +134,6 @@
 						</div>
 					</div>
 				</div>
-			{% endif %}
-
-			{% if topics %}
-				<a class='dropdown-trigger btn right' href='#' data-target='topic-dropdown'>Filter by Topic</a>
-
-				<!-- Dropdown Structure -->
-				<ul id='topic-dropdown' class='dropdown-content'>
-					<li><a href="#!" onclick="filter_topic(null)"></a></li>
-					{% for topic in topics %}
-						<li><a href="#!" onclick="filter_topic('{{topic}}')">{{topic}}</a></li>
-					{% endfor %}
-				</ul>
-				<br><br>
 			{% endif %}
 
 			{% if corrections %}
