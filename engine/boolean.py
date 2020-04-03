@@ -119,7 +119,7 @@ def handle_wildcard(word, index, processed_path):
 	if len(word_bigram) == 0:
 		return []
 
-	with open(processed_path + '/bigrams.json') as file:
+	with open(processed_path + '/letter_bigrams.json') as file:
 		bigrams = json.load(file)
 		words = sorted(bigrams[word_bigram[0]])
 		for i in range(1, len(word_bigram)):
