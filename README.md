@@ -21,7 +21,7 @@ env\Scripts\activate.bat
 # Install dependencies
 pip install -r requirements.txt
 
-python -m nltk.downloader stopwords punkt
+python -m nltk.downloader stopwords punkt wordnet
 
 # Run project - should be available at localhost:8000 on browser
 python manage.py runserver
