@@ -159,12 +159,14 @@
 							{% endif %} 
 							href="/document/{{collection}}/{{id}}">{{doc.0.title}}
 						</a>
-						<button class="waves-effect waves-teal btn-flat tooltipped right" data-position="top" data-tooltip="Mark document as relevant" onclick="save_relevance('{{id}}', true)">
-							<i class="material-icons">done</i>
-						</button>
-						<button class="waves-effect waves-teal btn-flat tooltipped right" data-position="top" data-tooltip="Mark document as irrelevant" onclick="save_relevance('{{id}}', false)">
-							<i class="material-icons">clear</i>
-						</button>
+						{% if vsm_score %}
+							<button class="waves-effect waves-teal btn-flat tooltipped right" data-position="top" data-tooltip="Mark document as relevant" onclick="save_relevance('{{id}}', true)">
+								<i class="material-icons">done</i>
+							</button>
+							<button class="waves-effect waves-teal btn-flat tooltipped right" data-position="top" data-tooltip="Mark document as irrelevant" onclick="save_relevance('{{id}}', false)">
+								<i class="material-icons">clear</i>
+							</button>
+						{% endif %}
 					</h5>
 					{% if doc.0.body %}
 						<p>

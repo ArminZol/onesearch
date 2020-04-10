@@ -2,7 +2,7 @@ from scripts.utilities import is_stopword
 import json
 
 def correction(null_word, processed_path):
-	if len(null_word) < 4 or is_stopword(null_word):
+	if len(null_word) < 3 or is_stopword(null_word):
 		return None
 
 	null_word = null_word.lower()

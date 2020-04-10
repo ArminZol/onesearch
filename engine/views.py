@@ -47,7 +47,7 @@ def search_results(request):
 		expansion = {}
 		for word in word_tokenize(query):
 			synsets = wn.synsets(word)
-			if synsets and len(synsets) < 5 and word not in expansion:
+			if synsets and len(synsets) < 10 and word not in expansion:
 				expansion[word] = []
 				for synset in wn.synsets(word):
 					for hypernym in synset.hypernyms():
